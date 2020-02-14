@@ -1,8 +1,16 @@
-@import '../../../assets/scss/variables';
-@import '../../../assets/scss/mixins';
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/mixins";
 
 .menu {
   @include margin-bottom(1);
+
+  @include breakpoint-xs {
+    text-align: right;
+  }
+
+  @include breakpoint-sm {
+    text-align: left;
+  }
 
   &__list {
     list-style: none;
@@ -29,11 +37,7 @@
           color: $color-base;
           border-bottom: 1px solid $color-base;
         }
-
       }
-
     }
-
   }
-
 }

@@ -17,6 +17,13 @@
  */
 .contacts {
   margin-bottom: 26px;
+  display: none;
+}
+
+@media screen and (min-width: 685px) {
+  .contacts {
+    display: block;
+  }
 }
 
 .contacts__list {
@@ -57,7 +64,7 @@
   line-height: 35px;
   border-radius: 50%;
   text-align: center;
-  border: 1px solid #ebebeb;
+  border: 1px solid #eeeeee;
 }
 
 .contacts__list-item-link {

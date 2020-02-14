@@ -32,6 +32,7 @@
 
 .feed__item-title-link {
   color: #222;
+  border-bottom: none;
 }
 
 .feed__item-title-link:hover, .feed__item-title-link:focus {
@@ -41,14 +42,16 @@
 
 .feed__item-description {
   font-size: 16px;
+  color: #485069;
   line-height: 26px;
   margin-bottom: 19.5px;
 }
 
 .feed__item-meta-time {
   font-size: 14px;
-  color: #222;
+  color: #485069;
   font-weight: 600;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
 }
 
@@ -59,8 +62,9 @@
 .feed__item-meta-category-link {
   font-size: 14px;
   color: #f7a046;
-  font-weight: 600;
+  font-weight: 400;
   text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .feed__item-meta-category-link:hover, .feed__item-meta-category-link:focus {

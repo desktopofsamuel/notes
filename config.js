@@ -6,10 +6,10 @@ module.exports = {
   title: "科技筆記 @ Desktop of Samuel",
   subtitle:
     "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
-  copyright: "© All rights reserved.",
+  copyright: "© 版權所有",
   disqusShortname: "",
   postsPerPage: 4,
-  googleAnalyticsId: "UA-114289308-6",
+  googleAnalyticsId: "UA-114278308-6",
   useKatex: false,
   menu: [
     {
@@ -28,7 +28,7 @@ module.exports = {
   author: {
     name: "Samuel W.",
     photo: "/profile.jpg",
-    bio: "UI/UX 設計師",
+    bio: "UI/UX 設計師，談談秋技、Gadget心得。",
     contacts: {
       instagram: "desktopofsamuel",
       email: "desktopofsamuel@gmail.com",

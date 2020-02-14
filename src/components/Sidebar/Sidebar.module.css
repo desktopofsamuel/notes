@@ -21,7 +21,7 @@
 
 .sidebar__inner {
   position: relative;
-  padding: 25px 20px 0;
+  padding: 25px 20px 80px;
 }
 
 @media screen and (min-width: 685px) {
@@ -32,11 +32,11 @@
     padding: 30px 20px 0;
   }
   .sidebar__inner:after {
-    background: #e6e6e6;
-    background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), color-stop(48%, #e6e6e6), to(#fff));
-    background: linear-gradient(to bottom, #e6e6e6 0%, #e6e6e6 48%, #fff 100%);
+    background: #e1e1e1;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e1e1e1), color-stop(48%, #e1e1e1), to(#fff));
+    background: linear-gradient(to bottom, #e1e1e1 0%, #e1e1e1 48%, #fff 100%);
     position: absolute;
-    content: '';
+    content: "";
     width: 1px;
     height: 540px;
     top: 30px;

@@ -15,6 +15,16 @@
 /**
  * Line-Height
  */
+.author {
+  lost-column: 1/2;
+}
+
+@media screen and (min-width: 685px) {
+  .author {
+    lost-column: 1/1;
+  }
+}
+
 .author__photo {
   display: inline-block;
   margin-bottom: 0;

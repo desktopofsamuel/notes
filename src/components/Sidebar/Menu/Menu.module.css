@@ -17,6 +17,13 @@
  */
 .menu {
   margin-bottom: 26px;
+  text-align: right;
+}
+
+@media screen and (min-width: 685px) {
+  .menu {
+    text-align: left;
+  }
 }
 
 .menu__list {

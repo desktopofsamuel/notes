@@ -1,8 +1,16 @@
-@import '../../../assets/scss/variables';
-@import '../../../assets/scss/mixins';
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/mixins";
 
 .contacts {
   @include margin-bottom(1);
+
+  @include breakpoint-xs {
+    display: none;
+  }
+
+  @include breakpoint-sm {
+    display: block;
+  }
 
   &__list {
     display: flex;
@@ -32,16 +40,12 @@
         border: 0;
         display: flex;
         color: $color-base;
-  
+
         &:hover,
         &:focus {
           color: $color-primary;
         }
-
       }
-
     }
-
   }
-
 }

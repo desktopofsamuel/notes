@@ -8,11 +8,13 @@
 $color-base: #222;
 $color-primary: #5d93ff;
 $color-secondary: #f7a046;
+$color-blue-gray: #485069;
 
 $color-white: #fff;
 $color-gray: lighten($color-base, 40%);
-$color-gray-border: lighten($color-base, 77%);
-$color-gray-bg: lighten($color-base, 79%);
+
+$color-gray-border: lighten($color-base, 75%);
+$color-gray-bg: lighten($color-base, 80%);
 
 // Typographic
 $typographic-font-family: "Inter", "Noto Sans HK", -apple-system,
@@ -24,6 +26,7 @@ $typographic-base-font-size: 16px;
 $typographic-small-font-size: 14px;
 
 $typographic-base-line-height: 1.625;
+$typographic-small-letter-spacing: 0.5px;
 
 $typographic-base-font-color: $color-base;
 $typographic-link-p-font-color: $color-primary;

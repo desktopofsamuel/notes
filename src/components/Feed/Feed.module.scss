@@ -17,6 +17,7 @@
 
       &-link {
         color: $color-base;
+        border-bottom: none;
 
         &:hover,
         &:focus {
@@ -28,6 +29,7 @@
 
     &-description {
       font-size: $typographic-base-font-size;
+      color: $color-blue-gray;
       @include line-height(1);
       @include margin-bottom(0.75);
     }
@@ -35,8 +37,9 @@
     &-meta {
       &-time {
         font-size: $typographic-small-font-size;
-        color: $color-base;
+        color: $color-blue-gray;
         font-weight: 600;
+        letter-spacing: 0.5px;
         text-transform: uppercase;
       }
 
@@ -48,9 +51,9 @@
         &-link {
           font-size: $typographic-small-font-size;
           color: $color-secondary;
-          font-weight: 600;
+          font-weight: 400;
           text-transform: uppercase;
-
+          letter-spacing: $typographic-small-letter-spacing;
           &:hover,
           &:focus {
             color: $color-primary;
