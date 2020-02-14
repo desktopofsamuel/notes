@@ -1,49 +1,51 @@
-'use strict';
+"use strict";
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
-  disqusShortname: '',
+  url: "https://notes.desktopofsamuel.com",
+  pathPrefix: "/",
+  title: "科技筆記 @ Desktop of Samuel",
+  subtitle:
+    "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  copyright: "© All rights reserved.",
+  disqusShortname: "",
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: "UA-114289308-6",
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
-      path: '/'
+      label: "所有文章",
+      path: "/"
     },
     {
-      label: 'About me',
-      path: '/pages/about'
+      label: "關於本站",
+      path: "/pages/about"
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
+      label: "聯絡",
+      path: "/pages/contacts"
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: "Samuel W.",
+    photo: "/profile.jpg",
+    bio: "UI/UX 設計師",
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '',
-      vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
-      line: '',
-      gitlab: '',
-      weibo: '',
-      codepen: '',
-      youtube: '',
-      soundcloud: '',
+      instagram: "desktopofsamuel",
+      email: "desktopofsamuel@gmail.com",
+      medium: "desktop-of-samuel-wong",
+      twitter: "desktopofsamuel",
+      rss: "/rss.xml",
+      linkedin: "wongchunlong",
+      facebook: "",
+      telegram: "",
+      github: "",
+      line: "",
+      gitlab: "",
+      weibo: "",
+      codepen: "",
+      youtube: "",
+      vkontakte: "",
+      soundcloud: ""
     }
   }
 };

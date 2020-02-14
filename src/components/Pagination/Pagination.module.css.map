@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,sCAAI;AACZ,OAAO,CAAC,wEAAI;AACZ;;GAEG;AEJH;;GAEG;ACFH;;GAEG;ACFH;;GAEG;ACFH;;GAEG;ANCH,AAAA,WAAW,CAAC;EIER,UAAU,EAAC,IAAC;EJAd,OAAO,EAAE,IAAI;CAgDd;;AA9CE,AAAD,iBAAO,CAAC;EACN,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,IAAI;CAmBjB;;AAjBE,AAAD,sBAAM,CAAC;EACL,KAAK,ECHO,OAAO;EDInB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CAYlB;;AAfA,AAKC,sBALI,AAKH,MAAM,EALR,sBAAK,AAMH,MAAM,CAAC;EACN,KAAK,ECVG,OAAO;CDWhB;;AAEA,AAAD,+BAAU,CAAC;EACT,cAAc,EAAE,IAAI;EACpB,KAAK,EAAE,OAAyB;CACjC;;AAMJ,AAAD,iBAAO,CAAC;EACN,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,KAAK;CAmBlB;;AAjBE,AAAD,sBAAM,CAAC;EACL,KAAK,EC1BO,OAAO;ED2BnB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CAYlB;;AAfA,AAKC,sBALI,AAKH,MAAM,EALR,sBAAK,AAMH,MAAM,CAAC;EACN,KAAK,ECjCG,OAAO;CDkChB;;AAEA,AAAD,+BAAU,CAAC;EACT,cAAc,EAAE,IAAI;EACpB,KAAK,EAAE,OAAyB;CACjC",
+    "sources": [
+        "Pagination.module.scss",
+        "../../assets/scss/_variables.scss",
+        "../../assets/scss/_mixins.scss",
+        "../../assets/scss/mixins/_breakpoints.scss",
+        "../../assets/scss/mixins/_margin.scss",
+        "../../assets/scss/mixins/_padding.scss",
+        "../../assets/scss/mixins/_line-height.scss"
+    ],
+    "names": [],
+    "file": "Pagination.module.css"
+}

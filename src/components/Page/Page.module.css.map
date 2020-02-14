@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,sCAAI;AACZ,OAAO,CAAC,wEAAI;AACZ;;GAEG;AEJH;;GAEG;ACFH;;GAEG;ACFH;;GAEG;ACFH;;GAEG;ANCH,AAAA,KAAK,CAAC;EIMF,aAAa,EAAC,IAAC;CJelB;;AAlBE,AAAD,YAAQ,CAAC;EACP,OAAO,EAAE,SAAS;CACnB;;AAEA,AAAD,YAAQ,CAAC;EACP,SAAS,EAAE,IAAiC;EAC5C,WAAW,EAAE,GAAG;EMPhB,WAAW,EAAC,IAAC;EFAb,UAAU,EAAC,GAAC;EAIZ,aAAa,EAAC,MAAC;CJOhB;;AAEA,AAAD,WAAO,CAAC;EACN,SAAS,ECGgB,IAAI;EKjB7B,WAAW,EAAC,IAAC;EFaT,MAAM,EAAE,GAAsC,CAAC,GAAwC,CAAC,IAAyC;CJItI;;AGbC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EHkBrC,AAAA,KAAK,CAAC;IACJ,WAAW,EAAE,IAAI;GAMlB;EAJE,AAAD,YAAQ,CAAC;IACP,OAAO,EAAE,SAAS;GACnB;;;AGjBD,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EHwBrC,AAAA,KAAK,CAAC;IACJ,WAAW,EAAE,GAAG;GAMjB;EAJE,AAAD,YAAQ,CAAC;IACP,OAAO,EAAE,SAAS;GACnB",
+    "sources": [
+        "Page.module.scss",
+        "../../assets/scss/_variables.scss",
+        "../../assets/scss/_mixins.scss",
+        "../../assets/scss/mixins/_breakpoints.scss",
+        "../../assets/scss/mixins/_margin.scss",
+        "../../assets/scss/mixins/_padding.scss",
+        "../../assets/scss/mixins/_line-height.scss"
+    ],
+    "names": [],
+    "file": "Page.module.css"
+}
