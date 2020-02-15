@@ -25,6 +25,16 @@ module.exports = {
       path: "/pages/contacts"
     }
   ],
+  category: [
+    {
+      label: "hello",
+      path: "/"
+    },
+    {
+      label: "test",
+      path: "/"
+    }
+  ],
   author: {
     name: "Samuel W.",
     photo: "/profile.jpg",
