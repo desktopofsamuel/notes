@@ -11,14 +11,14 @@ type Props = {
 };
 
 const Category = ({ category }: Props) => (
-  <nav className={styles["menu"]}>
-    <ul className={styles["menu__list"]}>
+  <nav className={styles["category"]}>
+    <ul className={styles["category__list"]}>
       {category.map(item => (
-        <li className={styles["menu__list-item"]} key={item.path}>
+        <li className={styles["category__list-item"]} key={item.path}>
           <Link
             to={item.path}
-            className={styles["menu__list-item-link"]}
-            activeClassName={styles["menu__list-item-link--active"]}
+            className={styles["category__list-item-link"]}
+            activeClassName={styles["category__list-item-link--active"]}
           >
             {item.label}
           </Link>

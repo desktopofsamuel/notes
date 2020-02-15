@@ -3,9 +3,8 @@
 module.exports = {
   url: "https://notes.desktopofsamuel.com",
   pathPrefix: "/",
-  title: "科技筆記 @ Desktop of Samuel",
-  subtitle:
-    "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  title: "Desktop of Samuel 數位筆記",
+  subtitle: "UI/UX 設計師，談談科技、Gadget心得。",
   copyright: "© 版權所有",
   disqusShortname: "",
   postsPerPage: 4,
@@ -27,18 +26,18 @@ module.exports = {
   ],
   category: [
     {
-      label: "hello",
-      path: "/"
+      label: "#筆記本",
+      path: "/category/數位筆記/"
     },
     {
-      label: "test",
-      path: "/"
+      label: "#地圖集",
+      path: "/category/數位筆記/"
     }
   ],
   author: {
     name: "Samuel W.",
     photo: "/profile.jpg",
-    bio: "UI/UX 設計師，談談秋技、Gadget心得。",
+    bio: "UI/UX 設計師，談談科技、Gadget心得。",
     contacts: {
       instagram: "desktopofsamuel",
       email: "desktopofsamuel@gmail.com",

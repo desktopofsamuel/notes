@@ -68,17 +68,17 @@
 }
 
 .feed__item-meta-category-link:hover, .feed__item-meta-category-link:focus {
-  color: #5d93ff;
+  color: #007aff;
 }
 
 .feed__item-readmore {
   font-size: 14px;
-  color: #5d93ff;
+  color: #007aff;
   letter-spacing: 1px;
 }
 
 .feed__item-readmore:hover, .feed__item-readmore:focus {
-  color: #5d93ff;
-  border-bottom: 1px solid #5d93ff;
+  color: #007aff;
+  border-bottom: 1px solid #007aff;
 }
 /*# sourceMappingURL=Feed.module.css.map */

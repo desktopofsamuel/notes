@@ -1,7 +1,7 @@
 @import "../../../assets/scss/variables";
 @import "../../../assets/scss/mixins";
 
-.menu {
+.category {
   @include margin-bottom(1);
 
   @include breakpoint-xs {
@@ -18,24 +18,27 @@
     margin: 0;
 
     &-item {
-      padding: 0;
       margin: 10px 0;
 
       &-link {
+        display: inline-block;
+        padding: 8px 16px;
+        background: $color-primary-bg;
+        border-radius: 8px;
+        transition: $transition;
         font-size: $typographic-base-font-size;
-        color: $typographic-base-font-color;
+        color: $color-primary;
         font-weight: normal;
         border: 0;
 
         &:hover,
         &:focus {
-          color: $color-primary;
-          border-bottom: 1px solid $color-primary;
+          background: $color-primary-bg-hover;
+          color: $color-primary-darken;
         }
 
         &--active {
-          color: $color-base;
-          border-bottom: 1px solid $color-base;
+          color: $color-primary;
         }
       }
     }

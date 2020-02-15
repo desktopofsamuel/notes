@@ -15,42 +15,46 @@
 /**
  * Line-Height
  */
-.menu {
+.category {
   margin-bottom: 26px;
   text-align: right;
 }
 
 @media screen and (min-width: 685px) {
-  .menu {
+  .category {
     text-align: left;
   }
 }
 
-.menu__list {
+.category__list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.menu__list-item {
-  padding: 0;
+.category__list-item {
   margin: 10px 0;
 }
 
-.menu__list-item-link {
+.category__list-item-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #e6f2ff;
+  border-radius: 8px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   font-size: 16px;
-  color: #222;
+  color: #007aff;
   font-weight: normal;
   border: 0;
 }
 
-.menu__list-item-link:hover, .menu__list-item-link:focus {
-  color: #5d93ff;
-  border-bottom: 1px solid #5d93ff;
+.category__list-item-link:hover, .category__list-item-link:focus {
+  background: #dbecff;
+  color: #0062cc;
 }
 
-.menu__list-item-link--active {
-  color: #222;
-  border-bottom: 1px solid #222;
+.category__list-item-link--active {
+  color: #007aff;
 }
 /*# sourceMappingURL=Category.module.css.map */
