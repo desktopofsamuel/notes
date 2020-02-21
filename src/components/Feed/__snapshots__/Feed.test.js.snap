@@ -42,9 +42,7 @@ exports[`Feed renders correctly 1`] = `
     </h2>
     <p
       className="feed__item-description"
-    >
-      test_0
-    </p>
+    />
     <a
       className="feed__item-readmore"
       href="/test_0"
@@ -90,9 +88,7 @@ exports[`Feed renders correctly 1`] = `
     </h2>
     <p
       className="feed__item-description"
-    >
-      test_1
-    </p>
+    />
     <a
       className="feed__item-readmore"
       href="/test_1"
