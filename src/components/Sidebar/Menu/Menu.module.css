@@ -45,8 +45,8 @@
 }
 
 .menu__list-item-link:hover, .menu__list-item-link:focus {
-  color: #5d93ff;
-  border-bottom: 1px solid #5d93ff;
+  color: #007aff;
+  border-bottom: 1px solid #007aff;
 }
 
 .menu__list-item-link--active {

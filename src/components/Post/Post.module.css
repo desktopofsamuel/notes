@@ -45,7 +45,7 @@
 }
 
 .post__home-button:hover, .post__home-button:focus {
-  color: #5d93ff;
+  color: #007aff;
 }
 
 @media screen and (min-width: 960px) {
