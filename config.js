@@ -27,11 +27,11 @@ module.exports = {
   category: [
     {
       label: "#筆記本",
-      path: "/category/數位筆記/"
+      path: "/category/筆記本/"
     },
     {
       label: "#地圖集",
-      path: "/category/數位筆記/"
+      path: "/category/地圖集/"
     }
   ],
   author: {
