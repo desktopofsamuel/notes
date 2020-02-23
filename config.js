@@ -7,7 +7,7 @@ module.exports = {
   subtitle: "UI/UX 設計師，談談科技、Gadget心得。",
   copyright: "© 版權所有",
   disqusShortname: "",
-  postsPerPage: 4,
+  postsPerPage: 6,
   googleAnalyticsId: "UA-114278308-6",
   useKatex: false,
   menu: [
@@ -18,10 +18,6 @@ module.exports = {
     {
       label: "關於本站",
       path: "/pages/about"
-    },
-    {
-      label: "聯絡",
-      path: "/pages/contacts"
     }
   ],
   category: [
