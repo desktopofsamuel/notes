@@ -26,8 +26,8 @@ module.exports = {
       path: "/category/筆記本/"
     },
     {
-      label: "#地圖集",
-      path: "/category/地圖集/"
+      label: "#地圖",
+      path: "/category/地圖/"
     }
   ],
   author: {

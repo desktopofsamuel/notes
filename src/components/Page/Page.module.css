@@ -1,5 +1,5 @@
 @import url("https://rsms.me/inter/inter.css");
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+HK:300,400,500,700&display=swap&subset=chinese-hongkong");
 /** 
  * Variables
  */
@@ -25,7 +25,7 @@
 
 .page__title {
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 52px;
   margin-top: 0px;
   margin-bottom: 37.7px;

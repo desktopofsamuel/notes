@@ -11,6 +11,7 @@
 
     &-title {
       font-size: $typographic-base-font-size * 1.6875;
+      font-weight: 600;
       @include line-height(1.5);
       @include margin-top(0);
       @include margin-bottom(0.5);
@@ -29,6 +30,7 @@
 
     &-description {
       font-size: $typographic-base-font-size;
+      font-weight: 400;
       color: $color-blue-gray;
       @include line-height(1);
       @include margin-bottom(0.75);
