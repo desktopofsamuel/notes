@@ -146,7 +146,7 @@ figure {
 figcaption {
   @include line-height(0.75);
   @include margin-top(0.25);
-  color: $color-base;
+  color: $color-blue-gray;
   font-size: $typographic-small-font-size;
   font-style: italic;
   margin-bottom: 0;
@@ -160,6 +160,14 @@ figcaption {
 
 .header-anchor.before {
   border-bottom: none;
+}
+
+time {
+  font-size: $typographic-small-font-size;
+  color: $color-blue-gray;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 @include breakpoint-sm {

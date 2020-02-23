@@ -22,7 +22,7 @@
         &:hover,
         &:focus {
           color: $color-base;
-          border-bottom: 1px solid $color-base;
+          border-bottom: 1px dotted $color-base;
         }
       }
     }
@@ -36,10 +36,6 @@
 
     &-meta {
       &-time {
-        font-size: $typographic-small-font-size;
-        color: $color-blue-gray;
-        font-weight: 600;
-        letter-spacing: 0.5px;
         text-transform: uppercase;
       }
 

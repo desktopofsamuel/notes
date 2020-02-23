@@ -37,7 +37,7 @@
 
 .feed__item-title-link:hover, .feed__item-title-link:focus {
   color: #222;
-  border-bottom: 1px solid #222;
+  border-bottom: 1px dotted #222;
 }
 
 .feed__item-description {
@@ -48,10 +48,6 @@
 }
 
 .feed__item-meta-time {
-  font-size: 14px;
-  color: #485069;
-  font-weight: 600;
-  letter-spacing: 0.5px;
   text-transform: uppercase;
 }
 

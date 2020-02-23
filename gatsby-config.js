@@ -112,6 +112,10 @@ module.exports = {
             }
           },
           {
+            resolve: `gatsby-remark-figure-caption`,
+            options: { figureClassName: "md-figure" }
+          },
+          {
             resolve: "gatsby-remark-images",
             options: {
               maxWidth: 1280,

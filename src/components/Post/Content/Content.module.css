@@ -21,16 +21,31 @@
   margin: 0 auto;
 }
 
-.content__title {
-  font-size: 28px;
+.content__meta {
   max-width: 640px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  margin-top: 26px;
+}
+
+.content__meta-date {
+  text-transform: uppercase;
+  border-bottom: 1px dotted #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-size: 12.6px;
+}
+
+.content__meta-date:hover, .content__meta-date:focus {
+  border-bottom: 1px dotted #007aff;
+}
+
+.content__meta-title {
+  font-size: 28px;
   font-weight: 600;
   text-align: left;
   line-height: 42.9px;
-  margin-top: 26px;
   margin-bottom: 0px;
+  margin-top: 13px;
 }
 
 .content__body figure {
@@ -70,11 +85,14 @@
   .content {
     padding: 0;
   }
-  .content__title {
+  .content__meta {
+    margin-top: 58.5px;
+  }
+  .content__meta-title {
     font-size: 32px;
     line-height: 39px;
-    margin-top: 58.5px;
     margin-bottom: 39px;
+    margin-top: 26px;
   }
   .content__body {
     font-size: 18px;
