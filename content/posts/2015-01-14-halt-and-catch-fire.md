@@ -3,7 +3,7 @@ title: "數位革命：Halt and Catch Fire"
 date: "2015-01-14"
 template: "post"
 draft: false
-category: "銀幕前"
+category: "銀幕"
 slug: "數位革命-halt-and-catch-fire"
 socialImage: "media/unknown-11.jpeg"
 ---

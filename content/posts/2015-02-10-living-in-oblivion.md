@@ -3,7 +3,7 @@ title: "【Filmatic】發個荷里活的夢：Living in Oblivion"
 date: "2015-02-10"
 template: "post"
 draft: false
-category: "銀幕前"
+category: "銀幕"
 slug: "filmatic-發個荷里活的夢-living-in-oblivion"
 tags:
   - "filmatic"

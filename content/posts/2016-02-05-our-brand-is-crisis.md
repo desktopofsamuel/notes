@@ -3,7 +3,7 @@ title: "《揭開面具──選戰偽術師 Our Brand Is Crisis》"
 date: "2016-02-05"
 template: "post"
 draft: false
-category: "銀幕前"
+category: "銀幕"
 slug: "揭開面具-選戰偽術師-our-brand-is-crisis"
 socialImage: "/media/our-brand-is-crisis-movie-pedro-gallo-joaquim-de-almeida_i6kid_ywmei_1200x0.png"
 ---

@@ -4,7 +4,7 @@ date: "2015-12-03"
 socialImage: "/media/starwarstrilogy_0.jpg"
 template: "post"
 draft: false
-category: "銀幕前"
+category: "銀幕"
 slug: "filmatic-很久以前，在一個遙遠的銀河系中"
 tags:
   - "filmatic"

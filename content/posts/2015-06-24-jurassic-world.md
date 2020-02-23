@@ -3,7 +3,7 @@ title: "《侏羅紀世界》 ── 披上恐龍皮的人類"
 date: "2015-06-24"
 template: "post"
 draft: false
-category: "銀幕前"
+category: "銀幕"
 slug: "侏羅紀世界-披上恐龍皮的人類"
 ---
 

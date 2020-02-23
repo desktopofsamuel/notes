@@ -4,7 +4,7 @@ date: "2016-02-23"
 slug: "報導者的抉擇-焦點追擊-spotlight"
 template: "post"
 draft: false
-category: "銀幕前"
+category: "遙控"
 coverImage: "spotlight-2015-directed-by-tom-mccarthy-movie-review2.jpg"
 ---
 

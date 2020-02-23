@@ -3,7 +3,7 @@ title: "A Series of Unfortunate Events"
 date: "2017-01-22"
 template: "post"
 draft: false
-category: "銀幕前"
+category: "遙控"
 slug: "a-series-of-unfortunate-events"
 tags:
   - "Netflix 推介"
