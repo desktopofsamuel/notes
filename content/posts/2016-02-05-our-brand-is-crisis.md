@@ -8,6 +8,8 @@ slug: "揭開面具-選戰偽術師-our-brand-is-crisis"
 socialImage: "/media/our-brand-is-crisis-movie-pedro-gallo-joaquim-de-almeida_i6kid_ywmei_1200x0.png"
 ---
 
+![](/media/our-brand-is-crisis-movie-pedro-gallo-joaquim-de-almeida_i6kid_ywmei_1200x0.png)
+
 民主選舉，選票投給不是候選人，而是候選人的面具。每人也戴著一副面具，只不過選舉中耗資請來的專家，度身為候選人訂造最受選民歡迎的一副面具，這些選舉戰術、公關的專家，於這套電影的中文譯名得以其名 —「選戰偽術師」。沒有騙入場的觀眾，戲名 Our Brand is Crisis 開宗名義地說我們的品牌是推銷「危機」的概念，跟筆者一樣看錯 Our Brand is "in Crisis"  的朋友大概以為「這是品牌的危機」。電影定位成一套政治喜劇 (Political Comedy)，不過政治角力的篇幅不多，幽默場景也只不過為胡鬧，可謂浪費了一線荷里活主角 Sandra Bullock 的才華。
 
 美國選舉戰術家 Jane Bodine (Sandra Bullock 飾) 被邀到南美洲的波利維亞重出江湖，協助民調低落，排名嚴重落後的前總統 Castillo  再度當選。Jane 同時面對宿敵的挑釁 ，多次擊敗她而受聘於另一候選人的 Pat (Billy Bob Thornton 飾)  。Jane 以「危機」一字，建議選舉團隊應主打國家面臨的危機，以總統強硬的真性情，放下虛假的面具，讓選民渴求具經驗的前總統上任。電影裡說了很多句危機（跟施政報告裡的「一帶一路」差不多），選民也簡化作輕易接受有危機的這套說法。縱然前總統巡迴演說，甚至遇上圍堵的群眾要求舉辦公投，阻止國際貨弊基金組織進入波利維亞，Castillo  還是說著「危機」兩字換來掌聲和放行。
