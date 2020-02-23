@@ -1,9 +1,15 @@
-@import '../../../assets/scss/variables';
-@import '../../../assets/scss/mixins';
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/mixins";
 
 .meta {
   &__date {
-    font-style: italic;
-  }
+    text-align: right;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #fff;
+    font-size: $typographic-small-font-size * 0.9;
 
+    &:hover {
+      border-bottom: 1px dotted $typographic-link-p-font-color;
+    }
+  }
 }

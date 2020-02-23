@@ -21,6 +21,10 @@
   padding: 0 15px;
 }
 
+.post__content {
+  position: relative;
+}
+
 .post__comments {
   max-width: 640px;
   margin: 0 auto;

@@ -16,6 +16,13 @@
  * Line-Height
  */
 .meta__date {
-  font-style: italic;
+  text-align: right;
+  text-transform: uppercase;
+  border-bottom: 1px dotted #fff;
+  font-size: 12.6px;
+}
+
+.meta__date:hover {
+  border-bottom: 1px dotted #007aff;
 }
 /*# sourceMappingURL=Meta.module.css.map */
