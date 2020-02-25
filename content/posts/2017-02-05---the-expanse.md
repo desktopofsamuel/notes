@@ -3,7 +3,7 @@ title: "The Expanse"
 date: "2017-02-05"
 template: "post"
 draft: false
-category: "銀幕前"
+category: "遙控"
 slug: "the-expanse"
 tags:
   - "Netflix 推介"

@@ -3,10 +3,12 @@ title: "《揭開面具──選戰偽術師 Our Brand Is Crisis》"
 date: "2016-02-05"
 template: "post"
 draft: false
-category: "銀幕前"
+category: "銀幕"
 slug: "揭開面具-選戰偽術師-our-brand-is-crisis"
 socialImage: "/media/our-brand-is-crisis-movie-pedro-gallo-joaquim-de-almeida_i6kid_ywmei_1200x0.png"
 ---
+
+![](/media/our-brand-is-crisis-movie-pedro-gallo-joaquim-de-almeida_i6kid_ywmei_1200x0.png)
 
 民主選舉，選票投給不是候選人，而是候選人的面具。每人也戴著一副面具，只不過選舉中耗資請來的專家，度身為候選人訂造最受選民歡迎的一副面具，這些選舉戰術、公關的專家，於這套電影的中文譯名得以其名 —「選戰偽術師」。沒有騙入場的觀眾，戲名 Our Brand is Crisis 開宗名義地說我們的品牌是推銷「危機」的概念，跟筆者一樣看錯 Our Brand is "in Crisis"  的朋友大概以為「這是品牌的危機」。電影定位成一套政治喜劇 (Political Comedy)，不過政治角力的篇幅不多，幽默場景也只不過為胡鬧，可謂浪費了一線荷里活主角 Sandra Bullock 的才華。
 

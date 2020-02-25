@@ -3,12 +3,13 @@ title: "【Filmatic】怪獸裡的人性：The Monster & Godzilla"
 date: "2015-01-19"
 template: "post"
 draft: false
-category: "銀幕前"
+category: "銀幕"
 slug: "怪獸裡的人性-the-monster-and-godzilla"
 tags:
   - "filmatic"
   - "影評"
 socialImages: "/media/unknown-13.jpeg"
+description: "Susan Sontag 形容看電影彷如「被綁架」，整個過程浸淫在實體影像之間，才需要置身在大大的影院之間與陌生人共賞。放映結束以後，我們由幽暗的放映院走到現實的都市。走出戲院的過程，腦袋一半在回憶著剛才電影的畫面，另一半飛快想著電影引導我們在社會裡去想的事。電影是一面鏡子，多麼怪異、離奇的異托邦也會反映觀眾身處的世界，多麼巨大、恐怖的怪獸也會讓我們想起了自己。"
 ---
 
 ![《哥斯拉》（Godzilla）和《異獸圍城》（Monsters)的電影海報](/media/unknown-13.jpeg)
