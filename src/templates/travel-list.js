@@ -17,9 +17,9 @@ const TravelList = ({ data, pageContext }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
   const { edges } = data.allMarkdownRemark;
   return (
-    <Layout title="地圖" description={siteSubtitle}>
+    <Layout title={`#地圖 | ${siteTitle}`} description={siteSubtitle}>
       <Sidebar isIndex />
-      <Page title="地圖">
+      <Page title="#地圖">
         <ImageFeed edges={edges} />
       </Page>
     </Layout>

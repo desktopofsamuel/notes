@@ -15,7 +15,11 @@ type Props = {
 };
 
 const IndexTemplate = ({ data, pageContext }: Props) => {
-  const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
+  const {
+    title: siteTitle,
+    subtitle: siteSubtitle,
+    description: siteDescription
+  } = useSiteMetadata();
 
   const {
     currentPage,
@@ -27,10 +31,15 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
 
   const { edges } = data.allMarkdownRemark;
   const pageTitle =
-    currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
+    currentPage > 0
+      ? `所有文章 — 第${currentPage}頁 | ${siteTitle}`
+      : siteTitle;
 
   return (
-    <Layout title={pageTitle} description={siteSubtitle}>
+    <Layout
+      title={`${pageTitle} | ${siteSubtitle}`}
+      description={siteDescription}
+    >
       <Sidebar isIndex />
       <Page>
         <Feed edges={edges} />

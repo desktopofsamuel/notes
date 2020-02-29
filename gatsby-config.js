@@ -9,6 +9,7 @@ module.exports = {
     url: siteConfig.url,
     title: siteConfig.title,
     subtitle: siteConfig.subtitle,
+    description: siteConfig.description,
     copyright: siteConfig.copyright,
     disqusShortname: siteConfig.disqusShortname,
     menu: siteConfig.menu,
@@ -53,7 +54,7 @@ module.exports = {
               siteMetadata {
                 site_url: url
                 title
-                description: subtitle
+                description: description
               }
             }
           }

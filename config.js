@@ -4,7 +4,8 @@ module.exports = {
   url: "https://notes.desktopofsamuel.com",
   pathPrefix: "/",
   title: "Desktop of Samuel 數位筆記",
-  subtitle: "UI/UX 設計師，談談科技、Gadget心得。",
+  subtitle: "科技 | 設計 | 城市",
+  description: "UI/UX 設計師，談談科技、Gadget心得。",
   copyright: "© 版權所有",
   disqusShortname: "",
   postsPerPage: 6,
@@ -16,8 +17,8 @@ module.exports = {
       path: "/"
     },
     {
-      label: "關於本站",
-      path: "/pages/about"
+      label: "關於",
+      path: "/pages/now"
     },
     {
       label: "#地圖",
@@ -33,7 +34,8 @@ module.exports = {
   author: {
     name: "Samuel W.",
     photo: "/profile.jpg",
-    bio: "UI/UX 設計師，談談科技、Gadget心得。",
+    bio:
+      "科技 | 設計 | 城市  <br/> <br/>   UI/UX 設計師，喜愛攝影，漫遊城市的不同角落。",
     contacts: {
       instagram: "desktopofsamuel",
       email: "desktopofsamuel@gmail.com",
