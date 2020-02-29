@@ -18,7 +18,7 @@
 
       &-link {
         color: $color-base;
-        border-bottom: none;
+        border-bottom: $color-transparent-border;
 
         &:hover,
         &:focus {
@@ -52,9 +52,11 @@
           font-weight: 400;
           text-transform: uppercase;
           letter-spacing: $typographic-small-letter-spacing;
+          border-bottom: $color-transparent-border;
           &:hover,
           &:focus {
-            color: $color-primary;
+            color: $color-secondary;
+            border-bottom: 1px solid $color-secondary;
           }
         }
       }
@@ -64,6 +66,7 @@
       font-size: $typographic-small-font-size;
       color: $color-primary;
       letter-spacing: 1px;
+      border-bottom: $color-transparent-border;
 
       &:hover,
       &:focus {

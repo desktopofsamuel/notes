@@ -24,8 +24,8 @@
       &-link {
         font-size: $typographic-base-font-size;
         color: $typographic-base-font-color;
+        border-bottom: $color-transparent-border;
         font-weight: normal;
-        border: 0;
 
         &:hover,
         &:focus {

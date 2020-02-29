@@ -2,14 +2,14 @@
 @import "../../../assets/scss/mixins";
 
 .category {
+  display: none;
+
   @include margin-bottom(1);
-
-  @include breakpoint-xs {
-    text-align: right;
-  }
-
   @include breakpoint-sm {
     text-align: left;
+    // Temporary Not Display Category Tag
+    /*     display: block; */
+    display: none;
   }
 
   &__list {

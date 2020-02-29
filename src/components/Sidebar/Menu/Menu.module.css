@@ -40,8 +40,8 @@
 .menu__list-item-link {
   font-size: 16px;
   color: #222;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
   font-weight: normal;
-  border: 0;
 }
 
 .menu__list-item-link:hover, .menu__list-item-link:focus {

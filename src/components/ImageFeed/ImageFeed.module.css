@@ -16,17 +16,14 @@
  * Line-Height
  */
 .photofeed {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  grid-gap: 8px;
+  display: block;
 }
 
 .photofeed__item-wrapper {
   overflow: hidden;
-  height: 400px;
+  height: 500px;
   position: relative;
+  margin-bottom: 16px;
 }
 
 .photofeed__item-wrapper:hover .photofeed__item-wrapper-background {
@@ -107,5 +104,19 @@
   display: -webkit-box;
   line-height: 26px;
   margin-bottom: 19.5px;
+}
+
+@media screen and (min-width: 960px) {
+  .photofeed {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+  }
+  .photofeed__item-wrapper {
+    margin-bottom: 0;
+    height: 400px;
+  }
 }
 /*# sourceMappingURL=ImageFeed.module.css.map */

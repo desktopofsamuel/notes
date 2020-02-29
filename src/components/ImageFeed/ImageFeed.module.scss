@@ -1,18 +1,15 @@
 @import "../../assets/scss/variables";
 @import "../../assets/scss/mixins";
 
-$item-hover: ".photofeed__item:hover";
-
 .photofeed {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 8px;
+  display: block;
 
   &__item {
     &-wrapper {
       overflow: hidden;
-      height: 400px;
+      height: 500px;
       position: relative;
+      margin-bottom: 16px;
 
       &:hover &-background {
         transform: scale(1.02);
@@ -89,6 +86,21 @@ $item-hover: ".photofeed__item:hover";
         display: -webkit-box;
         @include line-height(1);
         @include margin-bottom(0.75);
+      }
+    }
+  }
+}
+
+@include breakpoint-md {
+  .photofeed {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+
+    &__item {
+      &-wrapper {
+        margin-bottom: 0;
+        height: 400px;
       }
     }
   }
