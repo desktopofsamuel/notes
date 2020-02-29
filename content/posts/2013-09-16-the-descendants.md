@@ -7,7 +7,7 @@ draft: false
 category: "銀幕"
 ---
 
-![descendants3](images/descendants3.jpg)
+![descendants3](media/descendants3.jpg)
 
 年老，是一個停不了的心理測驗。對著比你年輕的人，總是喊攰認老；在長輩面前，卻要精力充沛，盡顯年輕的力量。青春大概就是在自己裝成熟和恃年輕之間慢慢流走，抓也抓不住。人到某個時候，便開始只懂得懷緬過去而放棄現在，Good Old Days 啊，大概發現自己兩袖清風，身無一物，理想遠飛，只剩下現實相伴，這時候人便會會幹下一些不能挽回的事情，中年危機也。
 

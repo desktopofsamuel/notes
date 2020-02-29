@@ -7,7 +7,7 @@ draft: false
 category: "筆記"
 ---
 
-![](images/a9d09-0gql4ppmi9u7s6knz.jpeg)
+![](media/a9d09-0gql4ppmi9u7s6knz.jpeg)
 
 #### Movie: The Secret Life of Words
 
