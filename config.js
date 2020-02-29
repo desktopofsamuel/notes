@@ -18,16 +18,16 @@ module.exports = {
     {
       label: "關於本站",
       path: "/pages/about"
+    },
+    {
+      label: "#地圖",
+      path: "/travel/"
     }
   ],
   category: [
     {
-      label: "#筆記本",
+      label: "#筆記",
       path: "/category/筆記本/"
-    },
-    {
-      label: "#地圖",
-      path: "/category/地圖/"
     }
   ],
   author: {

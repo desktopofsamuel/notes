@@ -26,7 +26,7 @@ const ImageFeed = ({ edges }: Props) => (
           <div
             className={styles["photofeed__item-wrapper-background"]}
             style={{
-              backgroundImage: `url(${edge.node.frontmatter.socialImage})`
+              backgroundImage: `url(https://notes.desktopofsamuel.com/${edge.node.frontmatter.socialImage})`
             }}
           />
           <div className={styles["photofeed__item-wrapper-overlay"]} />
