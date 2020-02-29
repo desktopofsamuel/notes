@@ -1,5 +1,5 @@
 @import url("https://rsms.me/inter/inter.css");
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+HK:300,400,500,700&display=swap&subset=chinese-hongkong");
 /** 
  * Variables
  */
@@ -16,13 +16,15 @@
  * Line-Height
  */
 .category {
+  display: none;
   margin-bottom: 26px;
-  text-align: right;
 }
 
 @media screen and (min-width: 685px) {
   .category {
     text-align: left;
+    /*     display: block; */
+    display: none;
   }
 }
 

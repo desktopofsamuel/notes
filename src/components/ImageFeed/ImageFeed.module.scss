@@ -1,0 +1,107 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
+
+.photofeed {
+  display: block;
+
+  &__item {
+    &-wrapper {
+      overflow: hidden;
+      height: 500px;
+      position: relative;
+      margin-bottom: 16px;
+
+      &:hover &-background {
+        transform: scale(1.02);
+      }
+
+      &:hover &-meta {
+        opacity: 1;
+      }
+
+      &:hover &-overlay {
+        opacity: 1;
+      }
+
+      &-overlay {
+        position: absolute;
+        bottom: 0;
+        height: 33vh;
+        width: 100%;
+        transition: $transition;
+        opacity: 0;
+        background: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0) 0%,
+          rgba(0, 0, 0, 0.5) 100%
+        );
+      }
+
+      &-background {
+        background-color: black; /* fallback color */
+        background-position: center;
+        background-size: cover;
+        transition: $transition;
+        width: 100%;
+        height: 100%;
+        position: relative;
+      }
+
+      &-meta {
+        position: absolute;
+        bottom: 0;
+        opacity: 0;
+        transition: all 0.7s ease-in-out;
+      }
+
+      &-metawrapper {
+        position: relative;
+        padding: 16px;
+      }
+
+      &-time {
+        color: $color-white;
+        opacity: 0.7;
+        @include margin-bottom(0.5);
+      }
+
+      &-title {
+        font-size: $typographic-base-font-size * 1.125;
+        font-weight: 500;
+        color: $color-white;
+        @include line-height(1);
+        @include margin-top(0);
+        @include margin-bottom(0.5);
+      }
+
+      &-description {
+        font-size: $typographic-small-font-size;
+        font-weight: 400;
+        color: $color-white;
+        opacity: 0.7;
+        overflow: hidden;
+        -webkit-line-clamp: 2; /* number of lines to show */
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        @include line-height(1);
+        @include margin-bottom(0.75);
+      }
+    }
+  }
+}
+
+@include breakpoint-md {
+  .photofeed {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+
+    &__item {
+      &-wrapper {
+        margin-bottom: 0;
+        height: 400px;
+      }
+    }
+  }
+}

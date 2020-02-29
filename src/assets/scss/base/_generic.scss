@@ -6,11 +6,12 @@ html {
 }
 
 body {
-  margin: 0 0 0 calc(100vw - 100%);
   font-family: $typographic-font-family;
   color: $typographic-base-font-color;
   line-height: $typographic-base-line-height;
   font-size: $typographic-base-font-size;
+  font-weight: 400;
+  letter-spacing: 0.2px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
@@ -25,7 +26,7 @@ h4,
 h5,
 h6 {
   font-family: $typographic-font-family;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 h1 {
@@ -102,6 +103,7 @@ hr {
 a {
   color: $typographic-link-p-font-color;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
 
   &:hover,
   &:focus,
@@ -145,7 +147,7 @@ figure {
 figcaption {
   @include line-height(0.75);
   @include margin-top(0.25);
-  color: $color-base;
+  color: $color-blue-gray;
   font-size: $typographic-small-font-size;
   font-style: italic;
   margin-bottom: 0;
@@ -155,6 +157,18 @@ figcaption {
 .anchor {
   margin-left: -30px !important;
   padding-right: 14px !important;
+}
+
+.header-anchor.before {
+  border-bottom: none;
+}
+
+time {
+  font-size: $typographic-small-font-size;
+  color: $color-blue-gray;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 @include breakpoint-sm {

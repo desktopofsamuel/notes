@@ -19,15 +19,15 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        path: `${__dirname}/content`,
-        name: "pages"
+        path: `${__dirname}/static/media`,
+        name: "media"
       }
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        path: `${__dirname}/static/media`,
-        name: "media"
+        path: `${__dirname}/content`,
+        name: "pages"
       }
     },
     {
@@ -112,21 +112,32 @@ module.exports = {
             }
           },
           {
+            resolve: `gatsby-remark-figure-caption`,
+            options: { figureClassName: "md-figure" }
+          },
+          {
             resolve: "gatsby-remark-images",
             options: {
-              maxWidth: 960,
+              maxWidth: 1280,
               withWebp: true,
-              ignoreFileExtensions: []
+              ignoreFileExtensions: [],
+              linkImagesToOriginal: false
             }
           },
           {
             resolve: "gatsby-remark-responsive-iframe",
             options: { wrapperStyle: "margin-bottom: 1.0725rem" }
           },
-          "gatsby-remark-autolink-headers",
+          {
+            resolve: "gatsby-remark-autolink-headers",
+            options: {
+              className: "header-anchor"
+            }
+          },
           "gatsby-remark-prismjs",
           "gatsby-remark-copy-linked-files",
           "gatsby-remark-smartypants",
+          "gatsby-remark-images-zoom",
           "gatsby-remark-external-links"
         ]
       }
