@@ -10,7 +10,7 @@ tags:
   - "TheExpanse"
 ---
 
-![The Exapnse](images/57e97-18hdevtppr9nzvmbqn5gaca.jpeg)
+![The Exapnse](media/57e97-18hdevtppr9nzvmbqn5gaca.jpeg)
 
 The Expanse, Syfy Channel
 

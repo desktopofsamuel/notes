@@ -1,5 +1,5 @@
 ---
-title: "《與夢想控制塔對話：Walter Mitty》"
+title: "與夢想控制塔對話：Walter Mitty"
 date: "2014-01-06"
 slug: "與夢想控制塔對話-walter-mitty"
 template: "post"
