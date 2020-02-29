@@ -1,0 +1,111 @@
+@import url("https://rsms.me/inter/inter.css");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+HK:300,400,500,700&display=swap&subset=chinese-hongkong");
+/** 
+ * Variables
+ */
+/**
+ * Breakpoints
+ */
+/**
+ * Margin
+ */
+/**
+ * Padding
+ */
+/**
+ * Line-Height
+ */
+.photofeed {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 8px;
+}
+
+.photofeed__item-wrapper {
+  overflow: hidden;
+  height: 400px;
+  position: relative;
+}
+
+.photofeed__item-wrapper:hover .photofeed__item-wrapper-background {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.photofeed__item-wrapper:hover .photofeed__item-wrapper-meta {
+  opacity: 1;
+}
+
+.photofeed__item-wrapper:hover .photofeed__item-wrapper-overlay {
+  opacity: 1;
+}
+
+.photofeed__item-wrapper-overlay {
+  position: absolute;
+  bottom: 0;
+  height: 33vh;
+  width: 100%;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.photofeed__item-wrapper-background {
+  background-color: black;
+  /* fallback color */
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.photofeed__item-wrapper-meta {
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+.photofeed__item-wrapper-metawrapper {
+  position: relative;
+  padding: 16px;
+}
+
+.photofeed__item-wrapper-time {
+  color: #fff;
+  opacity: 0.7;
+  margin-bottom: 13px;
+}
+
+.photofeed__item-wrapper-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 26px;
+  margin-top: 0px;
+  margin-bottom: 13px;
+}
+
+.photofeed__item-wrapper-description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.7;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  /* number of lines to show */
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 26px;
+  margin-bottom: 19.5px;
+}
+/*# sourceMappingURL=ImageFeed.module.css.map */
