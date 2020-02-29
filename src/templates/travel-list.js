@@ -34,7 +34,6 @@ export const query = graphql`
           template: { eq: "post" }
           draft: { ne: true }
           category: { eq: "地圖" }
-          socialImage: { ne: null }
         }
       }
       sort: { order: DESC, fields: [frontmatter___date] }
@@ -59,3 +58,6 @@ export const query = graphql`
   }
 `;
 export default TravelList;
+
+// Filter if Social Image is null
+/* socialImage: { ne: null } */
