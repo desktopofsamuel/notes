@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "ACAA;;GAEG;AEFH;;GAEG;ACFH;;GAEG;ACFH;;GAEG;ACFH;;GAEG;ANCH,AAAA,KAAK,CAAC;EIMF,aAAa,EAAC,IAAC;CJ2BlB;;AA9BE,AAAD,WAAO,CAAC;EACN,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,OAAO;EACf,OAAO,EAAE,CAAC;CAyBX;;AAvBE,AAAD,gBAAM,CAAC;EACL,OAAO,EAAE,YAAY;EACrB,MAAM,EAAE,QAAQ;CAmBjB;;AAjBE,AAAD,qBAAM,CAAC;EACL,OAAO,EAAE,YAAY;EACrB,MAAM,ECuBE,IAAI;EDtBZ,OAAO,EAAE,MAAM;EACf,WAAW,ECqBH,IAAI;EDpBZ,MAAM,EAAE,GAAG,CAAC,KAAK,CCPL,OAAyB;EDQrC,eAAe,EAAE,IAAI;EACrB,aAAa,ECmBE,IAAI;EDlBnB,KAAK,EChBA,IAAI;CDuBV;;AAfA,AAUC,qBAVI,AAUH,MAAM,EAVR,qBAAK,AAWH,MAAM,CAAC;EACN,KAAK,ECnBC,OAAO;CDoBd",
+    "sources": [
+        "Tags.module.scss",
+        "../../../assets/scss/_variables.scss",
+        "../../../assets/scss/_mixins.scss",
+        "../../../assets/scss/mixins/_breakpoints.scss",
+        "../../../assets/scss/mixins/_margin.scss",
+        "../../../assets/scss/mixins/_padding.scss",
+        "../../../assets/scss/mixins/_line-height.scss"
+    ],
+    "names": [],
+    "file": "Tags.module.css"
+}

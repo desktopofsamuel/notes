@@ -1,0 +1,78 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
+
+.feed {
+  &__item {
+    @include margin-bottom(1.25);
+
+    &:last-child {
+      @include margin-bottom(0.5);
+    }
+
+    &-title {
+      font-size: $typographic-base-font-size * 1.6875;
+      font-weight: 600;
+      @include line-height(1.5);
+      @include margin-top(0);
+      @include margin-bottom(0.5);
+
+      &-link {
+        color: $color-base;
+        border-bottom: $color-transparent-border;
+
+        &:hover,
+        &:focus {
+          color: $color-base;
+          border-bottom: 1px dotted $color-base;
+        }
+      }
+    }
+
+    &-description {
+      font-size: $typographic-base-font-size;
+      font-weight: 400;
+      color: $color-blue-gray;
+      @include line-height(1);
+      @include margin-bottom(0.75);
+    }
+
+    &-meta {
+      &-time {
+        text-transform: uppercase;
+      }
+
+      &-divider {
+        margin: 0 5px;
+      }
+
+      &-category {
+        &-link {
+          font-size: $typographic-small-font-size;
+          color: $color-secondary;
+          font-weight: 400;
+          text-transform: uppercase;
+          letter-spacing: $typographic-small-letter-spacing;
+          border-bottom: $color-transparent-border;
+          &:hover,
+          &:focus {
+            color: $color-secondary;
+            border-bottom: 1px solid $color-secondary;
+          }
+        }
+      }
+    }
+
+    &-readmore {
+      font-size: $typographic-small-font-size;
+      color: $color-primary;
+      letter-spacing: 1px;
+      border-bottom: $color-transparent-border;
+
+      &:hover,
+      &:focus {
+        color: $color-primary;
+        border-bottom: 1px solid $color-primary;
+      }
+    }
+  }
+}

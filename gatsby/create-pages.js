@@ -32,6 +32,11 @@ const createPages = async ({ graphql, actions }) => {
     component: path.resolve("./src/templates/travel-list.js")
   });
 
+  createPage({
+    path: "/digest",
+    component: path.resolve("./src/templates/short-post-list.js")
+  });
+
   // Posts and pages from markdown
   const result = await graphql(`
     {
@@ -59,7 +64,15 @@ const createPages = async ({ graphql, actions }) => {
         component: path.resolve("./src/templates/page-template.js"),
         context: { slug: edge.node.fields.slug }
       });
-    } else if (_.get(edge, "node.frontmatter.template") === "post") {
+    }
+    if (_.get(edge, "node.frontmatter.template") === "digest") {
+      createPage({
+        path: edge.node.fields.slug,
+        component: path.resolve("./src/templates/short-post-template.js"),
+        context: { slug: edge.node.fields.slug }
+      });
+    }
+    if (_.get(edge, "node.frontmatter.template") === "post") {
       createPage({
         path: edge.node.fields.slug,
         component: path.resolve("./src/templates/post-template.js"),
