@@ -13,18 +13,38 @@
 /**
  * Line-Height
  */
+.feed {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
 .feed__item {
   margin-bottom: 32.5px;
+  border-bottom: 1px #e1e1e1 solid;
 }
 
 .feed__item:last-child {
   margin-bottom: 13px;
 }
 
+.feed__item-title-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 .feed__item-title {
   font-size: 27px;
   font-weight: 600;
-  line-height: 39px;
+  line-height: 26px;
   margin-top: 0px;
   margin-bottom: 13px;
 }
@@ -37,6 +57,27 @@
 .feed__item-title-link:hover, .feed__item-title-link:focus {
   color: #222;
   border-bottom: 1px dotted #222;
+}
+
+.feed__item-url {
+  font-size: 14px;
+  color: #007aff;
+  width: 20px;
+  height: 20px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 800;
+  margin-left: 8px;
+  margin-top: -8px;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.feed__item-url:hover, .feed__item-url:focus {
+  background-color: #007aff;
+  color: #fff;
 }
 
 .feed__item-description {
@@ -53,31 +94,5 @@
 
 .feed__item-meta-divider {
   margin: 0 5px;
-}
-
-.feed__item-meta-category-link {
-  font-size: 14px;
-  color: #eb953a;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
-}
-
-.feed__item-meta-category-link:hover, .feed__item-meta-category-link:focus {
-  color: #eb953a;
-  border-bottom: 1px solid #eb953a;
-}
-
-.feed__item-readmore {
-  font-size: 14px;
-  color: #007aff;
-  letter-spacing: 1px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
-}
-
-.feed__item-readmore:hover, .feed__item-readmore:focus {
-  color: #007aff;
-  border-bottom: 1px solid #007aff;
 }
 /*# sourceMappingURL=ShortFeed.module.css.map */

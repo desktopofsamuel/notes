@@ -34,8 +34,9 @@ module.exports = {
   author: {
     name: "Samuel W.",
     photo: "/profile.jpg",
-    bio:
+    fullbio:
       "科技 | 設計 | 城市  <br/> <br/>   UI/UX 設計師，喜愛攝影，漫遊城市的不同角落。",
+    shortbio: "UI/UX 設計師，喜愛攝影，漫遊城市的不同角落。",
     contacts: {
       instagram: "desktopofsamuel",
       email: "desktopofsamuel@gmail.com",

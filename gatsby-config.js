@@ -106,6 +106,7 @@ module.exports = {
       options: {
         plugins: [
           "gatsby-remark-relative-images",
+          "gatsby-remark-embedder",
           {
             resolve: "gatsby-remark-katex",
             options: {

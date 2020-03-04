@@ -9,7 +9,8 @@ const useSiteMetadata = () => {
           siteMetadata {
             author {
               name
-              bio
+              fullbio
+              shortbio
               photo
               contacts {
                 twitter
