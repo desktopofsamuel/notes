@@ -45,6 +45,8 @@ module.exports = {
         path: `${__dirname}/static`
       }
     },
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
     {
       resolve: "gatsby-plugin-feed",
       options: {
@@ -105,7 +107,18 @@ module.exports = {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
-          "gatsby-remark-relative-images",
+          {
+            resolve: `gatsby-remark-relative-images`
+          },
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 1280,
+              withWebp: true,
+              ignoreFileExtensions: [],
+              linkImagesToOriginal: false
+            }
+          },
           "gatsby-remark-embedder",
           {
             resolve: "gatsby-remark-katex",
@@ -117,15 +130,7 @@ module.exports = {
             resolve: `gatsby-remark-figure-caption`,
             options: { figureClassName: "md-figure" }
           },
-          {
-            resolve: "gatsby-remark-images",
-            options: {
-              maxWidth: 1280,
-              withWebp: true,
-              ignoreFileExtensions: [],
-              linkImagesToOriginal: false
-            }
-          },
+
           {
             resolve: "gatsby-remark-responsive-iframe",
             options: { wrapperStyle: "margin-bottom: 1.0725rem" }
@@ -144,8 +149,7 @@ module.exports = {
         ]
       }
     },
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-sharp",
+
     "gatsby-plugin-netlify",
     {
       resolve: "gatsby-plugin-netlify-cms",
