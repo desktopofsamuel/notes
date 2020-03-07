@@ -18,15 +18,10 @@ const ImageFeed = ({ edges }: Props) => (
         to={edge.node.fields.slug}
         key={edge.node.fields.slug}
       >
-        {!!edge.node.frontmatter.socialImage &&
-        !!edge.node.frontmatter.socialImage.childImageSharp ? (
-          <Img
-            className={styles["photofeed__item-image"]}
-            fluid={edge.node.frontmatter.socialImage.childImageSharp.fluid}
-          />
-        ) : (
-          <img className={styles["photofeed__item-image"]} />
-        )}
+        <Img
+          className={styles["photofeed__item-image"]}
+          fluid={edge.node.frontmatter.socialImage.childImageSharp.fluid}
+        />
         <div className={styles["photofeed__item-wrapper"]}>
           <div
             className={styles["photofeed__item-wrapper-background"]}
