@@ -5,6 +5,7 @@ import Layout from "../components/Layout";
 import Sidebar from "../components/Sidebar";
 import DigestHeader from "../components/DigestHeader";
 import ShortFeed from "../components/ShortFeed";
+import ShortHero from "../components/ShortHero";
 import Page from "../components/Page";
 import { useSiteMetadata } from "../hooks";
 import type { AllMarkdownRemark } from "../types";
@@ -22,7 +23,7 @@ const ShortPostList = ({ data, pageContext }: Props) => {
       <Sidebar isIndex />
       <Page title="#Digest">
         <DigestHeader>
-          <ShortFeed edges={edges} />
+          <ShortHero edges={edges} />
         </DigestHeader>
       </Page>
     </Layout>

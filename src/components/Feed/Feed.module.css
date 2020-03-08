@@ -31,7 +31,7 @@
 
 .feed__item-title-link {
   color: #222;
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  border-bottom: 1px dotted rgba(255, 255, 255, 0);
 }
 
 .feed__item-title-link:hover, .feed__item-title-link:focus {
@@ -61,7 +61,7 @@
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
 
 .feed__item-meta-category-link:hover, .feed__item-meta-category-link:focus {
@@ -73,7 +73,7 @@
   font-size: 14px;
   color: #007aff;
   letter-spacing: 1px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
 
 .feed__item-readmore:hover, .feed__item-readmore:focus {

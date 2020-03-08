@@ -16,19 +16,17 @@
 .feed {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr 1fr;
-      grid-template-columns: 2fr 1fr;
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
 }
 
 .feed__item {
-  margin-bottom: 32.5px;
   border-bottom: 1px #e1e1e1 solid;
 }
 
-.feed__item:last-child {
-  margin-bottom: 13px;
+.feed__item:first-child {
+  grid-column: span 2;
 }
 
 .feed__item-title-wrapper {
@@ -44,14 +42,13 @@
 .feed__item-title {
   font-size: 27px;
   font-weight: 600;
-  line-height: 26px;
   margin-top: 0px;
-  margin-bottom: 13px;
+  margin-bottom: 0px;
 }
 
 .feed__item-title-link {
   color: #222;
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  border-bottom: 1px dotted rgba(255, 255, 255, 0);
 }
 
 .feed__item-title-link:hover, .feed__item-title-link:focus {
@@ -95,4 +92,4 @@
 .feed__item-meta-divider {
   margin: 0 5px;
 }
-/*# sourceMappingURL=ShortFeed.module.css.map */
+/*# sourceMappingURL=ShortHero.module.css.map */
