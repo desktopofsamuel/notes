@@ -55,8 +55,8 @@
 .feed__item-url {
   font-size: 14px;
   color: #007aff;
-  width: 32px;
-  height: 32px;
+  width: 28px;
+  height: 28px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   text-align: center;
