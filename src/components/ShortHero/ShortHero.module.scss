@@ -5,20 +5,47 @@
   display: block;
 
   &__item {
-    border-bottom: 1px $color-gray-border solid;
+    display: block;
+    border-bottom: 1px solid $color-gray-border;
     margin-bottom: 32px;
 
-    &-title-wrapper {
+    &-image {
+      width: 100px;
+      height: 52.5px;
+      object-fit: cover;
+      display: none;
+    }
+
+    &-separator {
+      background: $color-blue-gray;
+      background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        $color-blue-gray 100%
+      );
+      display: block;
+      height: 1px;
+      width: 100%;
+      margin-top: 16px;
+    }
+
+    &-titlewrapper {
       display: flex;
       flex-direction: row;
-      align-items: center;
+      align-content: center;
     }
 
     &-title {
       font-size: $typographic-base-font-size * 1.35;
       font-weight: 600;
+      line-height: 130%;
       @include margin-top(0);
       @include margin-bottom(0);
+
+      &:hover + .feed__item-url {
+        background-color: $color-primary;
+        color: $color-white;
+      }
 
       &-link {
         color: $color-base;
@@ -33,21 +60,21 @@
     }
 
     &-url {
-      font-size: $typographic-small-font-size;
+      align-self: center;
+      border: 1px solid $color-primary;
       color: $color-primary;
-      width: 28px;
-      height: 28px;
+      min-width: 32px;
+      min-height: 32px;
       transition: $transition;
       text-align: center;
       line-height: 32px;
       font-weight: 800;
       margin-left: 8px;
-      margin-top: -8px;
       border-radius: 50%;
 
       &:hover,
       &:focus {
-        background-color: $color-primary;
+        background-color: darken($color-primary, 10%);
         color: $color-white;
       }
     }
@@ -67,6 +94,30 @@
 
       &-divider {
         margin: 0 5px;
+      }
+    }
+  }
+}
+
+@include breakpoint-sm {
+  .feed {
+    &__item {
+      display: grid;
+      grid-template-columns: max-content auto;
+      grid-gap: 16px;
+      border-bottom: none;
+
+      &-image {
+        display: block;
+      }
+
+      &-url {
+        color: $color-primary;
+        background-color: $color-transparent;
+
+        &:hover {
+          color: $color-white;
+        }
       }
     }
   }

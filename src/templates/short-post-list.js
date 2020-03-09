@@ -51,6 +51,7 @@ export const query = graphql`
             category
             description
             url
+            socialImage
           }
           html
         }
