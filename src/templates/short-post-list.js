@@ -1,6 +1,6 @@
 // @flow strict
 import React from "react";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Sidebar from "../components/Sidebar";
 import DigestHeader from "../components/DigestHeader";
@@ -21,7 +21,11 @@ const ShortPostList = ({ data, pageContext }: Props) => {
   return (
     <Layout title={`#地圖 | ${siteTitle}`} description={siteSubtitle}>
       <Sidebar isIndex />
-      <Page title="#Digest">
+      <Page>
+        <div>
+          <h1>#Digest</h1>
+          <Link to="/digest-rss.xml">訂閱</Link>
+        </div>
         <DigestHeader>
           <ShortHero edges={edges} />
         </DigestHeader>

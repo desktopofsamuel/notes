@@ -140,6 +140,8 @@ module.exports = {
                         template
                         draft
                         description
+                        socialImage
+                        url
                       }
                     }
                   }
@@ -147,7 +149,7 @@ module.exports = {
               }
             `,
             output: "/digest-rss.xml",
-            title: siteConfig.title
+            title: "Digest" + siteConfig.title
           }
         ]
       }

@@ -82,12 +82,12 @@
       align-self: center;
   border: 1px solid #007aff;
   color: #007aff;
-  min-width: 32px;
-  min-height: 32px;
+  min-width: 28px;
+  min-height: 28px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   text-align: center;
-  line-height: 32px;
+  line-height: 28px;
   font-weight: 800;
   margin-left: 8px;
   border-radius: 50%;
@@ -130,6 +130,7 @@
   .feed__item-url {
     color: #007aff;
     background-color: rgba(255, 255, 255, 0);
+    border: none;
   }
   .feed__item-url:hover {
     color: #fff;
