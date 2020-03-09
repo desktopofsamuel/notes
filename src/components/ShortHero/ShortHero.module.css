@@ -14,19 +14,12 @@
  * Line-Height
  */
 .feed {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  grid-gap: 16px;
+  display: block;
 }
 
 .feed__item {
   border-bottom: 1px #e1e1e1 solid;
-}
-
-.feed__item:first-child {
-  grid-column: span 2;
+  margin-bottom: 32px;
 }
 
 .feed__item-title-wrapper {
@@ -37,10 +30,13 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .feed__item-title {
-  font-size: 27px;
+  font-size: 21.6px;
   font-weight: 600;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -59,16 +55,15 @@
 .feed__item-url {
   font-size: 14px;
   color: #007aff;
-  width: 20px;
-  height: 20px;
+  width: 32px;
+  height: 32px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   text-align: center;
-  line-height: 1.5;
+  line-height: 32px;
   font-weight: 800;
   margin-left: 8px;
   margin-top: -8px;
-  padding: 4px;
   border-radius: 50%;
 }
 

@@ -2,24 +2,20 @@
 @import "../../assets/scss/mixins";
 
 .feed {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 16px;
+  display: block;
 
   &__item {
     border-bottom: 1px $color-gray-border solid;
-
-    &:first-child {
-      grid-column: span 2;
-    }
+    margin-bottom: 32px;
 
     &-title-wrapper {
       display: flex;
       flex-direction: row;
+      align-items: center;
     }
 
     &-title {
-      font-size: $typographic-base-font-size * 1.6875;
+      font-size: $typographic-base-font-size * 1.35;
       font-weight: 600;
       @include margin-top(0);
       @include margin-bottom(0);
@@ -39,15 +35,14 @@
     &-url {
       font-size: $typographic-small-font-size;
       color: $color-primary;
-      width: 20px;
-      height: 20px;
+      width: 32px;
+      height: 32px;
       transition: $transition;
       text-align: center;
-      line-height: 1.5;
+      line-height: 32px;
       font-weight: 800;
       margin-left: 8px;
       margin-top: -8px;
-      padding: 4px;
       border-radius: 50%;
 
       &:hover,

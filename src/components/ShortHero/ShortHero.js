@@ -32,9 +32,13 @@ const ShortHero = ({ edges }: Props) => {
               →
             </a>
           </div>
-          <p className={styles["feed__item-description"]}>
-            {edge.node.frontmatter.description || edge.node.excerpt}
-          </p>
+          <div
+            className={styles["feed__item-description"]}
+            dangerouslySetInnerHTML={{
+              __html: `${edge.node.html}`
+            }}
+          />
+
           {/*           <div className={styles["feed__item-meta"]}>
 <time
               className={styles["feed__item-meta-time"]}

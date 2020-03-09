@@ -52,6 +52,7 @@ export const query = graphql`
             description
             url
           }
+          html
         }
       }
       totalCount
