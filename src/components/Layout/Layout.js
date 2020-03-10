@@ -31,6 +31,11 @@ const Layout = ({ children, title, description, socialImage }: Props) => {
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={metaImageUrl} />
+        <link
+          href="https://fonts.googleapis.com/css?family=Noto+Sans+HK:300,400,500,700&display=swap&subset=chinese-hongkong"
+          rel="stylesheet"
+        />
+        <link href="https://rsms.me/inter/inter.css" rel="stylesheet" />
       </Helmet>
       {children}
     </div>

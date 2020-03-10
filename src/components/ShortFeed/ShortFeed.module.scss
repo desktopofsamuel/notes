@@ -1,0 +1,78 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
+
+.feed {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+
+  &__item {
+    border-bottom: 1px $color-gray-border solid;
+
+    &:first-child {
+      grid-column: span 2;
+    }
+
+    &-title-wrapper {
+      display: flex;
+      flex-direction: row;
+    }
+
+    &-title {
+      font-size: $typographic-base-font-size * 1.6875;
+      font-weight: 600;
+      @include margin-top(0);
+      @include margin-bottom(0);
+
+      &-link {
+        color: $color-base;
+        border-bottom: 1px dotted $color-transparent;
+
+        &:hover,
+        &:focus {
+          color: $color-base;
+          border-bottom: 1px dotted $color-base;
+        }
+      }
+    }
+
+    &-url {
+      font-size: $typographic-small-font-size;
+      color: $color-primary;
+      width: 20px;
+      height: 20px;
+      transition: $transition;
+      text-align: center;
+      line-height: 1.5;
+      font-weight: 800;
+      margin-left: 8px;
+      margin-top: -8px;
+      padding: 4px;
+      border-radius: 50%;
+
+      &:hover,
+      &:focus {
+        background-color: $color-primary;
+        color: $color-white;
+      }
+    }
+
+    &-description {
+      font-size: $typographic-base-font-size;
+      font-weight: 400;
+      color: $color-blue-gray;
+      @include line-height(1);
+      @include margin-bottom(0.75);
+    }
+
+    &-meta {
+      &-time {
+        text-transform: uppercase;
+      }
+
+      &-divider {
+        margin: 0 5px;
+      }
+    }
+  }
+}
