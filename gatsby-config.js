@@ -17,8 +17,15 @@ module.exports = {
     author: siteConfig.author
   },
   plugins: [
-    "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/static/media`,
+        name: "media"
+      }
+    },
     {
       resolve: "gatsby-transformer-remark",
       options: {
@@ -63,13 +70,6 @@ module.exports = {
           "gatsby-remark-images-zoom",
           "gatsby-remark-external-links"
         ]
-      }
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        path: `${__dirname}/static/media`,
-        name: "media"
       }
     },
     {
@@ -175,7 +175,6 @@ module.exports = {
                         template
                         draft
                         description
-                        socialImage
                         url
                       }
                     }
