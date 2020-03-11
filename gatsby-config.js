@@ -97,20 +97,7 @@ module.exports = {
             `,
             output: "/rss.xml",
             title: siteConfig.title
-          }
-        ],
-        query: `
-          {
-            site {
-              siteMetadata {
-                site_url: url
-                title
-                description: description
-              }
-            }
-          }
-        `,
-        feeds: [
+          },
           {
             serialize: ({ query: { site, allMarkdownRemark } }) =>
               allMarkdownRemark.edges.map(edge => ({
@@ -174,9 +161,9 @@ module.exports = {
             resolve: "gatsby-remark-images",
             options: {
               maxWidth: 1280,
-              withWebp: true,
               ignoreFileExtensions: [],
-              linkImagesToOriginal: false
+              linkImagesToOriginal: false,
+              backgroundColor: "transparent"
             }
           },
           {
