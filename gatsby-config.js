@@ -19,14 +19,6 @@ module.exports = {
   plugins: [
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
-    "gatsby-image",
-    /*     {
-      resolve: "gatsby-schema-field-absolute-path",
-      options: {
-        // a. single directory
-        dirs: { "static/media": "fileByMediaPath" }
-      }
-    }, */
     {
       resolve: "gatsby-transformer-remark",
       options: {
