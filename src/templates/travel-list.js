@@ -52,8 +52,8 @@ export const query = graphql`
             description
             socialImage {
               childImageSharp {
-                fluid(maxWidth: 1075, quality: 72) {
-                  src
+                fluid(maxWidth: 500) {
+                  ...GatsbyImageSharpFluid
                 }
               }
             }

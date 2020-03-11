@@ -55,7 +55,13 @@ export const query = graphql`
             category
             description
             url
-            socialImage
+            socialImage {
+              childImageSharp {
+                fluid(maxWidth: 500) {
+                  src
+                }
+              }
+            }
           }
           html
         }

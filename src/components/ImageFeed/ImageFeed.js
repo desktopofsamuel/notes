@@ -18,17 +18,13 @@ const ImageFeed = ({ edges }: Props) => (
         to={edge.node.fields.slug}
         key={edge.node.fields.slug}
       >
-        <Img
-          className={styles["photofeed__item-image"]}
-          fluid={edge.node.frontmatter.socialImage.childImageSharp.fluid}
-        />
         <div className={styles["photofeed__item-wrapper"]}>
-          <div
+          {/*           <div
             className={styles["photofeed__item-wrapper-background"]}
             style={{
-              backgroundImage: `url(https://notes.desktopofsamuel.com/${edge.node.frontmatter.socialImage})`
+              backgroundImage: `url(https://notes.desktopofsamuel.com/${edge.node.frontmatter.socialImage.childImageSharp.fluid.src})`
             }}
-          />
+          /> */}
           <div className={styles["photofeed__item-wrapper-overlay"]} />
           <div className={styles["photofeed__item-wrapper-meta"]}>
             <div className={styles["photofeed__item-wrapper-metawrapper"]}>
