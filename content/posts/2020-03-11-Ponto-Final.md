@@ -15,7 +15,6 @@ socialImage: "../../static/media/ponto-social.jpg"
 ![](media/20200311-IMG_9957-2.jpg)
 
 我們是在看 Netflix 的 [Somebody Feed Phil](https://www.facebook.com/watch/?v=1711966528860330) 的時候認識 Ponto Final，沒有圍欄下，Phil 坐在堤邊海鮮。里斯本的海港平靜得很，沒有甚麼浪拍上來。約行大約十分鐘便到了升降機旁的兩間餐廳，兩間户外也是坐滿人，室內還有位置，但一場來到怎會想錯過海邊的風景。
-
 ![](media/20200311-IMG_9972-5.jpg)
 
 我們嘗了這𥚃最有名的是 Baked Cod 和 Stew Rice。Cod 伴著香橙、薯仔和蒜粒上碟，是著名葡萄牙的海鮮菜式。

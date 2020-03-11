@@ -7869,6 +7869,11 @@ gatsby-remark-smartypants@^2.1.21:
     retext-smartypants "^3.0.3"
     unist-util-visit "^1.4.1"
 
+gatsby-schema-field-absolute-path@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/gatsby-schema-field-absolute-path/-/gatsby-schema-field-absolute-path-1.1.1.tgz#27182835a58d700e3fd20b2e60148283062c8ea7"
+  integrity sha512-Q8E+S4yap+2cZJuY0jkMb9rJ2tUcNB5Bt2I38mFD2cRakU7SITyxCVadlfgh3ZhVr5CLBnRtUqgHeFV8XheLKA==
+
 gatsby-source-filesystem@^2.1.48:
   version "2.1.48"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.1.48.tgz#85bd83b953278a7597be38b2e8cd9c69de32fa64"

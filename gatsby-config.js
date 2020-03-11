@@ -45,6 +45,8 @@ module.exports = {
         path: `${__dirname}/static`
       }
     },
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
     {
       resolve: "gatsby-plugin-feed",
       options: {
@@ -145,10 +147,28 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-image",
     {
+      resolve: "gatsby-schema-field-absolute-path",
+      options: {
+        // a. single directory
+        dirs: { "static/media": "fileByMediaPath" }
+      }
+    },
+    {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
-          "gatsby-remark-relative-images",
+          {
+            resolve: `gatsby-remark-relative-images`
+          },
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 1280,
+              ignoreFileExtensions: [],
+              linkImagesToOriginal: false,
+              backgroundColor: "transparent"
+            }
+          },
           "gatsby-remark-embedder",
           {
             resolve: "gatsby-remark-katex",
@@ -160,15 +180,7 @@ module.exports = {
             resolve: `gatsby-remark-figure-caption`,
             options: { figureClassName: "md-figure" }
           },
-          {
-            resolve: "gatsby-remark-images",
-            options: {
-              maxWidth: 1280,
-              ignoreFileExtensions: [],
-              linkImagesToOriginal: false,
-              backgroundColor: "transparent"
-            }
-          },
+
           {
             resolve: "gatsby-remark-responsive-iframe",
             options: { wrapperStyle: "margin-bottom: 1.0725rem" }
