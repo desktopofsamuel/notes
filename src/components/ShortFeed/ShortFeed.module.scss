@@ -3,14 +3,14 @@
 
 .feed {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+
   &__item {
-    @include margin-bottom(1.25);
     border-bottom: 1px $color-gray-border solid;
 
-    &:last-child {
-      @include margin-bottom(0.5);
+    &:first-child {
+      grid-column: span 2;
     }
 
     &-title-wrapper {
@@ -21,13 +21,12 @@
     &-title {
       font-size: $typographic-base-font-size * 1.6875;
       font-weight: 600;
-      @include line-height(1);
       @include margin-top(0);
-      @include margin-bottom(0.5);
+      @include margin-bottom(0);
 
       &-link {
         color: $color-base;
-        border-bottom: $color-transparent-border;
+        border-bottom: 1px dotted $color-transparent;
 
         &:hover,
         &:focus {

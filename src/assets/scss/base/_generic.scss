@@ -108,7 +108,7 @@ a {
   &:hover,
   &:focus,
   &:active {
-    color: $typographic-link-s-font-color;
+    color: darken($typographic-link-p-font-color, 10%);
   }
 }
 
@@ -184,5 +184,16 @@ time {
 
   .float-left {
     float: left;
+  }
+}
+@include breakpoint-sm {
+  .gatsby-resp-image-wrapper {
+    width: 50vw;
+    margin-left: 50% !important;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
   }
 }

@@ -1,10 +1,11 @@
 // @flow strict
 import React from "react";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Sidebar from "../components/Sidebar";
 import DigestHeader from "../components/DigestHeader";
 import ShortFeed from "../components/ShortFeed";
+import ShortHero from "../components/ShortHero";
 import Page from "../components/Page";
 import { useSiteMetadata } from "../hooks";
 import type { AllMarkdownRemark } from "../types";
@@ -20,9 +21,13 @@ const ShortPostList = ({ data, pageContext }: Props) => {
   return (
     <Layout title={`#地圖 | ${siteTitle}`} description={siteSubtitle}>
       <Sidebar isIndex />
-      <Page title="#Digest">
+      <Page>
+        <div>
+          <h1>#Digest</h1>
+          <Link to="/digest-rss.xml">訂閱</Link>
+        </div>
         <DigestHeader>
-          <ShortFeed edges={edges} />
+          <ShortHero edges={edges} />
         </DigestHeader>
       </Page>
     </Layout>
@@ -50,7 +55,9 @@ export const query = graphql`
             category
             description
             url
+            socialImage
           }
+          html
         }
       }
       totalCount

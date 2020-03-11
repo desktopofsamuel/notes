@@ -10,7 +10,7 @@ type Props = {
   edges: Edges
 };
 
-const ShortFeed = ({ edges }: Props) => {
+const ShortHero = ({ edges }: Props) => {
   return (
     <div className={styles["feed"]}>
       {edges.map(edge => (
@@ -35,8 +35,8 @@ const ShortFeed = ({ edges }: Props) => {
           <p className={styles["feed__item-description"]}>
             {edge.node.frontmatter.description || edge.node.excerpt}
           </p>
-          <div className={styles["feed__item-meta"]}>
-            <time
+          {/*           <div className={styles["feed__item-meta"]}>
+<time
               className={styles["feed__item-meta-time"]}
               dateTime={moment(edge.node.frontmatter.date).format(
                 "MMMM D, YYYY"
@@ -44,11 +44,11 @@ const ShortFeed = ({ edges }: Props) => {
             >
               {moment(edge.node.frontmatter.date).fromNow()}
             </time>
-          </div>
+          </div> */}
         </div>
       ))}
     </div>
   );
 };
 
-export default ShortFeed;
+export default ShortHero;

@@ -99,6 +99,46 @@ module.exports = {
             `,
             output: "/rss.xml",
             title: siteConfig.title
+          },
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) =>
+              allMarkdownRemark.edges.map(edge => ({
+                ...edge.node.frontmatter,
+                description: edge.node.frontmatter.description,
+                date: edge.node.frontmatter.date,
+                url: site.siteMetadata.site_url + edge.node.fields.slug,
+                guid: site.siteMetadata.site_url + edge.node.fields.slug,
+                custom_elements: [{ "content:encoded": edge.node.html }]
+              })),
+            query: `
+              {
+                allMarkdownRemark(
+                  limit: 1000,
+                  sort: { order: DESC, fields: [frontmatter___date] },
+                  filter: { frontmatter: { template: { eq: "digest" }, draft: { ne: true } } }
+                ) {
+                  edges {
+                    node {
+                      html
+                      fields {
+                        slug
+                      }
+                      frontmatter {
+                        title
+                        date
+                        template
+                        draft
+                        description
+                        socialImage
+                        url
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: "/digest-rss.xml",
+            title: "Digest" + siteConfig.title
           }
         ]
       }
@@ -121,9 +161,9 @@ module.exports = {
             resolve: "gatsby-remark-images",
             options: {
               maxWidth: 1280,
-              withWebp: true,
               ignoreFileExtensions: [],
-              linkImagesToOriginal: false
+              linkImagesToOriginal: false,
+              backgroundColor: "transparent"
             }
           },
           "gatsby-remark-embedder",

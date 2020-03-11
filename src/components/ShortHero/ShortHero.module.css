@@ -1,0 +1,139 @@
+/** 
+ * Variables
+ */
+/**
+ * Breakpoints
+ */
+/**
+ * Margin
+ */
+/**
+ * Padding
+ */
+/**
+ * Line-Height
+ */
+.feed {
+  display: block;
+}
+
+.feed__item {
+  display: block;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 32px;
+}
+
+.feed__item-image {
+  width: 100px;
+  height: 52.5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: none;
+}
+
+.feed__item-separator {
+  background: #485069;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(#485069));
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 0%, #485069 100%);
+  display: block;
+  height: 1px;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.feed__item-titlewrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.feed__item-title {
+  font-size: 21.6px;
+  font-weight: 600;
+  line-height: 130%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.feed__item-title:hover + .feed__item-url {
+  background-color: #007aff;
+  color: #fff;
+}
+
+.feed__item-title-link {
+  color: #222;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0);
+}
+
+.feed__item-title-link:hover, .feed__item-title-link:focus {
+  color: #222;
+  border-bottom: 1px dotted #222;
+}
+
+.feed__item-url {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border: 1px solid #007aff;
+  color: #007aff;
+  min-width: 28px;
+  min-height: 28px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  line-height: 28px;
+  font-weight: 800;
+  margin-left: 8px;
+  border-radius: 50%;
+}
+
+.feed__item-url:hover, .feed__item-url:focus {
+  background-color: #0062cc;
+  color: #fff;
+}
+
+.feed__item-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #485069;
+  line-height: 26px;
+  margin-bottom: 19.5px;
+}
+
+.feed__item-meta-time {
+  text-transform: uppercase;
+}
+
+.feed__item-meta-divider {
+  margin: 0 5px;
+}
+
+@media screen and (min-width: 685px) {
+  .feed__item {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: max-content auto;
+        grid-template-columns: -webkit-max-content auto;
+        grid-template-columns: max-content auto;
+    grid-gap: 16px;
+    border-bottom: none;
+  }
+  .feed__item-image {
+    display: block;
+  }
+  .feed__item-url {
+    color: #007aff;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+  }
+  .feed__item-url:hover {
+    color: #fff;
+  }
+}
+/*# sourceMappingURL=ShortHero.module.css.map */
