@@ -5,9 +5,7 @@ exports.createSchemaCustomization = ({ actions }) => {
   const typeDefs = `
     type Frontmatter @infer {
 
-      socialImage: File @fileByAbsolutePath(path: "static/media")
-      
-      socialImage: File @fileByAssetPath
+      socialImage: File @fileByMediaPath
     }
 
     type MarkdownRemark implements Node @infer {

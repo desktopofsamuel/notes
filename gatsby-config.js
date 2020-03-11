@@ -147,7 +147,7 @@ module.exports = {
       resolve: "gatsby-schema-field-absolute-path",
       options: {
         // a. single directory
-        dirs: "static/media"
+        dirs: { "static/media": "fileByMediaPath" }
       }
     },
     {
