@@ -188,7 +188,7 @@ time {
 }
 @include breakpoint-sm {
   .gatsby-resp-image-wrapper {
-    width: 80vw;
+    width: 50vw;
     margin-left: 50% !important;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
