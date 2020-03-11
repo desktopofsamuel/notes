@@ -97,20 +97,7 @@ module.exports = {
             `,
             output: "/rss.xml",
             title: siteConfig.title
-          }
-        ],
-        query: `
-          {
-            site {
-              siteMetadata {
-                site_url: url
-                title
-                description: description
-              }
-            }
-          }
-        `,
-        feeds: [
+          },
           {
             serialize: ({ query: { site, allMarkdownRemark } }) =>
               allMarkdownRemark.edges.map(edge => ({
