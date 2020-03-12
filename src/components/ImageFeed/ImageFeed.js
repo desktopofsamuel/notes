@@ -5,7 +5,7 @@ import { Link } from "gatsby";
 import type { Edges } from "../../types";
 import styles from "./ImageFeed.module.scss";
 import Img from "gatsby-image";
-// import BackgroundImage from 'gatsby-background-image'
+import BackgroundImage from 'gatsby-background-image';
 
 type Props = {
   edges: Edges
@@ -20,6 +20,11 @@ const ImageFeed = ({ edges }: Props) => (
         key={edge.node.fields.slug}
       >
         <div className={styles["photofeed__item-wrapper"]}>
+        {!!edge.node.frontmatter.socialImage && !!edge.node.frontmatter.socialImage.childImageSharp ? 
+          <BackgroundImage className={styles["photofeed__item-wrapper-background"]} fluid={edge.node.frontmatter.socialImage.childImageSharp.fluid} />
+          :
+          <p>Null</p>
+          }
           {/*           <div
             className={styles["photofeed__item-wrapper-background"]}
             style={{
