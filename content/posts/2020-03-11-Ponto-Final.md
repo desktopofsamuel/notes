@@ -5,7 +5,7 @@ date: "2020-03-11T05:02:29.085Z"
 template: "post"
 draft: false
 category: "地圖"
-socialImage: "media/20200311-IMG_9970-4.jpg"
+socialImage: "media/ponto-social.jpg"
 --- 
 
 ![](media/20200311-IMG_9951-1.jpg)
@@ -18,7 +18,7 @@ socialImage: "media/20200311-IMG_9970-4.jpg"
 
 ![](media/20200311-IMG_9972-5.jpg)
 
-我們嘗了這𥚃最有名的是Baked Code和Stew Rice。Cod 伴著香橙、薯仔和蒜粒上碟，是著名葡萄牙的海鮮菜式。
+我們嘗了這𥚃最有名的是Baked Cod 和Stew Rice。Cod 伴著香橙、薯仔和蒜粒上碟，是著名葡萄牙的海鮮菜式。
 
 ![](media/20200311-IMG_9969-3.jpg)
 
