@@ -50,7 +50,13 @@ export const query = graphql`
             date
             category
             description
-            socialImage
+            socialImage {
+              childImageSharp {
+                fluid(maxWidth: 500) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }
