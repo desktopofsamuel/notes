@@ -183,7 +183,7 @@ module.exports = {
               }
             `,
             output: "/digest-rss.xml",
-            title: "Digest" + siteConfig.title
+            title: "Digest 摘要" + siteConfig.title
           }
         ]
       }
