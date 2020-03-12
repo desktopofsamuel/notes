@@ -17,8 +17,6 @@ module.exports = {
     author: siteConfig.author
   },
   plugins: [
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -26,6 +24,8 @@ module.exports = {
         name: "media"
       }
     },
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-transformer-remark",
       options: {
