@@ -20,26 +20,42 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        path: `${__dirname}/static/media`,
-        name: "media"
+        name: `media`,
+        path: `${__dirname}/static/media`
       }
     },
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `pages`,
+        path: `${__dirname}/content`
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "css",
+        path: `${__dirname}/static/css`
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "assets",
+        path: `${__dirname}/static`
+      }
+    },
     {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
-          {
-            resolve: `gatsby-remark-relative-images`
-          },
+          "gatsby-remark-relative-images",
           {
             resolve: "gatsby-remark-images",
             options: {
               maxWidth: 1280,
-              ignoreFileExtensions: [],
               linkImagesToOriginal: false,
-              backgroundColor: "transparent"
+              ignoreFileExtensions: []
             }
           },
           "gatsby-remark-embedder",
@@ -65,32 +81,10 @@ module.exports = {
             }
           },
           "gatsby-remark-prismjs",
-          "gatsby-remark-copy-linked-files",
           "gatsby-remark-smartypants",
           "gatsby-remark-images-zoom",
           "gatsby-remark-external-links"
         ]
-      }
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        path: `${__dirname}/content`,
-        name: "pages"
-      }
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "css",
-        path: `${__dirname}/static/css`
-      }
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "assets",
-        path: `${__dirname}/static`
       }
     },
     {
@@ -188,6 +182,8 @@ module.exports = {
         ]
       }
     },
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
     "gatsby-plugin-netlify",
     {
       resolve: "gatsby-plugin-google-gtag",
