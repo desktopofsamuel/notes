@@ -20,15 +20,15 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: `media`,
-        path: `${__dirname}/static/media`
+        path: `${__dirname}/static/media`,
+        name: "media"
       }
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: `pages`,
-        path: `${__dirname}/content`
+        path: `${__dirname}/content`,
+        name: "pages"
       }
     },
     {
@@ -43,48 +43,6 @@ module.exports = {
       options: {
         name: "assets",
         path: `${__dirname}/static`
-      }
-    },
-    {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: [
-          "gatsby-remark-relative-images",
-          {
-            resolve: "gatsby-remark-images",
-            options: {
-              maxWidth: 1280,
-              linkImagesToOriginal: false,
-              ignoreFileExtensions: []
-            }
-          },
-          "gatsby-remark-embedder",
-          {
-            resolve: "gatsby-remark-katex",
-            options: {
-              strict: "ignore"
-            }
-          },
-          {
-            resolve: `gatsby-remark-figure-caption`,
-            options: { figureClassName: "md-figure" }
-          },
-
-          {
-            resolve: "gatsby-remark-responsive-iframe",
-            options: { wrapperStyle: "margin-bottom: 1.0725rem" }
-          },
-          {
-            resolve: "gatsby-remark-autolink-headers",
-            options: {
-              className: "header-anchor"
-            }
-          },
-          "gatsby-remark-prismjs",
-          "gatsby-remark-smartypants",
-          "gatsby-remark-images-zoom",
-          "gatsby-remark-external-links"
-        ]
       }
     },
     {
@@ -169,6 +127,7 @@ module.exports = {
                         template
                         draft
                         description
+                        socialImage
                         url
                       }
                     }
@@ -177,14 +136,63 @@ module.exports = {
               }
             `,
             output: "/digest-rss.xml",
-            title: "Digest 摘要" + siteConfig.title
+            title: "Digest" + siteConfig.title
           }
+        ]
+      }
+    },
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          "gatsby-remark-relative-images",
+          "gatsby-remark-embedder",
+          {
+            resolve: "gatsby-remark-katex",
+            options: {
+              strict: "ignore"
+            }
+          },
+          {
+            resolve: `gatsby-remark-figure-caption`,
+            options: { figureClassName: "md-figure" }
+          },
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 1280,
+              ignoreFileExtensions: [],
+              linkImagesToOriginal: false,
+              backgroundColor: "transparent"
+            }
+          },
+          {
+            resolve: "gatsby-remark-responsive-iframe",
+            options: { wrapperStyle: "margin-bottom: 1.0725rem" }
+          },
+          {
+            resolve: "gatsby-remark-autolink-headers",
+            options: {
+              className: "header-anchor"
+            }
+          },
+          "gatsby-remark-prismjs",
+          "gatsby-remark-copy-linked-files",
+          "gatsby-remark-smartypants",
+          "gatsby-remark-images-zoom",
+          "gatsby-remark-external-links"
         ]
       }
     },
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     "gatsby-plugin-netlify",
+    {
+      resolve: "gatsby-plugin-netlify-cms",
+      options: {
+        modulePath: `${__dirname}/src/cms/index.js`
+      }
+    },
     {
       resolve: "gatsby-plugin-google-gtag",
       options: {
@@ -251,12 +259,6 @@ module.exports = {
       }
     },
     "gatsby-plugin-flow",
-    "gatsby-plugin-optimize-svgs",
-    {
-      resolve: "gatsby-plugin-netlify-cms",
-      options: {
-        modulePath: `${__dirname}/src/cms/index.js`
-      }
-    }
+    "gatsby-plugin-optimize-svgs"
   ]
 };
