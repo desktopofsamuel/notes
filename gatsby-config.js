@@ -171,8 +171,8 @@ module.exports = {
                         date
                         template
                         draft
-                        url
                         description
+                        url
                       }
                     }
                   }
