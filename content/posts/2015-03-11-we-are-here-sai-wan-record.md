@@ -1,7 +1,7 @@
 ---
 title: "【西柚慶元宵】西環誌：一年了，我們還在這裡"
 date: "2015-03-11"
-template: "post"
+template: post
 draft: false
 category: "筆記本"
 slug: "【西柚慶元宵】西環誌：一年了，我們還在這裡"

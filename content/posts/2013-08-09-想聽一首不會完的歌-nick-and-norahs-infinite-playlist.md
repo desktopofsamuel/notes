@@ -2,12 +2,12 @@
 title: "想聽一首不會完的歌 — Nick & Norah’s Infinite Playlist"
 slug: "想聽一首不會完的歌-nick-and-norahs-infinite-playlist"
 date: "2013-08-09"
-template: "post"
+template: post
 draft: false
 category: "銀幕"
 ---
 
-![](media/nick-norah.jpg)
+![](/media/nick-norah.jpg)
 
 人活到某個年紀，便開始懂得回頭。浸淫於過去之中，細味記憶中的甘甜，甚至懷緬一些未曾經歷過的體驗和生活。音樂也許有這種的魅力，頓時將細聽者帶回記憶當中，勾起了夢，勾起了細節，勾起很久沒有再想過的人。被樂韻牽引著，想起了很多個第一次，想起了把歌介紹給我的人。
 

@@ -2,14 +2,14 @@
 title: "在永恆太陽下找你：Eternal Sunshine of the Spotless Mind"
 date: "2014-01-26"
 slug: "在永恆太陽下找你-eternal-sunshine-of-the-spotless-mind"
-template: "post"
+template: post
 draft: false
 category: "銀幕"
 socialImage: "media/es_tf2.jpg"
 description: "兩個熟悉的陌生人，曾經走得很近的靈魂現在卻已經各走各路。雖然刪除了所有關於你的記憶，卻想在永恆陽光之于重新找到你，站在你身旁。十分隱悔地讓我聯想起 Jim Carrey 和 Kate Winslet 主演的 Eternal Sunshine of the Spotless Mind。"
 ---
 
-![](media/es_tf2.jpg)
+![](/media/es_tf2.jpg)
 
 聽方大同的《橙月》，Hidden Track 是寫給陳奕迅《倒帶人生》的英文 Demo。歌詞是這樣的：
 

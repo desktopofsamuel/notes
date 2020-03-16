@@ -2,14 +2,14 @@
 title: "科技與人文交匯：BLACK MIRROR"
 slug: "科技與人文交匯-black-mirror"
 date: "2013-04-15"
-template: "post"
+template: post
 draft: false
 category: "遙控"
 tags:
   - "Black Mirror"
 ---
 
-![Black Mirror 黑鏡](media/blackmirror1x02_0001-1.jpg)
+![Black Mirror 黑鏡](/media/blackmirror1x02_0001-1.jpg)
 
 科技如何徹底地改變我們生活這個議題已被討論了很多篇，閱過不少文章在惋嘆酒樓裡一家四口低頭盯著熒幕，但同時這些科技產品的推出又有停不了的狂熱。這也是最近英國短劇 BLACK MIRROR 探討的問題。BLACK MIRROR 每季三集，剛播映完第二季，編劇是被譽為鬼才的 Charlie Brooker。BLACK MIRROR 與其他設身於未來的電影很大不同之處是它的感覺十分切身，不是平生也未必看見的時空穿梭或太空探索的高科技，而是生活中不可缺乏的科技產品，甚至還有一點在地球的另一半正在發生的感覺。
 

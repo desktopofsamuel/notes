@@ -1,7 +1,7 @@
 ---
 title: "The Expanse"
 date: "2017-02-05"
-template: "post"
+template: post
 draft: false
 category: "遙控"
 slug: "the-expanse"
@@ -10,7 +10,7 @@ tags:
   - "TheExpanse"
 ---
 
-![The Exapnse](media/57e97-18hdevtppr9nzvmbqn5gaca.jpeg)
+![The Exapnse](/media/57e97-18hdevtppr9nzvmbqn5gaca.jpeg)
 
 The Expanse, Syfy Channel
 

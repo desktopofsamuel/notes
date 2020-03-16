@@ -2,12 +2,12 @@
 title: "《深心密語》The Secret Life of Words"
 slug: "深心密語-the-secret-life-of-words"
 date: "2013-06-29"
-template: "post"
+template: post
 draft: false
 category: "銀幕"
 ---
 
-![](media/a9d09-0gql4ppmi9u7s6knz.jpeg)
+![](/media/a9d09-0gql4ppmi9u7s6knz.jpeg)
 
 ### 言語的力量
 
@@ -25,6 +25,6 @@ category: "銀幕"
 
 Josef 和 Hanna 兩人之間的比對很微妙，兩人也有些缺遺，Hanna 沒有助聽器便活於一個寂靜的世界，Josef 康復不了便會失去視覺。兩人同病相憐，Josef 曾發生過禁忌的戀情，Hanna 卻遭遇餘生不能釋懷的惡行。Hanna 的潔辟讓 Josef 聯想起一個無私的修女，有點像南丁格爾，沒有私心的去照顧世人。就在 Josef 送回大陸的前一晚，一直也沒有說起自己的 Hanna 終於道出身世。Hanna 曾是南斯拉夫內戰時的受害者，那是一幕很有感染力的自白，沒有 Flashback，因為 Hanna 自己就是最實質的見證，鏡頭也沒有特別的剪接，焦點只是放於 Hanna 的敘述，錄下那連咬字也在抖著的聲音，她只是靜靜的坐在 Josef 的床邊說了一個任何人也受不起的經歷。
 
-![](media/13b9d-0t5vp_u3inpwauppo.jpeg)
+![](/media/13b9d-0t5vp_u3inpwauppo.jpeg)
 
 少女淪為士兵發泄的工具，尖叫得越大聲卻換來更大的痛苦。戰爭總是在遠方嗎？或許不是，但隨時間的增長，像 Hanna 遭受同樣經歷的人同樣地將被歷史遺忘。「活著回想起曾經歷這樣的事情，反而對她來說是一種恥辱。」醫生說道。不想回憶，未能忘記。言語，可以治療人心，縫補傷口，同時也能將一種經歷，一段回憶，一刻的感受轉移到另一人身上，那就是言語的可能性；但當我們每天說得太多、寫得太多的時候，又會否忘記了它的力量呢？

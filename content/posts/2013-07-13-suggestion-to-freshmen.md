@@ -2,12 +2,12 @@
 title: "給準大學生的十個不老土建議"
 slug: "給準大學生的十個不老土建議"
 date: "2013-07-13"
-template: "post"
+template: post
 draft: false
 category: "筆記"
 ---
 
-![](media/ea90b2d9a812e49051d3ba1ad692389f.gif)
+![](/media/ea90b2d9a812e49051d3ba1ad692389f.gif)
 
 為左好好迎接咁多位準大學生，刺青一班編輯集思廣益，呢期好努力回想返大學生涯既遺憾（唉…），綜合左十個不太老土的建議送比大家，衷心希望大家唔好再犯下我地既錯。
 

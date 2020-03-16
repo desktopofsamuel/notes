@@ -1,7 +1,7 @@
 ---
 title: "Bojack Horseman"
 date: "2017-02-22"
-template: "post"
+template: post
 draft: false
 category: "遙控"
 slug: "bojack-horseman"
@@ -10,7 +10,7 @@ tags:
   - "BojackHorseman"
 ---
 
-![](media/4bdbf-19vfsd9iaxxv00mphxfyoiq.jpeg)
+![](/media/4bdbf-19vfsd9iaxxv00mphxfyoiq.jpeg)
 
 今年新年，美國荷里活的招牌 Hollywood 被改成 Hollyweed ，那不是第一次該地標招牌被人惡搞。電視劇 Bojack Horseman 的官方 Twitter 寫道：「我的律師建議我不作任何評論」。原因是動畫裡的第一季，主角 Bojack （馬）和 Mr. Peanutbutter （狗）就鬥氣向 Diane （人）示愛，偷了 Hollywood 的 “D” 回來，自此城市的名稱就改改成 Hollywoo。
 

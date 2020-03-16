@@ -2,7 +2,7 @@
 title: 城市裡看地圖 — Google Map 轉用 Citymapper
 date: "2018-07-17T06:50:47.036Z"
 slug: "城市裡看地圖-google-map-轉用-citymapper"
-template: "post"
+template: post
 draft: false
 description: "去年轉用 Android 以後，沒有再安裝新的地圖應用，只是乖乖使用內置的 Google Map。近日重新下載這個來自英國倫敦的 Citymapper ，發現他們經過幾年搜集香港交通數據，路線搜尋、車程預計和交通的資料庫也比 Google Map 好，他們投放在 Localization 的心機也是有目共睹。"
 category: "桌面"
@@ -12,7 +12,7 @@ tags:
   - "Google Map"
 ---
 
-![](media/1__sHKWMGTSOCpNv3EAR0VGFQ.png)
+![](/media/1__sHKWMGTSOCpNv3EAR0VGFQ.png)
 
 去年轉用 Android 以後，沒有再安裝新的地圖應用，只是乖乖使用內置的 Google Map。近日重新下載這個來自英國倫敦的 Citymapper ，發現他們經過幾年搜集香港交通數據，路線搜尋、車程預計和交通的資料庫也比 Google Map 好，他們投放在 Localization 的心機也是有目共睹。
 
@@ -24,31 +24,31 @@ Google Map 可謂集大成，同一時間提供以上的有服務。但近年他
 
 ### 1. 港鐵列車故障消息
 
-![Citymapper 港鐵列車故障消息](media/Citymapper-02.jpg)
+![Citymapper 港鐵列車故障消息](/media/Citymapper-02.jpg)
 
 去年與港鐵非官方專頁 [MTR Service Update](https://twitter.com/mtrupdate) 合作加入列車故障消息，並支援故障後搜尋其他交通路線和時間預測，港鐵自己的應用暫時也沒有這個功能。另外，西鐵綫、將軍澳線、東涌綫和機場快綫也有實時到站時間。
 
 ### 2.電車實時報站
 
-![Citymapper 電車實時報站](media/Citymapper-03.jpg)
+![Citymapper 電車實時報站](/media/Citymapper-03.jpg)
 
 Citymapper 兩年前已經與香港電車合作，提供電車的實時報站，方便港島區的居民。每班列車也有顯示目的地，方便選搭即將到站的電車。
 
 ### 3. 紅 van 路線和車站
 
-![Citymapper 紅 van 路線和車站](media/Citymapper-05.jpg)
+![Citymapper 紅 van 路線和車站](/media/Citymapper-05.jpg)
 
 Citymapper 的資料庫也有紅 van 的路線和車站，日間和通宵小巴也可找到。搜尋路線時也可以瀏覽有小巴的前往方法。
 
 ### 4.車費計算
 
-![Citymapper 車費計算](media/Citymapper-04.jpeg)
+![Citymapper 車費計算](/media/Citymapper-04.jpeg)
 
 Citymapper 支援地鐵和巴士的車費計算（未支援紅綠小）。讓用戶選擇行程時，車費也納入考慮因素。
 
 ### 5.到時預告
 
-![Citymapper 到時預告](media/Citymapper-01.jpg)
+![Citymapper 到時預告](/media/Citymapper-01.jpg)
 
 Citymapper 可在行程開始以後，分享預計到達時間給朋友。遲到的朋友就不用被人問 WRU。不過長期分享位置會令電量減低，使用的朋友特別留意。
 

@@ -2,12 +2,12 @@
 title: "向Philip Seymour Hoffman 致敬： Synecdoche, New York"
 date: "2014-02-07"
 slug: "向philip-seymour-hoffman-致敬-synecdoche-new-york"
-template: "post"
+template: post
 draft: false
 category: "銀幕"
 ---
 
-![](media/new-yotk.jpg)
+![](/media/new-yotk.jpg)
 
 怪才 Charlie Kaufman 曾寫下不少膾灸人口印象深刻的電影。_Adaptation_《何必偏偏玩謝我》、 *Being John Malkovich* 《玩謝麥高維治》和獲奧斯卡最佳原創劇本的  *Eternal Sunshine of the Spotless Mind*《無痛失戀》都是出於他的筆下。不過多年來他只執導過一套電影，就是 2008 年上映的  *Synecdoche, New York*《腦作大業》。戲名中的 Synecdoche 看似艱深，譯作中文其實是借代（亦有人譯作提喻法）的意思。與借喻不同的地方在於借代以物件的其中一部分比喻作另一東西，而非整體。電影中主角 Caden （Philip Seymour Hoffman 所飾）為話劇導演，他因劇作大受好評而獲得不少獎項，而他決定將全部獎金均放在他的新計劃上，建構倉庫裡的微縮城市。他說這是一個宏大、真切、艱澀的作品， “Something big and true and tough"，這句也是導演 Charlie Kaufman 對這套電影的真實寫照。
 

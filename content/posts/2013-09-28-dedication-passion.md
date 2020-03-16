@@ -2,7 +2,7 @@
 title: "Dedication & Passion"
 slug: "dedication-and-passion"
 date: "2013-09-28"
-template: "post"
+template: post
 draft: false
 category: "筆記"
 ---

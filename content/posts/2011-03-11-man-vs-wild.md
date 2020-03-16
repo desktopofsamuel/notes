@@ -2,19 +2,19 @@
 title: "人神鬥"
 slug: "人神鬥"
 date: "2011-03-11"
-template: "post"
+template: post
 draft: false
 category: "筆記"
 description: "看著災難的發生，火球從平地的煉油廠湧起，黑煙濃罩著整個鏡頭攝及的天空，海水捲走所有東西，如將你吞噬的黑洞從田地沖至城市，機場裡的飛機、一輛輛汽車只像上天手中的模形玩具。在電視的另一邊，我們還仍然存在，親人、愛侶、朋友就在身旁，居住在有瓦遮頭的地方，三餐溫飽，有電有水，向著理想默默前進，我想不到自己還有甚麼可以抱怨。"
 ---
 
-![](media/s_j30_RTR2JR4L.jpg)
-![](media/s_j33_09944993.jpg)
-![](media/s_j28_RTR2JR5W.jpg)
-![](media/s_j01_RTR2JQYE.jpg)
-![](media/s_j03_RTR2JQXC.jpg)
-![](media/s_j09_RTR2JQYT.jpg)
-![](media/s_j16_RTR2JQR2.jpg)
+![](/media/s_j30_RTR2JR4L.jpg)
+![](/media/s_j33_09944993.jpg)
+![](/media/s_j28_RTR2JR5W.jpg)
+![](/media/s_j01_RTR2JQYE.jpg)
+![](/media/s_j03_RTR2JQXC.jpg)
+![](/media/s_j09_RTR2JQYT.jpg)
+![](/media/s_j16_RTR2JQR2.jpg)
 
 看著災難的發生，火球從平地的煉油廠湧起，黑煙濃罩著整個鏡頭攝及的天空，海水捲走所有東西，如將你吞噬的黑洞從田地沖至城市，機場裡的飛機、一輛輛汽車只像上天手中的模形玩具。在電視的另一邊，我們還仍然存在，親人、愛侶、朋友就在身旁，居住在有瓦遮頭的地方，三餐溫飽，有電有水，向著理想默默前進，我想不到自己還有甚麼可以抱怨。
 

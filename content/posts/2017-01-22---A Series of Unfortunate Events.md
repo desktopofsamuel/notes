@@ -1,7 +1,7 @@
 ---
 title: "A Series of Unfortunate Events"
 date: "2017-01-22"
-template: "post"
+template: post
 draft: false
 category: "遙控"
 slug: "a-series-of-unfortunate-events"
@@ -10,7 +10,7 @@ tags:
   - "尼蒙利斯連環不幸事件"
 ---
 
-![](media/90312-1uetrcrzccd0eqzvkvfmvig.jpeg)
+![](/media/90312-1uetrcrzccd0eqzvkvfmvig.jpeg)
 
 這個星期 Netflix 公佈業續 ，全球共有 700 多萬名的訂戶，美國用戶佔全部用戶的 53%。Netflix 的龐大增長意味著它不只是串流服務，而是替代了不少家庭的電視機。與其跟每個地區電視台及電影公司購買串流版權，Netflix 意識到不如自家製作劇集，握有獨家的版權。這看起來是莫大投資，但 House Of Cards, Stranger Things, Orange Is The New Black 的成功正正證明當初作下這個決定的遠見。現在 Netflix 嘗試跳脫電視劇的框架，製作適合 binge-watching 的電視劇模式。評論指 A Series of Unfortunate Events 非常有 Netflix 的特質，先從形式著手：兩集為一個單元，共八集四個單元，劇情連貫起來更像一套 TV movie。若不在 Netflix 這個平台放映，誰知哪個電視台願意播放如此特別的劇集。
 
@@ -20,7 +20,7 @@ tags:
 
 甚至嘲諷電視劇本身不可知的時間性 “ “this year? This week? This season?”。
 
-![](media/b3e53-1-mkrwlj93pk0d7olbuupow.jpeg)
+![](/media/b3e53-1-mkrwlj93pk0d7olbuupow.jpeg)
 
 舊版電影《尼蒙利斯連環不幸事件》 （尼蒙利斯其實是小說的作者 Lemony Snicket ，故事的主角其實姓 Baudelaire 波德萊爾）本來乘哈利波特電影系列的熱潮，希望與其他兒童文學的作品如 Golden Compass 及 _The Seeker_ 開展賣座的電影系列，不過電影票房一般而令續集無疾而終。這次劇集重新製作，找來原著作者 Daniel Handler 加入，配以 Neil Patrick Harris 誇張又惹笑的演技，加上 Netflix 自由度較大的形式，我們還是否要以舊有劇集好與壞的標準（連貫性、節奏等等）來量度呢？A Series of Unfortunate Events 也許是個新的開始。
 

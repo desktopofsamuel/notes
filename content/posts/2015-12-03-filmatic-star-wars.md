@@ -2,7 +2,7 @@
 title: "【Filmatic】很久以前，在一個遙遠的銀河系中...."
 date: "2015-12-03"
 socialImage: "/media/starwarstrilogy_0.jpg"
-template: "post"
+template: post
 draft: false
 category: "銀幕"
 slug: "filmatic-很久以前，在一個遙遠的銀河系中"

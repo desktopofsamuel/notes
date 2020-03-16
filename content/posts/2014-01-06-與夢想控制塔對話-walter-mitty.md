@@ -2,12 +2,12 @@
 title: "與夢想控制塔對話：Walter Mitty"
 date: "2014-01-06"
 slug: "與夢想控制塔對話-walter-mitty"
-template: "post"
+template: post
 draft: false
 category: "銀幕"
 ---
 
-![secretlife](media/secretlife.jpg)
+![secretlife](/media/secretlife.jpg)
 
 "Ground Control to Major Tom” 也許是整套電影最深刻的一句。原曲是 David Bowie 的 Space Oddity，如有印象，國際太空站駐站太空人 [Commander Chris Hadfield](https://www.youtube.com/watch?v=KaOC9danxNo) 半年前也曾於太空翻唱過這首歌拍成 MV。
 
