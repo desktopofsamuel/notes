@@ -10,7 +10,7 @@ tags:
   - "App"
   - "Unsplash"
   - "Customisation"
-socialImage: https://lh3.googleusercontent.com/b0QLAiHYBQ0j8iwJp3wWN2H2WRJflA_QLIQVqUvMn99SUhYov9wKT-bLOfM9FXcnt1Uw4BZk4A=w640-h400-e365
+externalImage: https://lh3.googleusercontent.com/b0QLAiHYBQ0j8iwJp3wWN2H2WRJflA_QLIQVqUvMn99SUhYov9wKT-bLOfM9FXcnt1Uw4BZk4A=w640-h400-e365
 ---
 
 最近重新安裝電腦，Chrome 也換了新的 New Tab 應用。先前是 [Mustsee](http://mustsee.earth/)，現在用 Unsplash 自己製作的 Chrome Extension，不僅有動畫的效果，還可以看回先前展示的紀錄，方便下載來使用或直接當 Wallpaper。

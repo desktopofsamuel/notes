@@ -140,11 +140,21 @@ module.exports = {
         ]
       }
     },
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
     {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
           "gatsby-remark-relative-images",
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 1280,
+              linkImagesToOriginal: false,
+              backgroundColor: "transparent"
+            }
+          },
           "gatsby-remark-embedder",
           {
             resolve: "gatsby-remark-katex",
@@ -156,15 +166,7 @@ module.exports = {
             resolve: `gatsby-remark-figure-caption`,
             options: { figureClassName: "md-figure" }
           },
-          {
-            resolve: "gatsby-remark-images",
-            options: {
-              maxWidth: 1280,
-              ignoreFileExtensions: [],
-              linkImagesToOriginal: false,
-              backgroundColor: "transparent"
-            }
-          },
+
           {
             resolve: "gatsby-remark-responsive-iframe",
             options: { wrapperStyle: "margin-bottom: 1.0725rem" }
@@ -183,8 +185,6 @@ module.exports = {
         ]
       }
     },
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-sharp",
     "gatsby-plugin-netlify",
     {
       resolve: "gatsby-plugin-netlify-cms",

@@ -52,7 +52,7 @@ export const query = graphql`
             description
             socialImage {
               childImageSharp {
-                fluid(maxWidth: 500) {
+                fluid(maxHeight: 500) {
                   ...GatsbyImageSharpFluid
                 }
               }
