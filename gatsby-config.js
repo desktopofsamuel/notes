@@ -17,6 +17,51 @@ module.exports = {
     author: siteConfig.author
   },
   plugins: [
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          "gatsby-remark-relative-images",
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 1280,
+              linkImagesToOriginal: false,
+              backgroundColor: "transparent"
+            }
+          },
+          "gatsby-remark-embedder",
+          {
+            resolve: "gatsby-remark-katex",
+            options: {
+              strict: "ignore"
+            }
+          },
+          {
+            resolve: `gatsby-remark-figure-caption`,
+            options: { figureClassName: "md-figure" }
+          },
+
+          {
+            resolve: "gatsby-remark-responsive-iframe",
+            options: { wrapperStyle: "margin-bottom: 1.0725rem" }
+          },
+          {
+            resolve: "gatsby-remark-autolink-headers",
+            options: {
+              className: "header-anchor"
+            }
+          },
+          "gatsby-remark-prismjs",
+          "gatsby-remark-copy-linked-files",
+          "gatsby-remark-smartypants",
+          "gatsby-remark-images-zoom",
+          "gatsby-remark-external-links"
+        ]
+      }
+    },
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -137,51 +182,6 @@ module.exports = {
             output: "/digest-rss.xml",
             title: "Digest" + siteConfig.title
           }
-        ]
-      }
-    },
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-sharp",
-    {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: [
-          "gatsby-remark-relative-images",
-          {
-            resolve: "gatsby-remark-images",
-            options: {
-              maxWidth: 1280,
-              linkImagesToOriginal: false,
-              backgroundColor: "transparent"
-            }
-          },
-          "gatsby-remark-embedder",
-          {
-            resolve: "gatsby-remark-katex",
-            options: {
-              strict: "ignore"
-            }
-          },
-          {
-            resolve: `gatsby-remark-figure-caption`,
-            options: { figureClassName: "md-figure" }
-          },
-
-          {
-            resolve: "gatsby-remark-responsive-iframe",
-            options: { wrapperStyle: "margin-bottom: 1.0725rem" }
-          },
-          {
-            resolve: "gatsby-remark-autolink-headers",
-            options: {
-              className: "header-anchor"
-            }
-          },
-          "gatsby-remark-prismjs",
-          "gatsby-remark-copy-linked-files",
-          "gatsby-remark-smartypants",
-          "gatsby-remark-images-zoom",
-          "gatsby-remark-external-links"
         ]
       }
     },
