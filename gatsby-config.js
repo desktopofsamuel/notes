@@ -127,7 +127,6 @@ module.exports = {
                         template
                         draft
                         description
-                        socialImage
                         url
                       }
                     }
