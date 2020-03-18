@@ -6,6 +6,7 @@ import type { Edges } from "../../types";
 import styles from "./ImageFeed.module.scss";
 import Img from "gatsby-image";
 import BackgroundImage from "gatsby-background-image";
+import Reveal from "react-reveal";
 
 type Props = {
   edges: Edges
@@ -36,25 +37,29 @@ const ImageFeed = ({ edges }: Props) => (
             }}
           /> */}
           {/* <BackgroundImage fluid={edge.node.frontmatter.socialImage.childImageSharp.fluid} className={styles["photofeed__item-wrapper-background"]} /> */}
-          <div className={styles["photofeed__item-wrapper-overlay"]} />
-          <div className={styles["photofeed__item-wrapper-meta"]}>
-            <div className={styles["photofeed__item-wrapper-metawrapper"]}>
-              <time
-                className={styles["photofeed__item-wrapper-time"]}
-                dateTime={moment(edge.node.frontmatter.date).format(
-                  "MMMM D, YYYY"
-                )}
-              >
-                {moment(edge.node.frontmatter.date).format("MMMM YYYY")}
-              </time>
-              <h2 className={styles["photofeed__item-wrapper-title"]}>
-                {edge.node.frontmatter.title}
-              </h2>
-              <p className={styles["photofeed__item-wrapper-description"]}>
-                {edge.node.frontmatter.description || edge.node.excerpt}
-              </p>
+          <Reveal duration={5000} effect="inview">
+            <div className={styles["photofeed__item-wrapper-overlay"]} />
+          </Reveal>
+          <Reveal duration={5000} effect="inview">
+            <div className={styles["photofeed__item-wrapper-meta"]}>
+              <div className={styles["photofeed__item-wrapper-metawrapper"]}>
+                <time
+                  className={styles["photofeed__item-wrapper-time"]}
+                  dateTime={moment(edge.node.frontmatter.date).format(
+                    "MMMM D, YYYY"
+                  )}
+                >
+                  {moment(edge.node.frontmatter.date).format("MMMM YYYY")}
+                </time>
+                <h2 className={styles["photofeed__item-wrapper-title"]}>
+                  {edge.node.frontmatter.title}
+                </h2>
+                <p className={styles["photofeed__item-wrapper-description"]}>
+                  {edge.node.frontmatter.description || edge.node.excerpt}
+                </p>
+              </div>
             </div>
-          </div>
+          </Reveal>
         </div>
       </Link>
     ))}

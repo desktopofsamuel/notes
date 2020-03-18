@@ -1,6 +1,15 @@
 @import "../../assets/scss/variables";
 @import "../../assets/scss/mixins";
 
+@keyframes description-reveal {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
 .photofeed {
   display: block;
 
@@ -11,15 +20,11 @@
       position: relative;
       margin-bottom: 16px;
 
-      &:hover &-background {
-        transform: scale(1.02);
-      }
-
-      &:hover &-meta {
+      &-overlay .inview {
         opacity: 1;
       }
 
-      &:hover &-overlay {
+      &-meta .inview {
         opacity: 1;
       }
 
@@ -75,6 +80,7 @@
       }
 
       &-description {
+        display: none;
         font-size: $typographic-small-font-size;
         font-weight: 400;
         color: $color-white;
@@ -83,7 +89,7 @@
         -webkit-line-clamp: 2; /* number of lines to show */
         -webkit-box-orient: vertical;
         text-overflow: ellipsis;
-        display: -webkit-box;
+        transition: $transition;
         @include line-height(1);
         @include margin-bottom(0.75);
       }
@@ -101,6 +107,16 @@
       &-wrapper {
         margin-bottom: 0;
         height: 400px;
+
+        &:hover &-background {
+          transform: scale(1.02);
+        }
+
+        &:hover &-description {
+          display: -webkit-box;
+          animation-name: description-reveal;
+          animation-duration: 0.5s;
+        }
       }
     }
   }
