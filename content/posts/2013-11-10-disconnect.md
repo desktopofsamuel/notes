@@ -2,7 +2,7 @@
 title: "斷了線：Disconnect"
 slug: "斷了線-disconnect"
 date: "2013-11-10"
-template: "post"
+template: post
 draft: false
 category: "銀幕"
 ---

@@ -2,7 +2,7 @@
 title: "我最喜愛的五位歌手"
 slug: "我最喜愛的五位歌手"
 date: "2013-08-23"
-template: "post"
+template: post
 draft: false
 category: "筆記"
 ---

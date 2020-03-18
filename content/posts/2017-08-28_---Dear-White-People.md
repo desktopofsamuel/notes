@@ -2,14 +2,14 @@
 title: "Dear White People"
 slug: "dear-white-people"
 date: "2017-08-28T15:43:28.006Z"
-template: "post"
+template: post
 draft: false
 category: "遙控"
 tags:
   - "Netflix 推介"
 ---
 
-![Dear White People (Netflix)](media/0_Nx41sDkUKvV6_6-f.jpg)
+![Dear White People (Netflix)](/media/0_Nx41sDkUKvV6_6-f.jpg)
 
 由 2014 年電影改篇的 Dear White People，可以說是 2017 年鐵定推介的劇集。主角 Samantha White 是校園電台節目 Dear White People 的節目主持，每集也是以 Dear White People 為句首，提醒及諷刺他們的所言所行。劇集一開始便劈頭便以校內有人舉辦 「黑臉派對」（白人裝扮成黑人，於臉上塗上黑色顏料）為導火線，惹起校園內對種族、膚色的歧見和討論。
 

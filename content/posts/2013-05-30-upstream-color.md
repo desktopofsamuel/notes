@@ -2,12 +2,12 @@
 title: "逆流的色彩 Upstream Color"
 slug: "逆流的色彩-upstream-color"
 date: "2013-05-30"
-template: "post"
+template: post
 draft: false
 category: "銀幕"
 ---
 
-![逆流的色彩 Upstream Color](media/upstream-color.jpg)
+![逆流的色彩 Upstream Color](/media/upstream-color.jpg)
 
 在床上托著頭顱的我看不透。一幕幕的片段再次閃過，腦細胞絞著嘗試著悟出少許道理和意味，只是腦海中一遍空白，猶如戲中的主角在高速公路之間重拾知覺。網際遊走，卻偏偏連一紙解讀、影評也找不到。電影的簡介是一句"A man and woman are drawn together, entangled in the life cycle of an ageless organism." ，我連那 organism 原來是 ageless 也毫無頭緒。有時候，有些電影就是令人摸不著頭，卻如蚊子在熟睡時繞著轉停不了，那種電影有個稱號—文藝電影。
 

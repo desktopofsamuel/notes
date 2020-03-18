@@ -1,7 +1,7 @@
 ---
 title: "【Filmatic】童真的階級 — The White Balloon"
 date: "2016-04-20"
-template: "post"
+template: post
 draft: false
 category: "銀幕"
 socialImage: "/media/the-white-balloon-badkonake-sefid-25297.jpg"

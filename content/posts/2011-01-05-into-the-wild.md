@@ -2,12 +2,12 @@
 title: "浪跡天涯 Into The Wild"
 slug: "浪跡天涯-Into-The-Wild"
 date: "2011-01-05"
-template: "post"
+template: post
 draft: false
 category: "銀幕"
 ---
 
-![](media/into_the_wild.jpg)
+![](/media/into_the_wild.jpg)
 
 **上網見有介紹 Into The Wild  這電影，本想翻查自己文章的紀錄，怎料發現有數篇一年前的文章竟是 private，未能與各位分享，現轉載並附上最近的感想：**
 
@@ -21,7 +21,7 @@ category: "銀幕"
 
 Soundtrack 中有一首歌叫「Society」，正好唱出一切概嘆， 有時候你自以為是社會的棟樑，當你有一次病倒了，社會卻沒有倒塌下來，可見自己重要性不是那一回事。沒有做的事情自然有人為你負擔，你不是唯一的那個。固然這非提倡你要從今開始懶散渡日，無所事事，因為努力的過程，其實也是自我的一部分。錢，工作、投資、儲蓄、並非為了那銀行存摺的不知多少個零，然後安祥死去。金錢不能代替溫柔，更不能買下友情，愛情和親情，所以 Chris 毅然捐去所有金錢.，工作所賺的金錢也只為阿拉斯加之旅所準備，畢竟金錢是用來花的，不是一疊疊放在眼前而不用。
 
-![](media/Into_the_wild_costa.jpg)
+![](/media/Into_the_wild_costa.jpg)
 
 回到正題，Chris 毅然推翻「文明」「社會」的思想，回到自然 into the wild, 欣賞和享受大自然的力量和美麗。雖然回到深郊荒野是在逃避問題、逃避家庭及其父母幼年中對 Chris 的禍害。但另一角度來說，這個旅程也是一個步驟，待到流浪的終結才得以解決。他臨走前留下了一句說，也就是他流浪兩年以來反思出來的答案—Happiness only true when shared。這一句跟他遇到那老人 Ron 說的話 when you forgive, you love. And when you love, God's light shines through you。其實意義都一樣，當他對家人的憎恨化作愛的時候，他已經準備回到文明世界結束流浪，卻被困阿拉斯加。
 

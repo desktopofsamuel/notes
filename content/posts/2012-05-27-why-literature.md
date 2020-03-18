@@ -2,12 +2,12 @@
 title: "為甚麼要讀文學？"
 slug: "為甚麼要讀文學"
 date: "2012-05-27"
-template: "post"
+template: post
 draft: false
 category: "筆記"
 ---
 
-![A tower of used books](media/a_tower_of_used_books_-_8446.jpg)
+![A tower of used books](/media/a_tower_of_used_books_-_8446.jpg)
 
 這星期有一半時間也回到中學，向師弟妹介紹一下高中的文學科。台上我說得不好，很多真心話也忘記說出來，不像今屆中七一樣，聽得我津津樂道。我不知我還有多少個中三同學的 Facebook，但那怕有人因我們的分享或我這番話而選了文學，我這星期的努力還算沒有白費，現在讓我寫回我想說的話：
 

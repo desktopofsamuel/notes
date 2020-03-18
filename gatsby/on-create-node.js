@@ -1,11 +1,12 @@
 "use strict";
 const path = require(`path`);
 const _ = require("lodash");
-const { createFilePath } = require("gatsby-source-filesystem");
 // const { fmImagesToRelative } = require("gatsby-remark-relative-images");
+const { createFilePath } = require("gatsby-source-filesystem");
 
 const onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
+
   // fmImagesToRelative(node);
 
   if (node.internal.type === "MarkdownRemark") {

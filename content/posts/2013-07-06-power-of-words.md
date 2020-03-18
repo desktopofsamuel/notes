@@ -2,12 +2,12 @@
 title: "Power of Words"
 slug: "power-of-words"
 date: "2013-07-06"
-template: "post"
+template: post
 draft: false
 category: "筆記"
 ---
 
-![](media/a9d09-0gql4ppmi9u7s6knz.jpeg)
+![](/media/a9d09-0gql4ppmi9u7s6knz.jpeg)
 
 #### Movie: The Secret Life of Words
 

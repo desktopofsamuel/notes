@@ -1,7 +1,7 @@
 ---
 title: "【Filmatic】怪獸裡的人性：The Monster & Godzilla"
 date: "2015-01-19"
-template: "post"
+template: post
 draft: false
 category: "銀幕"
 slug: "怪獸裡的人性-the-monster-and-godzilla"

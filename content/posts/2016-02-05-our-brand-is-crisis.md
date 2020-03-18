@@ -1,7 +1,7 @@
 ---
 title: "《揭開面具──選戰偽術師 Our Brand Is Crisis》"
 date: "2016-02-05"
-template: "post"
+template: post
 draft: false
 category: "銀幕"
 slug: "揭開面具-選戰偽術師-our-brand-is-crisis"

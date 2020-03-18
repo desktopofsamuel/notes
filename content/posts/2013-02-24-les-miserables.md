@@ -2,7 +2,7 @@
 title: "還是擦乾淚眼 藏掉滿眶吶喊"
 slug: "還是擦乾淚眼-藏掉滿眶吶喊"
 date: "2013-02-24"
-template: "post"
+template: post
 draft: false
 category: "遙控"
 tags:
@@ -10,7 +10,7 @@ tags:
   - "Les Miserables"
 ---
 
-![Les Mis](media/notes_random001.jpg)
+![Les Mis](/media/notes_random001.jpg)
 
 年終最常聽見的開場白是「看過孤星淚沒有？」，下一句便是「有沒有看到哭？」。但這不是我第一次看孤星淚，第一次看卻是三年前於電視播放的日本動畫版。那時候的印象十分深刻，一直追下去卻一直在想，已經鬱鬱不歡了這麼久，究竟何時才會有一個幸福快樂的結局呢？動畫中的 Colette 是個可愛，水汪汪，到哪裡也要拖著布偶的小女孩，Jean Valjean 卻是一個很嚴肅，戴著高帽長著鬚的紳士。記憶中的故事描述很細膩，集數多了，自然沒有那麼濃縮。
 

@@ -2,12 +2,12 @@
 title: "從Pacific Rim 到 Gravity：荷里活的女性主義"
 slug: "從pacific-rim-到-gravity-荷里活的女性主義"
 date: "2013-11-10"
-template: "post"
+template: post
 draft: false
 category: "銀幕"
 ---
 
-![feminism](media/feminism.jpg)
+![feminism](/media/feminism.jpg)
 
 香港的電影分級制度，只是按電影內容決定適合觀看的觀眾年齡。但最近瑞典有電影院決定增加新的分級制度，讓觀眾能得悉該套電影有否性別偏見。新的分級制度源自美國漫畫家 Alison Bechdel  於 1985 年畫的漫畫。漫畫中的女主角自嘲她自己 1979 年看過《異形》後，六年以來也沒有進過影院，因為她看電影有三個條件：
 

@@ -2,13 +2,13 @@
 title: "《報導者的抉擇—焦點追擊 Spotlight》"
 date: "2016-02-23"
 slug: "報導者的抉擇-焦點追擊-spotlight"
-template: "post"
+template: post
 draft: false
 category: "銀幕"
-coverImage: "media/spotlight-2015-directed-by-tom-mccarthy-movie-review2.jpg"
+socialImage: "/media/spotlight-2015-directed-by-tom-mccarthy-movie-review2.jpg"
 ---
 
-![](media/spotlight-2015-directed-by-tom-mccarthy-movie-review2.jpg)
+![](/media/spotlight-2015-directed-by-tom-mccarthy-movie-review2.jpg)
 
 揭示社會現實的使命感，大概每位盡忠職守的記者都會有的素質。Spotlight 《焦點追擊》事隔 13 年 ，以改篇電影的形式重溫 2002 年波士頓神父性侵兒童一案的報導，不是翻炒歷史事件賺取票房收入，而是向偵查報導 (Investigative Journalism) 致以崇高的敬意 ，更是提醒世人偵查報導的最大敵人—「體制」仍存 。導演 Tom McCarthy 於荷里活的幕前幕後擔當過不同的工作（Pixar 動畫 Up 衝天救兵的其中一位編劇），受訪問時坦言這電影是向近年日漸息微的偵查報道的一封情書。當今天一些記者被詬只對著電腦螢幕找材料，左抄右抄搬字過紙成為新報導，相反地，《焦點追擊》示範了新聞工作者以怎麼態度完成一篇偵查報導。
 

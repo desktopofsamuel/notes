@@ -5,6 +5,7 @@ import { Link } from "gatsby";
 import type { Edges } from "../../types";
 import styles from "./ImageFeed.module.scss";
 import Img from "gatsby-image";
+import BackgroundImage from "gatsby-background-image";
 
 type Props = {
   edges: Edges
@@ -18,17 +19,23 @@ const ImageFeed = ({ edges }: Props) => (
         to={edge.node.fields.slug}
         key={edge.node.fields.slug}
       >
-        {/*         <img
-          className={styles["photofeed__item-image"]}
-          src={edge.node.frontmatter.socialImage}
-        /> */}
         <div className={styles["photofeed__item-wrapper"]}>
-          <div
+          {!!edge.node.frontmatter.socialImage &&
+          !!edge.node.frontmatter.socialImage.childImageSharp ? (
+            <BackgroundImage
+              className={styles["photofeed__item-wrapper-background"]}
+              fluid={edge.node.frontmatter.socialImage.childImageSharp.fluid}
+            />
+          ) : (
+            <p>Null</p>
+          )}
+          {/*           <div
             className={styles["photofeed__item-wrapper-background"]}
             style={{
-              backgroundImage: `url(https://notes.desktopofsamuel.com/${edge.node.frontmatter.socialImage})`
+              backgroundImage: `url(https://notes.desktopofsamuel.com/${edge.node.frontmatter.socialImage.childImageSharp.fluid.src})`
             }}
-          />
+          /> */}
+          {/* <BackgroundImage fluid={edge.node.frontmatter.socialImage.childImageSharp.fluid} className={styles["photofeed__item-wrapper-background"]} /> */}
           <div className={styles["photofeed__item-wrapper-overlay"]} />
           <div className={styles["photofeed__item-wrapper-meta"]}>
             <div className={styles["photofeed__item-wrapper-metawrapper"]}>

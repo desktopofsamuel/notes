@@ -2,7 +2,7 @@
 title: "這一代的秘密：失去的專注力"
 slug: "這一代的秘密：失去的專注力"
 date: "2013-05-13"
-template: "post"
+template: post
 draft: false
 category: "筆記"
 ---

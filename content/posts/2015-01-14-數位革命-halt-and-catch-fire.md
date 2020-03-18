@@ -1,11 +1,11 @@
 ---
 title: "數位革命：Halt and Catch Fire"
 date: "2015-01-14"
-template: "post"
+template: post
 draft: false
 category: "遙控"
 slug: "數位革命-halt-and-catch-fire"
-socialImage: "media/unknown-11.jpeg"
+socialImage: "/media/unknown-11.jpeg"
 ---
 
 ![](/media/unknown-11.jpeg)
@@ -16,7 +16,7 @@ socialImage: "media/unknown-11.jpeg"
 
 Joe McMillan 這個角色，很易讓人想起同一電視台下的 Mad Men，他和 Don Draper 一樣，都是穿著西裝裡推銷理念的一個夢想家。相比之下，Joe 甚至沒有家庭生活，單位沒有裝修，簡約得讓人誤以為他已搬走。他活在父親的陰影下，來到 Texas 就是要脫離父親的制肘，證明自己的能力。和 Don 也一樣受制於過去，腦海裡只剩下事業兩字，深信揚名立萬才是成功的唯一定義。駕著跑車，衣履筆挺，當所有人也以為他是成功的時候，沒有人知道外觀就是他的全部。西裝跑車裡裝著一只空虛的靈魂。
 
-![](media/haltandcatchfire-1.jpg)
+![](/media/haltandcatchfire-1.jpg)
 
 其餘角色也經歷一種改變，由固有到創新的改變，Gordon 和妻子 Donna 曾醉心研發音樂電腦，Demo 失敗收場而兩人進入大公司工作，直到 Giant 一計劃才重燃兩人的花火，總經理 John 本身反對計劃的最大聲音，最後卻為金錢賠上自己的自由。唯獨是 Cameron 一個輟學學生未遇錯折。反叛是科技革命的重要原素，Cameron 在劇集裡擔當這個角色，近 Hippie 般的生活，居無定所，輟學埋首為 Cardiff Electrics 編寫 BIOS。女性在八十年代，工作於男性主導的公司內，升職難被免會被人說閒話（雖然她的確與上司 Joe 發生關係），但 Joe 僱用她是因為她以自己的才能去證明自己的重要性，可惜的是劇中她一出現已經是個天才程式員，能力從何而來的描述則完全欠奉。
 

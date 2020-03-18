@@ -2,12 +2,12 @@
 title: "醉生夢死"
 slug: "醉生夢死"
 date: "2012-10-25"
-template: "post"
+template: post
 draft: false
 category: "銀幕"
 ---
 
-![Ashes of Time](media/70006.jpg)
+![Ashes of Time](/media/70006.jpg)
 
 有人送了黃藥師一罈酒，叫作「醉生夢死」，喝了之後，可以叫你忘掉以做過的任何事。那不是金庸筆下的情節，而是王家衛眼中的超脫。
 

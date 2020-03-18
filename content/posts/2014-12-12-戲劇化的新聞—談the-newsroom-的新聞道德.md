@@ -2,7 +2,7 @@
 title: "戲劇化的新聞—談 The Newsroom 的新聞道德"
 date: "2014-12-12"
 slug: "戲劇化的新聞—談the-newsroom-的新聞道德"
-template: "post"
+template: post
 draft: false
 category: "遙控"
 ---

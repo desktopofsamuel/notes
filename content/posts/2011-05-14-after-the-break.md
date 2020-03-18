@@ -2,12 +2,12 @@
 title: "放假以後"
 slug: "放假以後"
 date: "2011-05-14"
-template: "post"
+template: post
 draft: false
 category: "筆記"
 ---
 
-![holiday_wrappingpaper](media/holiday_wrappingpaper.jpg)
+![holiday_wrappingpaper](/media/holiday_wrappingpaper.jpg)
 
 考完試了，昨晚我還在夢見自己還有一科未考，天天早上還是準時的七時起床，可說是不太習慣。要數放假後最有意義的事，是當了三日散工，為某大公司的 Training Program  作 IT Support。於君悅酒店上班，有冷氣、會場有 Coffee Break, Lunch, Afternoon Break，全是酒店的自助餐，午膳也在那兒吃了。面對的人，全是外國來的 Manager, Regional Head，整天也在說英文，我也覺得自己英文好了。
 
