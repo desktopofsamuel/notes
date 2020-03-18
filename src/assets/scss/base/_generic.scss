@@ -186,6 +186,7 @@ time {
     float: left;
   }
 }
+
 @include breakpoint-sm {
   .gatsby-resp-image-wrapper {
     width: 50vw;

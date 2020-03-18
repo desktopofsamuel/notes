@@ -5,7 +5,7 @@ date: "2020-03-11T05:02:29.085Z"
 template: post
 draft: false
 category: "地圖"
-socialImage: "../../static/media/ponto-social.jpg"
+socialImage: "/media/ponto-social.jpg"
 ---
 
 ![](/media/20200311-IMG_9951-1.jpg)

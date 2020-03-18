@@ -17,13 +17,19 @@ const ShortHero = ({ edges }: Props) => {
         <div className={styles["feed__item"]} key={edge.node.fields.slug}>
           <div className={styles["feed__item-image"]}>
             {!!edge.node.frontmatter.socialImage ? (
+              <Img
+                className={styles["feed__item-image"]}
+                fluid={edge.node.frontmatter.socialImage.childImageSharp.fluid}
+                alt={edge.node.frontmatter.title}
+              />
+            ) : !!edge.node.frontmatter.externalImage ? (
               <img
                 className={styles["feed__item-image"]}
-                src={edge.node.frontmatter.socialImage}
+                src={edge.node.frontmatter.externalImage}
                 alt={edge.node.frontmatter.title}
               />
             ) : (
-              <span className={styles["feed__item-separator"]}></span>
+              <span className={styles["feed__item-separator"]} />
             )}
           </div>
           <div className={styles["feed__item-contentwrapper"]}>
