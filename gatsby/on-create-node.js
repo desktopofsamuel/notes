@@ -7,6 +7,8 @@ const { createFilePath } = require("gatsby-source-filesystem");
 const onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
 
+  // fmImagesToRelative(node);
+
   if (node.internal.type === "MarkdownRemark") {
     if (typeof node.frontmatter.slug !== "undefined") {
       const dirname = getNode(node.parent).relativeDirectory;
@@ -38,8 +40,6 @@ const onCreateNode = ({ node, actions, getNode }) => {
       createNodeField({ node, name: "categorySlug", value: categorySlug });
     }
   }
-
-  // fmImagesToRelative(node);
 };
 
 module.exports = onCreateNode;

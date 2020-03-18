@@ -57,11 +57,12 @@ module.exports = {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
-          "gatsby-remark-relative-images",
+          // "gatsby-remark-relative-images",
+          netlifyCmsPaths,
           {
             resolve: "gatsby-remark-images",
             options: {
-              maxWidth: 1280,
+              maxWidth: 1920,
               linkImagesToOriginal: false,
               backgroundColor: "transparent"
             }
