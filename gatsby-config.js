@@ -1,5 +1,10 @@
 "use strict";
-
+var netlifyCmsPaths = {
+  resolve: `gatsby-plugin-netlify-cms-paths`,
+  options: {
+    cmsConfig: `/static/admin/config.yml`
+  }
+};
 const siteConfig = require("./config.js");
 const postCssPlugins = require("./postcss-config.js");
 
@@ -17,8 +22,37 @@ module.exports = {
     author: siteConfig.author
   },
   plugins: [
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/static/media`,
+        name: "media"
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/content`,
+        name: "pages"
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "css",
+        path: `${__dirname}/static/css`
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "assets",
+        path: `${__dirname}/static`
+      }
+    },
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
+    netlifyCmsPaths,
     {
       resolve: "gatsby-transformer-remark",
       options: {
@@ -60,34 +94,6 @@ module.exports = {
           "gatsby-remark-images-zoom",
           "gatsby-remark-external-links"
         ]
-      }
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        path: `${__dirname}/static/media`,
-        name: "media"
-      }
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        path: `${__dirname}/content`,
-        name: "pages"
-      }
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "css",
-        path: `${__dirname}/static/css`
-      }
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "assets",
-        path: `${__dirname}/static`
       }
     },
     {

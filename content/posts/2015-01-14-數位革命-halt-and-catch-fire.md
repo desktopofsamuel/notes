@@ -5,7 +5,7 @@ template: post
 draft: false
 category: "遙控"
 slug: "數位革命-halt-and-catch-fire"
-socialImage: "media/unknown-11.jpeg"
+socialImage: "/media/unknown-11.jpeg"
 ---
 
 ![](/media/unknown-11.jpeg)

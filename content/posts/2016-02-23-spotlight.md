@@ -5,7 +5,7 @@ slug: "報導者的抉擇-焦點追擊-spotlight"
 template: post
 draft: false
 category: "銀幕"
-coverImage: "media/spotlight-2015-directed-by-tom-mccarthy-movie-review2.jpg"
+socialImage: "/media/spotlight-2015-directed-by-tom-mccarthy-movie-review2.jpg"
 ---
 
 ![](/media/spotlight-2015-directed-by-tom-mccarthy-movie-review2.jpg)
