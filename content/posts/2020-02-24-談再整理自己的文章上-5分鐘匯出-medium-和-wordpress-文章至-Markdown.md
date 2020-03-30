@@ -62,24 +62,24 @@ Medium 倒只是一個發佈及社交平台，用作更多 backlink 和獲得更
 2.  安裝 Node.js 和 npm
     這段 script 是用 Node.js 寫的，所以先需要下載 Node.js。我建議是 下載 NVM （Node Version Manger）(Windows, Mac / Linux) NVM 的好處是比較容易讓你轉換不同 Node.js 的版本，如這 script 需要 Node.js v12.14（我原本 Node.js 是 v10 然後便發生錯誤）。或想簡單一點就到 Node.js 下載。
 
-        		1. 打開 CMD，然後輸入 `nvm` 測試是否安裝好
-        		2. 輸入 `nvm install v12.14.0` 開始下載
-        		3. 輸入 `nvm use v12.14.0` 開始使用
-        		4. 輸入 `node -v` 檢查版本是否 v12.14
+	1. 打開 CMD，然後輸入 `nvm` 測試是否安裝好
+	2. 輸入 `nvm install v12.14.0` 開始下載
+	3. 輸入 `nvm use v12.14.0` 開始使用
+	4. 輸入 `node -v` 檢查版本是否 v12.14
 
 3.  下載 Script
 
-        1. 在 Github 按緣色按鍵下載 Zip 檔，或直接 `git clone https://github.com/lonekorean/wordpress-export-to-markdown`
-        2. 用 ` cd ../` 轉到下載的位置 如 `cd C:\Users\Samuel\Downloads`
-        3. 再轉到 `cd wordpress-export-to-markdown` 的 folder
-        4. 複製剛才在 Wordpress Export 的 `export.xml` 檔到同一 folder 內
+     1. 在 Github 按緣色按鍵下載 Zip 檔，或直接 `git clone https://github.com/lonekorean/wordpress-export-to-markdown`
+     2. 用 ` cd ../` 轉到下載的位置 如 `cd C:\Users\Samuel\Downloads`
+     3. 再轉到 `cd wordpress-export-to-markdown` 的 folder
+     4. 複製剛才在 Wordpress Export 的 `export.xml` 檔到同一 folder 內
 
 4.  運行 Script
 
-        1.  先安裝這段 script 需要的 dependencies，輸入 `npm install`
-        2. 再運行 script `node index.js`
-        3. Script 將會問幾條問題作設定，如 xml 檔名，output 的 folder 名，是否需要按年月日分開 folder，是否下載所有相片
-        4. 若跟隨我用 Gatsby-Starter-Lumen，最好跟回 Netlify CMS 的格式（不分日期，只加日期於檔名前，下載所有圖片）
+     1.  先安裝這段 script 需要的 dependencies，輸入 `npm install`
+     2. 再運行 script `node index.js`
+     3. Script 將會問幾條問題作設定，如 xml 檔名，output 的 folder 名，是否需要按年月日分開 folder，是否下載所有相片
+     4. 若跟隨我用 Gatsby-Starter-Lumen，最好跟回 Netlify CMS 的格式（不分日期，只加日期於檔名前，下載所有圖片）
 
 ### 如何從 Medium 匯入 Markdown 文章
 
