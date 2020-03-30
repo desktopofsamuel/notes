@@ -13,14 +13,14 @@ type Props = {
 };
 
 const PostTemplate = ({ data }: Props) => {
-	const { title: siteTitle, subtitle: siteSubtitle, description: siteDescription } = useSiteMetadata();
+	const { title: siteTitle, subtitle: siteSubtitle, description: siteDescription, author } = useSiteMetadata();
 	const { frontmatter } = data.markdownRemark;
 	const { title: postTitle, description: postDescription } = frontmatter;
-	const postImage = frontmatter.socialImage.publicURL;
-	const metaDescription = postDescription !== null ? postDescription : data.markdownRemark.excerpt;
+	const metaImage = frontmatter.socialImage ? frontmatter.socialImage.childImageSharp.fluid.src : null;
+	const metaDescription = postDescription !== null ? postDescription : siteSubtitle;
 
 	return (
-		<Layout title={`${postTitle} | ${siteTitle} | ${siteSubtitle}`} description={metaDescription} socialImage={postImage}>
+		<Layout title={`${postTitle} | ${siteTitle} | ${siteSubtitle}`} description={metaDescription} socialImage={metaImage}>
 			<Post post={data.markdownRemark} />
 		</Layout>
 	);
@@ -41,7 +41,11 @@ export const query = graphql`
         tags
         title
         socialImage {
-          publicURL
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
         }
       }
       excerpt
