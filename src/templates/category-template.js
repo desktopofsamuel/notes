@@ -19,12 +19,15 @@ const CategoryTemplate = ({ data, pageContext }: Props) => {
 
   const {
     category,
+    slug,
     currentPage,
     prevPagePath,
     nextPagePath,
     hasPrevPage,
     hasNextPage
   } = pageContext;
+
+  console.log(slug);
 
   const { edges } = data.allMarkdownRemark;
   const pageTitle =
@@ -33,7 +36,7 @@ const CategoryTemplate = ({ data, pageContext }: Props) => {
       : `${category} - ${siteTitle}`;
 
   return (
-    <Layout title={pageTitle} description={siteSubtitle}>
+    <Layout title={pageTitle} description={siteSubtitle} slug={slug}>
       <Sidebar />
       <Page title={category}>
         <Feed edges={edges} />

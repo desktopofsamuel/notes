@@ -1,8 +1,8 @@
-'use strict';
+"use strict";
 
-const _ = require('lodash');
-const path = require('path');
-const siteConfig = require('../../config.js');
+const _ = require("lodash");
+const path = require("path");
+const siteConfig = require("../../config.js");
 
 module.exports = async (graphql, actions) => {
   const { createPage } = actions;
@@ -11,7 +11,9 @@ module.exports = async (graphql, actions) => {
   const result = await graphql(`
     {
       allMarkdownRemark(
-        filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
+        filter: {
+          frontmatter: { template: { eq: "post" }, draft: { ne: true } }
+        }
       ) {
         group(field: frontmatter___tags) {
           fieldValue
@@ -21,16 +23,17 @@ module.exports = async (graphql, actions) => {
     }
   `);
 
-  _.each(result.data.allMarkdownRemark.group, (tag) => {
+  _.each(result.data.allMarkdownRemark.group, tag => {
     const numPages = Math.ceil(tag.totalCount / postsPerPage);
     const tagSlug = `/tag/${_.kebabCase(tag.fieldValue)}`;
 
     for (let i = 0; i < numPages; i += 1) {
       createPage({
         path: i === 0 ? tagSlug : `${tagSlug}/page/${i}`,
-        component: path.resolve('./src/templates/tag-template.js'),
+        component: path.resolve("./src/templates/tag-template.js"),
         context: {
           tag: tag.fieldValue,
+          slug: tagSlug,
           currentPage: i,
           postsLimit: postsPerPage,
           postsOffset: i * postsPerPage,

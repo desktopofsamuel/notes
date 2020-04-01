@@ -17,7 +17,11 @@ const TravelList = ({ data, pageContext }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
   const { edges } = data.allMarkdownRemark;
   return (
-    <Layout title={`#地圖 | ${siteTitle}`} description={siteSubtitle}>
+    <Layout
+      title={`#地圖 | ${siteTitle}`}
+      description={siteSubtitle}
+      slug="/travel"
+    >
       <Sidebar isIndex />
       <Page title="#地圖">
         <ImageFeed edges={edges} />
@@ -44,7 +48,7 @@ export const query = graphql`
             slug
             categorySlug
           }
-          excerpt
+          excerpt(pruneLength: 200)
           frontmatter {
             title
             date

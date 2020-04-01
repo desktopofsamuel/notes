@@ -39,6 +39,7 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
     <Layout
       title={`${pageTitle} | ${siteSubtitle}`}
       description={siteDescription}
+      slug="/"
     >
       <Sidebar isIndex />
       <Page>

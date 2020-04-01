@@ -10,13 +10,24 @@ type Props = {
   children: ReactNode,
   title: string,
   description?: string,
-  socialImage?: string
+  socialImage?: string,
+  slug?: string,
+  isPost: boolean
 };
 
-const Layout = ({ children, title, description, socialImage }: Props) => {
-  const { author, url } = useSiteMetadata();
+const Layout = ({
+  children,
+  title,
+  description,
+  socialImage,
+  slug,
+  isPost
+}: Props) => {
+  const { author, url, title: siteTitle } = useSiteMetadata();
   const metaImage = socialImage != null ? socialImage : author.photo;
   const metaImageUrl = url + withPrefix(metaImage);
+  const metaUrl = url + slug;
+  const type = isPost != true ? "website" : "article";
 
   return (
     <div className={styles.layout}>
@@ -25,8 +36,12 @@ const Layout = ({ children, title, description, socialImage }: Props) => {
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta name="image" content={metaImageUrl} />
-        <meta property="og:site_name" content={title} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={metaUrl} />
+        <meta property="og:site_name" content={siteTitle} />
         <meta property="og:image" content={metaImageUrl} />
+        <meta property="og:type" content={type} />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
