@@ -21,6 +21,7 @@ const PageTemplate = ({ data }: Props) => {
   } = useSiteMetadata();
   const { html: pageBody } = data.markdownRemark;
   const { frontmatter } = data.markdownRemark;
+  const postSlug = data.markdownRemark.fields.slug;
   const {
     title: pageTitle,
     description: pageDescription,
@@ -34,6 +35,7 @@ const PageTemplate = ({ data }: Props) => {
       title={`${pageTitle} | ${siteTitle} | ${siteSubtitle}`}
       description={metaDescription}
       socialImage={socialImage}
+      slug={postSlug}
     >
       <Sidebar />
       <Page title={pageTitle}>
@@ -48,6 +50,9 @@ export const query = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         date
