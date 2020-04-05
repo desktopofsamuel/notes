@@ -8,8 +8,8 @@ import type { MarkdownRemark } from "../types";
 
 type Props = {
   data: {
-    markdownRemark: MarkdownRemark
-  }
+    markdownRemark: MarkdownRemark,
+  },
 };
 
 const PostTemplate = ({ data }: Props) => {
@@ -17,7 +17,7 @@ const PostTemplate = ({ data }: Props) => {
     title: siteTitle,
     subtitle: siteSubtitle,
     description: siteDescription,
-    author
+    author,
   } = useSiteMetadata();
   const { frontmatter } = data.markdownRemark;
   const postSlug = data.markdownRemark.fields.slug;
@@ -26,7 +26,7 @@ const PostTemplate = ({ data }: Props) => {
     ? frontmatter.socialImage.childImageSharp.fluid.src
     : null;
   const metaDescription =
-    postDescription !== null ? postDescription : siteSubtitle;
+    postDescription !== null ? postDescription : data.markdownRemark.excerpt;
 
   return (
     <Layout
@@ -46,6 +46,7 @@ export const query = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html
+      excerpt
       fields {
         slug
         tagSlugs
