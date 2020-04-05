@@ -106,7 +106,7 @@
 }
 
 .photofeed__item-wrapper-description {
-  display: none;
+  display: -webkit-box;
   font-size: 14px;
   font-weight: 400;
   color: #fff;
@@ -133,6 +133,9 @@
   .photofeed__item-wrapper {
     margin-bottom: 0;
     height: 400px;
+  }
+  .photofeed__item-wrapper-description {
+    display: none;
   }
   .photofeed__item-wrapper:hover .photofeed__item-wrapper-background {
     -webkit-transform: scale(1.02);
