@@ -13,11 +13,7 @@ type Props = {
 };
 
 const ShortPostTemplate = ({ data }: Props) => {
-  const {
-    title: siteTitle,
-    subtitle: siteSubtitle,
-    description: siteDescription
-  } = useSiteMetadata();
+  const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
   const { frontmatter } = data.markdownRemark;
   const {
     title: postTitle,
@@ -43,6 +39,7 @@ export const query = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html
+      excerpt
       fields {
         slug
         tagSlugs
