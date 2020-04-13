@@ -9,11 +9,10 @@ import { useSiteMetadata } from "../hooks";
 import type { AllMarkdownRemark } from "../types";
 
 type Props = {
-  data: AllMarkdownRemark,
-  pageContext: PageContext
+  data: AllMarkdownRemark
 };
 
-const TravelList = ({ data, pageContext }: Props) => {
+const TravelList = ({ data }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
   const { edges } = data.allMarkdownRemark;
   return (

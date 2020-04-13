@@ -4,7 +4,6 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Sidebar from "../components/Sidebar";
 import DigestHeader from "../components/DigestHeader";
-import ShortFeed from "../components/ShortFeed";
 import ShortHero from "../components/ShortHero";
 import Page from "../components/Page";
 import { useSiteMetadata } from "../hooks";
