@@ -5,6 +5,14 @@ date: "2020-02-24T05:02:29.085Z"
 template: post
 draft: false
 category: "桌面"
+tags:
+  - Markdown
+  - Medium
+  - Wordpress
+  - 網誌
+  - Gatsby
+  - React
+  - Static Site Generator
 ---
 
 經過多年，我的網誌又再搬家了，有時候已經忘記了有甚麼平台還要發佈。Wordpress 也是寫下寫就中斷了。
@@ -37,13 +45,13 @@ Medium 第一天開放的時候，我已經是用戶，當年還是搶著註冊 
 
 2020 年，個人化朝著兩大方向發展。近年越來越多人建立自己的 Subscription Mail List，最直接送到讀者的 Inbox，廣告收益也較高，有些記者或作者的 Mail List 甚至是付費才能加入的，這大概是更加親密的 Patreon 吧。
 
-第二，就是自架網站。以往架站有一定固定成本，網址 Domain 的每年續約費用再加上寄存 Hosting 的開支。Netlify 的出現卻讓靜態網頁找到一個免費的家，只要駁上程式碼 repo 如 Github，就可以自動發佈。而 Gatsby 就是一個以 React 為本的新的網頁框架，可以接駁不同 CMS 或直接打 Code 製作自己的網誌或作品集。
+第二，就是自架網站。以往架站有一定固定成本，網址 Domain 的每年續約費用再加上寄存 Hosting 的開支。Netlify 的出現卻讓靜態網頁找到一個免費的家，只要駁上程式碼 repo 如 Github，就可以自動發佈。而 Gatsby 就是一個以 React 為本的新的靜態網頁框架（Static Site Generator），可以接駁不同 CMS 或直接打 Code 製作自己的網誌或作品集。
 
 轉到個人網站有幾個好處，首先是客製化，網頁的自由度大，有更強的辨認度，比起文章放在 Medium 跟全世界其他作者一式一樣好了。
 
 Medium 倒只是一個發佈及社交平台，用作更多 backlink 和獲得更高 SEO 排名的方法。最終 call to action 的地方，還是全盤自己控制的個人網頁。而外國不少 coder 和 designer 也由 Medium 轉到自己網頁，畢竟 Medium pivot 成付費平台後也不再是原本的 CMS 的概念。
 
-所以現在主站 DesktopofSamuel.com 就是英語版，有自己設計的作品集和自我介紹。副站 Notes.DesktopofSamuel.com 就是新的中文網誌。新網誌希望開始寫多一點自己日常生活在科技的嘗試，開展不同的寫作計劃，如 Paul Stamatiou 個人網頁的我的器材頁。大部分文章還是會發佈到 Medium ，但你亦可以用 Feedly 或其他 App 訂閱我的 RSS。
+所以現在主站 [DesktopofSamuel.com](https://www.desktopofsamuel.com) 就是英語版，有自己設計的作品集和自我介紹。副站 Notes.DesktopofSamuel.com 就是新的中文網誌。新網誌希望開始寫多一點自己日常生活在科技的嘗試，開展不同的寫作計劃，如 Paul Stamatiou 我的器材頁。大部分文章還是會發佈到 Medium ，但你亦可以用 Feedly 或其他 App 訂閱我的 RSS。
 
 ## 匯出 Medium 和 Wordpress 文章至 Markdown
 
@@ -55,31 +63,33 @@ Medium 倒只是一個發佈及社交平台，用作更多 backlink 和獲得更
 
 ### 如何從 Wordpress 匯入 Markdown 文章
 
-我們會使用 Will Boyd 開發的 Wordpress Export To Markdown。他的 script 體貼仔細支援不同 folder 的建立格式及相片下載。如果已經有 Node.js 、NPM 和 Git 可以跳過第 2 和第 3 步。
+我們會使用 Will Boyd 開發的 [Wordpress Export To Markdown](https://github.com/lonekorean/wordpress-export-to-markdown)。他的 script 體貼仔細支援不同 folder 的建立格式及相片下載。如果已經有 Node.js 、NPM 和 Git 可以跳過第 2 和第 3 步。
+
+![](/media/wordpress-export-20200511.png)
 
 1.  Wordpress 匯出
     要從 Wordpress 匯入 Markdown 文章，先在自己的 Wordpress 匯出，選「所有內容」的 XML 檔，然後更名為 `export.xml`。
 2.  安裝 Node.js 和 npm
     這段 script 是用 Node.js 寫的，所以先需要下載 Node.js。我建議是 下載 NVM （Node Version Manger）(Windows, Mac / Linux) NVM 的好處是比較容易讓你轉換不同 Node.js 的版本，如這 script 需要 Node.js v12.14（我原本 Node.js 是 v10 然後便發生錯誤）。或想簡單一點就到 Node.js 下載。
 
-	1. 打開 CMD，然後輸入 `nvm` 測試是否安裝好
-	2. 輸入 `nvm install v12.14.0` 開始下載
-	3. 輸入 `nvm use v12.14.0` 開始使用
-	4. 輸入 `node -v` 檢查版本是否 v12.14
+    1.  打開 CMD，然後輸入 `nvm` 測試是否安裝好
+    2.  輸入 `nvm install v12.14.0` 開始下載
+    3.  輸入 `nvm use v12.14.0` 開始使用
+    4.  輸入 `node -v` 檢查版本是否 v12.14
 
 3.  下載 Script
 
-     1. 在 Github 按緣色按鍵下載 Zip 檔，或直接 `git clone https://github.com/lonekorean/wordpress-export-to-markdown`
-     2. 用 ` cd ../` 轉到下載的位置 如 `cd C:\Users\Samuel\Downloads`
-     3. 再轉到 `cd wordpress-export-to-markdown` 的 folder
-     4. 複製剛才在 Wordpress Export 的 `export.xml` 檔到同一 folder 內
+    1.  在 Github 按緣色按鍵下載 Zip 檔，或直接 `git clone https://github.com/lonekorean/wordpress-export-to-markdown`
+    2.  用 `cd ../` 轉到下載的位置 如 `cd C:\Users\Samuel\Downloads`
+    3.  再轉到 `cd wordpress-export-to-markdown` 的 folder
+    4.  複製剛才在 Wordpress Export 的 `export.xml` 檔到同一 folder 內
 
 4.  運行 Script
 
-     1.  先安裝這段 script 需要的 dependencies，輸入 `npm install`
-     2. 再運行 script `node index.js`
-     3. Script 將會問幾條問題作設定，如 xml 檔名，output 的 folder 名，是否需要按年月日分開 folder，是否下載所有相片
-     4. 若跟隨我用 Gatsby-Starter-Lumen，最好跟回 Netlify CMS 的格式（不分日期，只加日期於檔名前，下載所有圖片）
+    1.  先安裝這段 script 需要的 dependencies，輸入 `npm install`
+    2.  再運行 script `node index.js`
+    3.  Script 將會問幾條問題作設定，如 xml 檔名，output 的 folder 名，是否需要按年月日分開 folder，是否下載所有相片
+    4.  若跟隨我用 Gatsby-Starter-Lumen，最好跟回 Netlify CMS 的格式（不分日期，只加日期於檔名前，下載所有圖片）
 
 ### 如何從 Medium 匯入 Markdown 文章
 
