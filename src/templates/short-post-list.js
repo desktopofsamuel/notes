@@ -11,7 +11,7 @@ import type { AllMarkdownRemark } from "../types";
 
 type Props = {
   data: AllMarkdownRemark,
-  pageContext: PageContext
+  pageContext: PageContext,
 };
 
 const ShortPostList = ({ data, pageContext }: Props) => {

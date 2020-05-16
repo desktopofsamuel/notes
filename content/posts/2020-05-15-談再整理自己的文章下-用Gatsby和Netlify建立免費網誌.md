@@ -6,6 +6,14 @@ template: post
 draft: false
 category: "桌面"
 socialImage: "/media/0_7mFG5Gf-8jEdpIpH.jpg"
+tags:
+  - Markdown
+  - Medium
+  - Wordpress
+  - 網誌
+  - Gatsby
+  - React
+  - Static Site Generator
 ---
 
 ![Photo by [Jess Bailey](https://unsplash.com/@jessbailey?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)](/media/0_7mFG5Gf-8jEdpIpH.jpg)
