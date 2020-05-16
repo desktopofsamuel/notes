@@ -12,7 +12,8 @@ type Props = {
   description?: string,
   socialImage?: string,
   slug?: string,
-  isPost: boolean
+  isPost: boolean,
+  keywords: Array<string>,
 };
 
 const Layout = ({
@@ -21,13 +22,14 @@ const Layout = ({
   description,
   socialImage,
   slug,
-  isPost
+  keywords,
+  isPost,
 }: Props) => {
   const { author, url, title: siteTitle } = useSiteMetadata();
   const metaImage = socialImage != null ? socialImage : author.photo;
   const metaImageUrl = url + withPrefix(metaImage);
   const metaUrl = url + slug;
-  const type = isPost != true ? "website" : "article";
+  const type = isPost !== true ? "website" : "article";
 
   return (
     <div className={styles.layout}>
@@ -36,6 +38,7 @@ const Layout = ({
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta name="image" content={metaImageUrl} />
+        <meta name="keywords" content={keywords} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:url" content={metaUrl} />

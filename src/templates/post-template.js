@@ -8,8 +8,8 @@ import type { MarkdownRemark } from "../types";
 
 type Props = {
   data: {
-    markdownRemark: MarkdownRemark
-  }
+    markdownRemark: MarkdownRemark,
+  },
 };
 
 const PostTemplate = ({ data }: Props) => {
@@ -17,11 +17,14 @@ const PostTemplate = ({ data }: Props) => {
   const { frontmatter } = data.markdownRemark;
   const postSlug = data.markdownRemark.fields.slug;
   const { title: postTitle, description: postDescription } = frontmatter;
+  const postTags = frontmatter.tags;
   const metaImage = frontmatter.socialImage
     ? frontmatter.socialImage.childImageSharp.fluid.src
     : null;
   const metaDescription =
     postDescription !== null ? postDescription : data.markdownRemark.excerpt;
+
+  console.log(postTags);
 
   return (
     <Layout
@@ -29,6 +32,7 @@ const PostTemplate = ({ data }: Props) => {
       description={metaDescription}
       socialImage={metaImage}
       slug={postSlug}
+      keywords={postTags}
       isPost
     >
       <Post post={data.markdownRemark} />
