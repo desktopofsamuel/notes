@@ -12,7 +12,10 @@ module.exports = async (graphql, actions) => {
     {
       allMarkdownRemark(
         filter: {
-          frontmatter: { template: { eq: "post" }, draft: { ne: true } }
+          frontmatter: {
+            template: { in: ["post", "digest"] }
+            draft: { ne: true }
+          }
         }
       ) {
         group(field: frontmatter___tags) {
@@ -23,7 +26,7 @@ module.exports = async (graphql, actions) => {
     }
   `);
 
-  _.each(result.data.allMarkdownRemark.group, tag => {
+  _.each(result.data.allMarkdownRemark.group, (tag) => {
     const numPages = Math.ceil(tag.totalCount / postsPerPage);
     const tagSlug = `/tag/${_.kebabCase(tag.fieldValue)}`;
 
@@ -40,8 +43,8 @@ module.exports = async (graphql, actions) => {
           prevPagePath: i <= 1 ? tagSlug : `${tagSlug}/page/${i - 1}`,
           nextPagePath: `${tagSlug}/page/${i + 1}`,
           hasPrevPage: i !== 0,
-          hasNextPage: i !== numPages - 1
-        }
+          hasNextPage: i !== numPages - 1,
+        },
       });
     }
   });

@@ -4,8 +4,6 @@ title: 設計紀錄片每週免費放送 —  《Helvetica》
 slug: 設計紀錄片每週免費放送-helvetica
 draft: false
 date: 2020-03-19T02:30:42.254Z
-socialImage: /media/Helvetica-film.jpeg
-externalImage: 'https://upload.wikimedia.org/wikipedia/en/d/d4/Helvetica-film.JPG'
 url: 'https://www.ohyouprettythings.com/free'
 tags:
   - 字體
