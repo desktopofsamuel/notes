@@ -5,7 +5,9 @@
   width: 100%;
   &__inner {
     position: relative;
-    padding: 25px 20px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px 20px;
   }
 }
 
@@ -13,6 +15,7 @@
   .sidebar {
     lost-column: 5/12;
     &__inner {
+      display: block;
       padding: 30px 20px 0;
       &:after {
         background: $color-gray-border;
