@@ -11,7 +11,7 @@ import type { AllMarkdownRemark, PageContext } from "../types";
 
 type Props = {
   data: AllMarkdownRemark,
-  pageContext: PageContext
+  pageContext: PageContext,
 };
 
 const TagTemplate = ({ data, pageContext }: Props) => {
@@ -24,7 +24,7 @@ const TagTemplate = ({ data, pageContext }: Props) => {
     prevPagePath,
     nextPagePath,
     hasPrevPage,
-    hasNextPage
+    hasNextPage,
   } = pageContext;
 
   const { edges } = data.allMarkdownRemark;
@@ -63,7 +63,7 @@ export const query = graphql`
       filter: {
         frontmatter: {
           tags: { in: [$tag] }
-          template: { eq: "post" }
+          template: { in: ["post", "digest"] }
           draft: { ne: true }
         }
       }
