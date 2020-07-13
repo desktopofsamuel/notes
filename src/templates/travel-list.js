@@ -9,7 +9,7 @@ import { useSiteMetadata } from "../hooks";
 import type { AllMarkdownRemark } from "../types";
 
 type Props = {
-  data: AllMarkdownRemark
+  data: AllMarkdownRemark,
 };
 
 const TravelList = ({ data }: Props) => {
@@ -37,6 +37,7 @@ export const query = graphql`
           template: { eq: "post" }
           draft: { ne: true }
           category: { eq: "地圖" }
+          socialImage: { id: { ne: null } }
         }
       }
       sort: { order: DESC, fields: [frontmatter___date] }
@@ -56,7 +57,7 @@ export const query = graphql`
             socialImage {
               childImageSharp {
                 fluid(maxHeight: 500) {
-                  ...GatsbyImageSharpFluid
+                  src
                 }
               }
             }

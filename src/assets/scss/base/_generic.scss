@@ -198,3 +198,8 @@ time {
     transform: translateX(-50%);
   }
 }
+
+::selection {
+  background: none;
+  color: $color-primary;
+}

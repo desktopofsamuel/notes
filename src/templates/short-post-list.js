@@ -11,7 +11,7 @@ import type { AllMarkdownRemark } from "../types";
 
 type Props = {
   data: AllMarkdownRemark,
-  pageContext: PageContext
+  pageContext: PageContext,
 };
 
 const ShortPostList = ({ data, pageContext }: Props) => {
@@ -20,9 +20,8 @@ const ShortPostList = ({ data, pageContext }: Props) => {
   return (
     <Layout title={`#地圖 | ${siteTitle}`} description={siteSubtitle}>
       <Sidebar isIndex />
-      <Page>
+      <Page title="#Digest">
         <div>
-          <h1>#Digest</h1>
           <Link to="/digest-rss.xml">訂閱</Link>
         </div>
         <DigestHeader>

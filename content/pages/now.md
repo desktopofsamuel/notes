@@ -17,13 +17,17 @@ socialImage: /media/image-2.jpg
 
 ### 最近喜愛的東西 Recent Favorites
 
-* [Make Time](https://www.bookdepository.com/Make-Time-Jake-Knapp/9780593079584?ref=grid-view&a_aid=desktopofsamuel)
+* Apple TV+ 的劇集 [Mythic Quest: Raven's Banquet](https://www.youtube.com/watch?v=pMaPCYRPhY0)，因COVID-19更拍了演員劇組各自有在家拍攝及籌備製作的《Panademic》。
+* 受 macOS Big Sur 啟發，更加精美細緻的 [Icon Set](https://twitter.com/Gavmn/status/1281254466751270912)
+* 最近在聽 [Thao & The Get Down Stay Down](https://open.spotify.com/album/3SYjUBg5uOq779VJh3jRb5?si=4zcXBAleRaq-YvlMuStcQA)
+  
+<!-- * [Make Time](https://www.bookdepository.com/Make-Time-Jake-Knapp/9780593079584?ref=grid-view&a_aid=desktopofsamuel)
 * Bojack Horseman 和 The Good Place 的大結局
-* 最近在聽[The Big Moon](https://open.spotify.com/artist/0KU55rzxAihPhi27MAuz9O)和[Andrew Bird](https://www.npr.org/2016/05/25/479454859/andrew-bird-tiny-desk-concert)
+* 最近在聽[The Big Moon](https://open.spotify.com/artist/0KU55rzxAihPhi27MAuz9O)和[Andrew Bird](https://www.npr.org/2016/05/25/479454859/andrew-bird-tiny-desk-concert) -->
 
 ### 2020 的年度目標 Resolutions
 
-* 每月至少看兩套紀錄片（[紀錄片分享](/tag/documentary)及[電影紀錄](https://letterboxd.com/samuelisme/)）
+* 每月至少看兩套紀錄片（[紀錄片分享](https://desktopofsamuel.com/tags/documentary)及[電影紀錄](https://letterboxd.com/samuelisme/)）
 * 每月至少看一本書
 * 每天要持續寫作
 

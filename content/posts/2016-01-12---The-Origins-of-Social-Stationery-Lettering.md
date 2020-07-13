@@ -1,11 +1,14 @@
 ---
-title: The Origins of Social Stationery Lettering
-date: "2016-12-01T22:40:32.169Z"
 template: post
-draft: false
-slug: "the-origins-of-social-stationery-lettering"
-category: "Design Culture"
-socialImage: "/media/image-3.jpg"
+title: The Origins of Social Stationery Lettering
+slug: the-origins-of-social-stationery-lettering
+draft: true
+date: '2016-12-01T22:40:32.169Z'
+description: The Origins of Social Stationery Lettering
+category: Design Culture
+socialImage: /media/image-3.jpg
+tags:
+  - Tags
 ---
 
 **Pellentesque habitant morbi tristique** senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. _Aenean ultricies mi vitae est._ Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.

@@ -14,22 +14,26 @@ module.exports = {
   menu: [
     {
       label: "所有文章",
-      path: "/"
+      path: "/",
     },
     {
       label: "關於",
-      path: "/pages/now"
+      path: "/pages/now",
     },
     {
       label: "#地圖",
-      path: "/travel/"
-    }
+      path: "/pages/travel/",
+    },
+    {
+      label: "Digest",
+      path: "/pages/digest/",
+    },
   ],
   category: [
     {
       label: "#筆記",
-      path: "/category/筆記本/"
-    }
+      path: "/category/筆記本/",
+    },
   ],
   author: {
     name: "Samuel W.",
@@ -53,7 +57,7 @@ module.exports = {
       codepen: "",
       youtube: "",
       vkontakte: "",
-      soundcloud: ""
-    }
-  }
+      soundcloud: "",
+    },
+  },
 };
