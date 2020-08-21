@@ -6,27 +6,28 @@ import Sidebar from "../components/Sidebar";
 import Page from "../components/Page";
 import { useSiteMetadata } from "../hooks";
 import type { MarkdownRemark } from "../types";
+import OpenGraph from "../../static/opengraph.png";
 
 type Props = {
   data: {
-    markdownRemark: MarkdownRemark
-  }
+    markdownRemark: MarkdownRemark,
+  },
 };
 
 const PageTemplate = ({ data }: Props) => {
   const {
     title: siteTitle,
     subtitle: siteSubtitle,
-    description: siteDescription
+    description: siteDescription,
   } = useSiteMetadata();
   const { html: pageBody } = data.markdownRemark;
   const { frontmatter } = data.markdownRemark;
   const postSlug = data.markdownRemark.fields.slug;
-  const {
-    title: pageTitle,
-    description: pageDescription,
-    socialImage
-  } = frontmatter;
+  const { title: pageTitle, description: pageDescription } = frontmatter;
+  const metaImage =
+    frontmatter.socialImage !== null
+      ? frontmatter.socialImage.childImageSharp.fluid.src
+      : OpenGraph;
   const metaDescription =
     pageDescription !== null ? pageDescription : siteDescription;
 
@@ -34,7 +35,7 @@ const PageTemplate = ({ data }: Props) => {
     <Layout
       title={`${pageTitle} | ${siteTitle} | ${siteSubtitle}`}
       description={metaDescription}
-      socialImage={socialImage}
+      socialImage={metaImage}
       slug={postSlug}
     >
       <Sidebar />
@@ -57,7 +58,13 @@ export const query = graphql`
         title
         date
         description
-        # socialImage
+        socialImage {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

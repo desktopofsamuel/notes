@@ -8,17 +8,18 @@ import Page from "../components/Page";
 import Pagination from "../components/Pagination";
 import { useSiteMetadata } from "../hooks";
 import type { PageContext, AllMarkdownRemark } from "../types";
+import OpenGraph from "../../static/opengraph.png";
 
 type Props = {
   data: AllMarkdownRemark,
-  pageContext: PageContext
+  pageContext: PageContext,
 };
 
 const IndexTemplate = ({ data, pageContext }: Props) => {
   const {
     title: siteTitle,
     subtitle: siteSubtitle,
-    description: siteDescription
+    description: siteDescription,
   } = useSiteMetadata();
 
   const {
@@ -26,7 +27,7 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
     hasNextPage,
     hasPrevPage,
     prevPagePath,
-    nextPagePath
+    nextPagePath,
   } = pageContext;
 
   const { edges } = data.allMarkdownRemark;
@@ -39,6 +40,7 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
     <Layout
       title={`${pageTitle} | ${siteSubtitle}`}
       description={siteDescription}
+      socialImage={OpenGraph}
       slug="/"
     >
       <Sidebar isIndex />
