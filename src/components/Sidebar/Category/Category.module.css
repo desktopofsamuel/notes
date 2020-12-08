@@ -39,22 +39,22 @@
 .category__list-item-link {
   display: inline-block;
   padding: 8px 16px;
-  background: #e6f2ff;
+  background: #b3ecff;
   border-radius: 8px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   font-size: 16px;
-  color: #007aff;
+  color: #09c;
   font-weight: normal;
   border: 0;
 }
 
 .category__list-item-link:hover, .category__list-item-link:focus {
-  background: #dbecff;
-  color: #0062cc;
+  background: #a8e9ff;
+  color: #007399;
 }
 
 .category__list-item-link--active {
-  color: #007aff;
+  color: #09c;
 }
 /*# sourceMappingURL=Category.module.css.map */

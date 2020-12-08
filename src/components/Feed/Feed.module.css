@@ -71,13 +71,13 @@
 
 .feed__item-readmore {
   font-size: 14px;
-  color: #007aff;
+  color: #09c;
   letter-spacing: 1px;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
 
 .feed__item-readmore:hover, .feed__item-readmore:focus {
-  color: #007aff;
-  border-bottom: 1px solid #007aff;
+  color: #09c;
+  border-bottom: 1px solid #09c;
 }
 /*# sourceMappingURL=Feed.module.css.map */

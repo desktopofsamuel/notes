@@ -37,4 +37,4 @@ draft: false
 
 ## 這個網站 This Site
 
-這個網站是用 [GatsbyJS](https://www.gatsbyjs.com/) 寫的，架在 [Netlify](www.netlify.com) 上，用的 starter 是 [Gatsby Starter Lumen](https://www.gatsbyjs.org/starters/alxshelepenok/gatsby-starter-lumen/) 。詳細架站指南和研究在[Gatsby 系列](/tag/gatsby/)參閱。
+這個網站是用 [GatsbyJS](https://www.gatsbyjs.com/) 寫的，架在 [Netlify](https://www.netlify.com) 上，用的 starter 是 [Gatsby Starter Lumen](https://www.gatsbyjs.org/starters/alxshelepenok/gatsby-starter-lumen/) 。詳細架站指南和研究在[Gatsby 系列](/tag/gatsby/)參閱。

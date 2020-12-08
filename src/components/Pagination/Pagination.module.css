@@ -32,7 +32,7 @@
 }
 
 .pagination__prev-link:hover, .pagination__prev-link:focus {
-  color: #007aff;
+  color: #09c;
 }
 
 .pagination__prev-link--disable {
@@ -52,7 +52,7 @@
 }
 
 .pagination__next-link:hover, .pagination__next-link:focus {
-  color: #007aff;
+  color: #09c;
 }
 
 .pagination__next-link--disable {

@@ -58,7 +58,7 @@
 
 .feed__item-url {
   font-size: 14px;
-  color: #007aff;
+  color: #09c;
   width: 20px;
   height: 20px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -73,7 +73,7 @@
 }
 
 .feed__item-url:hover, .feed__item-url:focus {
-  background-color: #007aff;
+  background-color: #09c;
   color: #fff;
 }
 

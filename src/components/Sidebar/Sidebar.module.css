@@ -19,7 +19,11 @@
 
 .sidebar__inner {
   position: relative;
-  padding: 25px 20px 80px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  padding: 25px 20px;
 }
 
 @media screen and (min-width: 685px) {
@@ -27,6 +31,7 @@
     lost-column: 5/12;
   }
   .sidebar__inner {
+    display: block;
     padding: 30px 20px 0;
   }
   .sidebar__inner:after {

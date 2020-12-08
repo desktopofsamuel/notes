@@ -34,7 +34,6 @@
   }
 
   &__body {
-    
     & figure {
       @include margin-bottom(1);
 
@@ -59,13 +58,8 @@
     }
 
     & * {
-      max-width: $layout-post-width;
       margin-left: auto;
       margin-right: auto;
-    }
-
-    & img {
-      max-width: 100%;
     }
   }
 }
