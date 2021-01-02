@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "ACAA;;GAEG;AEFH;;GAEG;ACFH;;GAEG;ACFH;;GAEG;ACFH;;GAEG;ANCH,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,OAAyB;EAChC,SAAS,ECsBmB,IAAI;EDnB9B,OAAO,EAAE,IAAI;CAEhB",
+    "mappings": "ACAA;;GAEG;AEFH;;GAEG;ACFH;;GAEG;ACFH;;GAEG;ACFH;;GAEG;ANCH,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,OAAyB;EAChC,SAAS,ECwBmB,IAAI;EDrB9B,OAAO,EAAE,IAAI;CAEhB",
     "sources": [
         "Copyright.module.scss",
         "../../../assets/scss/_variables.scss",
