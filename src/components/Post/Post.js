@@ -9,7 +9,7 @@ import styles from "./Post.module.scss";
 import type { Node } from "../../types";
 
 type Props = {
-  post: Node
+  post: Node,
 };
 
 const Post = ({ post }: Props) => {
@@ -20,7 +20,7 @@ const Post = ({ post }: Props) => {
   return (
     <div className={styles["post"]}>
       <Link className={styles["post__home-button"]} to="/">
-        All Articles
+        所有文章
       </Link>
 
       <div className={styles["post__content"]}>

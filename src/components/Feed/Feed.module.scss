@@ -66,12 +66,15 @@
       font-size: $typographic-small-font-size;
       color: $color-primary;
       letter-spacing: 1px;
+      padding: 8px 12px;
       border-bottom: 1px solid $color-transparent;
+      margin-left: -12px;
+      border-radius: 4px;
 
       &:hover,
       &:focus {
         color: $color-primary;
-        border-bottom: 1px solid $color-primary;
+        background-color: $color-primary-background;
       }
     }
   }
