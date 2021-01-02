@@ -46,32 +46,29 @@
   margin-top: 13px;
 }
 
-.content__body figure {
+.content__body {
   margin-bottom: 26px;
-}
-
-.content__body figure blockquote {
-  font-style: italic;
-  text-align: center;
-  margin-top: 0;
-  padding: 26px 0px;
-}
-
-.content__body figure blockquote p {
   max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content__body p {
   font-size: 26.9072px;
   margin-top: 0;
   margin-bottom: 26px;
   line-height: 39px;
 }
 
-.content__body a {
-  border-bottom: 1px dotted #09c;
+.content__body blockquote {
+  font-style: italic;
+  text-align: center;
+  margin-top: 0;
+  padding: 26px 0px;
 }
 
-.content__body * {
-  margin-left: auto;
-  margin-right: auto;
+.content__body a {
+  border-bottom: 1px dotted #09c;
 }
 
 @media screen and (min-width: 960px) {
