@@ -7,7 +7,7 @@ category: "遙控"
 slug: "the-expanse"
 tags:
   - "Netflix 推介"
-  - "TheExpanse"
+  - "The Expanse"
 ---
 
 ![The Exapnse](/media/57e97-18hdevtppr9nzvmbqn5gaca.jpeg)

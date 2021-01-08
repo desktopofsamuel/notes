@@ -23,9 +23,8 @@ const PostTemplate = ({ data }: Props) => {
     : null;
   const metaDescription =
     postDescription !== null ? postDescription : data.markdownRemark.excerpt;
-
-  console.log(postTags);
-
+  // console.log(postTags);
+  // console.log(metaImage);
   return (
     <Layout
       title={`${postTitle} | ${siteTitle} | ${siteSubtitle}`}
