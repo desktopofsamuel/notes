@@ -24,6 +24,10 @@ module.exports = {
       label: "#地圖",
       path: "/pages/travel/",
     },
+    {
+      label: "#遙控",
+      path: "/category/遙控/",
+    },
   ],
   category: [
     {
