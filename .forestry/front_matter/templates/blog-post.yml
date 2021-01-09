@@ -1,0 +1,28 @@
+---
+label: Blog Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: slug
+  label: slug
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: template
+  label: template
+- type: boolean
+  name: draft
+  label: draft
+- type: text
+  name: category
+  label: category
+- type: file
+  name: socialImage
+  label: socialImage
+- type: list
+  name: tags
+  label: tags

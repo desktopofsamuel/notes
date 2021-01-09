@@ -7,7 +7,6 @@ sections:
 - type: document
   path: content/pages
   label: Pages
-  match: "**/*"
 - type: directory
   path: content/posts
   label: Blog
