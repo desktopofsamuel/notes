@@ -30,3 +30,5 @@ fields:
 - type: list
   name: tags
   label: tags
+pages:
+- content/posts/西維爾的日子.md
