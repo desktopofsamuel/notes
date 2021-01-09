@@ -7,7 +7,8 @@ category: "遙控"
 slug: "bojack-horseman"
 tags:
   - "Netflix 推介"
-  - "BojackHorseman"
+  - "Bojack Horseman"
+  - 美劇
 ---
 
 ![](/media/4bdbf-19vfsd9iaxxv00mphxfyoiq.jpeg)
