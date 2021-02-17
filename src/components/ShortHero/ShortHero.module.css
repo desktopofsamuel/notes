@@ -62,7 +62,7 @@
 }
 
 .feed__item-title:hover + .feed__item-url {
-  background-color: #09c;
+  background-color: #0077cc;
   color: #fff;
 }
 
@@ -80,7 +80,7 @@
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  color: #09c;
+  color: #0077cc;
   min-width: 28px;
   min-height: 28px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -92,7 +92,7 @@
 }
 
 .feed__item-url:hover, .feed__item-url:focus {
-  background-color: #007399;
+  background-color: #005999;
   color: #fff;
 }
 
@@ -126,7 +126,7 @@
     display: block;
   }
   .feed__item-url {
-    color: #09c;
+    color: #0077cc;
     background-color: rgba(255, 255, 255, 0);
     border: none;
   }

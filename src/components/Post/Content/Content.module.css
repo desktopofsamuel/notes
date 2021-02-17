@@ -34,7 +34,7 @@
 }
 
 .content__meta-date:hover, .content__meta-date:focus {
-  border-bottom: 1px dotted #09c;
+  border-bottom: 1px dotted #0077cc;
 }
 
 .content__meta-title {
@@ -42,7 +42,7 @@
   font-weight: 600;
   text-align: left;
   line-height: 42.9px;
-  margin-bottom: 0px;
+  margin-bottom: 52px;
   margin-top: 13px;
 }
 
@@ -54,10 +54,9 @@
 }
 
 .content__body p {
-  font-size: 26.9072px;
-  margin-top: 0;
-  margin-bottom: 26px;
-  line-height: 39px;
+  font-size: 17.6px;
+  line-height: 33.8px;
+  margin-bottom: 29.25px;
 }
 
 .content__body blockquote {
@@ -68,7 +67,7 @@
 }
 
 .content__body a {
-  border-bottom: 1px dotted #09c;
+  border-bottom: 1px dotted #0077cc;
 }
 
 @media screen and (min-width: 960px) {
@@ -76,7 +75,7 @@
     padding: 0;
   }
   .content__meta {
-    margin-top: 58.5px;
+    margin-top: 52px;
   }
   .content__meta-title {
     font-size: 32px;
@@ -91,7 +90,7 @@
   }
   .content__body p {
     font-size: 18px;
-    line-height: 29.25px;
+    line-height: 31.2px;
     margin-bottom: 29.25px;
   }
 }

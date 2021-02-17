@@ -5,6 +5,17 @@ slug: changelog
 draft: false
 ---
 
+## [1.0.3] - 2021-02-17
+
+### FIXED
+
+- Mobile font type too big
+
+### CHANGED
+
+- Matched accent color with main site
+-
+
 ## [1.0.2] - 2020-03-29
 
 ### FIXED

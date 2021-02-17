@@ -32,7 +32,7 @@
       font-size: $typographic-base-font-size;
       font-weight: 400;
       color: $color-blue-gray;
-      @include line-height(1);
+      @include line-height(1.125);
       @include margin-bottom(0.75);
     }
 
