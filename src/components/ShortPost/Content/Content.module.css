@@ -34,7 +34,7 @@
 }
 
 .content__meta-date:hover, .content__meta-date:focus {
-  border-bottom: 1px dotted #09c;
+  border-bottom: 1px dotted #0077cc;
 }
 
 .content__meta-title {
@@ -59,14 +59,14 @@
 
 .content__body figure blockquote p {
   max-width: 640px;
-  font-size: 26.9072px;
+  font-size: 16px;
   margin-top: 0;
   margin-bottom: 26px;
-  line-height: 39px;
+  line-height: 31.2px;
 }
 
 .content__body a {
-  border-bottom: 1px dotted #09c;
+  border-bottom: 1px dotted #0077cc;
 }
 
 .content__body * {

@@ -43,8 +43,8 @@
 }
 
 .menu__list-item-link:hover, .menu__list-item-link:focus {
-  color: #09c;
-  border-bottom: 1px solid #09c;
+  color: #0077cc;
+  border-bottom: 1px solid #0077cc;
 }
 
 .menu__list-item-link--active {

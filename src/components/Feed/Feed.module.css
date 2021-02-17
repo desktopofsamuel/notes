@@ -43,7 +43,7 @@
   font-size: 16px;
   font-weight: 400;
   color: #485069;
-  line-height: 26px;
+  line-height: 29.25px;
   margin-bottom: 19.5px;
 }
 
@@ -71,7 +71,7 @@
 
 .feed__item-readmore {
   font-size: 14px;
-  color: #09c;
+  color: #0077cc;
   letter-spacing: 1px;
   padding: 8px 12px;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
@@ -80,7 +80,7 @@
 }
 
 .feed__item-readmore:hover, .feed__item-readmore:focus {
-  color: #09c;
+  color: #0077cc;
   background-color: #ecfaff;
 }
 /*# sourceMappingURL=Feed.module.css.map */
