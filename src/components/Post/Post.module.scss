@@ -10,6 +10,11 @@
 
   &__content {
     position: relative;
+
+    p,
+    li {
+      color: $color-blue-gray;
+    }
   }
 
   &__comments {

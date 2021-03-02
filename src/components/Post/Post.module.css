@@ -23,6 +23,11 @@
   position: relative;
 }
 
+.post__content p,
+.post__content li {
+  color: #485069;
+}
+
 .post__comments {
   max-width: 640px;
   margin: 0 auto;

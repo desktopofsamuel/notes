@@ -26,7 +26,7 @@ h4,
 h5,
 h6 {
   font-family: $typographic-font-family;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 h1 {
@@ -169,6 +169,15 @@ time {
   font-weight: 600;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+}
+
+kbd {
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px lighten($color-blue-gray, 50%) solid;
+  background-color: $color-gray-bg;
+  margin: 0 2px;
+  font-family: $typographic-font-family;
 }
 
 @include breakpoint-sm {
