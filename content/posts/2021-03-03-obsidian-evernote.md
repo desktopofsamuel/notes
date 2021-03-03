@@ -20,7 +20,9 @@ Obsidian 是 2021 年初的新嘗試，Obsidian 是一個十分 Indie 的筆記�
 
 Obsidian 的所有筆記以 Markdown 格式儲存，Markdown 是近年來大熱的標記語言，以易讀的符號標示文章的不同格式，如 Bold、Italic、大小標題、引文等等。Notion 、Bear 等也使用 Markdown 語法。另外，Obsidian 也用雙引號`[[Example]]`標示內部的互文。使用 Markdown 也方便我上載相關檔案到 [Gatsby 網誌](https://notes.desktopofsamuel.com/posts/%E8%AB%87%E5%86%8D%E6%95%B4%E7%90%86%E8%87%AA%E5%B7%B1%E7%9A%84%E6%96%87%E7%AB%A0%E4%B8%8B-%E7%94%A8Gatsby%E5%92%8CNetlify%E5%BB%BA%E7%AB%8B%E5%85%8D%E8%B2%BB%E7%B6%B2%E8%AA%8C)。
 
-### 2. 自訂主題、UI 、Plug-in 以及 CSS
+### 2. 自訂主題、UI 、Plugin 以及 CSS
+
+![](/media/obsidian-theme.png)
 
 Obsidian 安裝 Plugin ，可以簡單增加方便功能。設定當中，亦可選不同的社區製作的顏色主題，支援 Light / Dark Mode。配色想自己動手來的話，甚至可以自行寫 CSS 來修改，自訂度滿分。此外，視窗介面（如 Sidebar、Editor、 Graph View 、 Tags 等等）亦可以自行 Drag & Drop，可以自己介面自己砌。
 
@@ -34,33 +36,37 @@ Obsidian 的筆記全部以 .md 格式儲存於用戶指定的資料夾（名為
 
 ### 5. Zettelkasten 卡片盒筆記法
 
-最重要未提到的，是 Obsdian 背後的重要理念 — Zettelkasten 卡片盒筆記法。卡片盒筆記法是以索引 Index 串連不同卡片大小的筆記，不同關鍵字互相連結成一個網狀的結構。以往 Evernote 只能用列表形式瀏覽屬於同一標籤的筆記。Obsidian 卻有 Graph View 網型關係圖，顯示不同筆記之間的關係。標籤不再是單向的連結，而是透過網型關係建立雙向的知識庫。
+![](/media/graph-view.png)
+
+最重要未提到的，是 Obsdian 背後的重要理念 — Zettelkasten 卡片盒筆記法。卡片盒筆記法是以索引 Index 串連卡片般大的筆記，不同關鍵字互相連結成一個網狀的結構。以往 Evernote 只能用列表形式瀏覽屬於同一標籤的筆記。Obsidian 卻有 Graph View 網型關係圖，顯示不同筆記之間的關係。標籤不再是單向的連結，而是透過網型關係建立雙向的知識庫。
 
 ## 兩個月後：新 Workflow 的簡介和用後感
 
 考慮到 Obsidian 的 Zettelkasten 哲學，直接由 Evernote 轉移所有筆記過來未必是最有效的做法，暫時我的做法是多一層過濾，只把最重要的學習、思考和寫作放在 Obsidian 。另一重點是拆散原本很長的筆記，加入關鍵字、主題和人物，便可集結成知識系統。
 
-現時使用 Obsidian 仍然是過渡期，Evernote 還是乖乖的付費，稍後再決定是否轉用。於我而言，Evernote 收集和瀏覽功能仍較出色和方便。Evernote Clipper 支援大部分瀏覽器，還可以自訂收藏網頁的格式，例如整頁網頁、節錄或簡約文章等等。非 Obsidian 可直接比較。
+現時使用 Obsidian 仍然是過渡期，Evernote 還是乖乖的付費，稍後再決定是否轉用。於我而言，Evernote 收集和瀏覽功能仍較出色和方便。Evernote Clipper 支援大部分瀏覽器，還可以自訂收藏網頁的格式，例如整頁網頁、節錄或簡約文章等等，非 Obsidian 可直接比較。
 
-再者，使用 Google Drive 或 Dropbox 同步 Vault 所在的資料夾，非 100%安全，我亦曾試過於 iCloud Drive 修改一篇筆記，被另一平台較舊的版本覆蓋而失去一整篇寫好的文章，接下來我將示範用 Git 同步 Obsidian。
+再者，使用 Google Drive 或 Dropbox 同步 Vault 所在的資料夾，不是 100%安全，我亦曾試過於 iCloud Drive 修改一篇筆記，結果被另一平台的舊版本覆蓋而失去一整篇文章，所以我只能推介以下的做法，示範用 Git 同步 Obsidian。
 
 ## 如何使用 Git 為 Obsidian 跨平台同步筆記
 
 Obsidian 本身有額外的付費服務 [Obsidian Sync](https://obsidian.md/sync)（現時收費每月 USD\$ 4)，可以輕鬆設定同步。不過，現時 Obsidian 只有桌面版本（Windows, macOS, Linus），手機版本仍在開發中，Sync 未能於手機上使用，月費並不划算。不過，這不代表手機上無法讀寫 Obsidian 的筆記。
 
-先前所言，由於 Obsidian 可自訂 Vault 的位置，加上本身使用 Markdown 檔案格式，只要用雲端服務（如 Dropbox, Google Drive 或 iCloud Drive）同步整個資料夾，就可以配上 Markdown 編輯器 （如 iA Writer, Ulysses, Pretext）讀寫筆記。不過部分 Obsidian 的 Link 和 Tag 功能就暫時不能使用。
+先前所言，由於 Obsidian 可自訂 Vault 的位置，加上本身使用 Markdown 檔案格式，只要用雲端服務（如 Dropbox, Google Drive 或 iCloud Drive）同步整個資料夾，就可以配上 Markdown 編輯器，如 [iA Writer](https://ia.net/writer), [Ulysses](https://ulysses.app/), [Pretext](https://apps.apple.com/us/app/pretext/id1347707000) （需支援 iCloud Drive 的直接修改 Edit In) 功能） 來讀寫筆記。不過 Obsidian 的互文 Link 和 Tag 功能就暫時不能使用。
 
-不過！雲端服務的確簡單易用，不過這些服務非專屬為筆記及文章同步而設，一旦遇到重覆、版本問題，很容易會失去資料，所以今次向大家推薦使用 Git。要留意，如有安全考慮，最好就不要使用此方法。Obsidian 的筆記檔案其實沒有任何加密，才可以開放予不同平台讀取和修改。
+不過！雲端服務雖然簡單易用，不過這些服務非專為筆記及文章同步而設，一旦遇到重覆、版本問題，很容易會失去資料，所以今次向大家推薦使用 Git。要留意，如有安全考慮，最好就不要使用此方法。Obsidian 的筆記檔案其實沒有任何加密，才可以開放予不同平台讀取和修改。
 
 ### 甚麼是 Git?
 
-Git 是軟件工程師用作同步及版本控制程式碼的軟件。正因為它可以比較版本和不同文字檔，讓我們可以追蹤所有變化，不用擔心有任何閃失，加上大多 Git 的桌面平台都是免費的（手機則視乎情況而訂，Working Copy 或 GitJournal 均需一次性付費）
+![](/media/git-branches-merge.png)
+
+Git 是軟件工程師用作同步及版本控制程式碼的軟件。正因為它可以比較版本和不同文字檔，讓我們可以追蹤所有變化，不用擔心有任何閃失，而且大多 Git 的桌面平台都是免費的（手機版本則大多需要一次性付費），不用擔心這個做法會失效。
 
 注：本教學頭 3 步驟均是為 Vault 建立 Github Repository，對 Git 已有一定認識的朋友，直接為 Vault 初始 Git 後，可直接跳到第 4 步作 Git 設定。而且，本教學將避免使用 Command Line，讓大眾
 
 ### 1. 註冊及下載 Github for Desktop
 
-先到 [Github.com](https://github.com/) 註冊帳戶，我們將會透過 Github 同步所有筆記。記得設定 Two Factor Authenticationi 讓帳戶更加安全。然後，下載及安裝 [Github for Desktop](https://desktop.github.com/)，這是 Github 的介面應用，讓我們可以不需 Command Line 進行大部分步驟。
+先到 [Github.com](https://github.com/) 註冊帳戶，我們將會透過 Github 同步所有筆記。記得設定 Two Factor Authentication 讓帳戶更加安全。然後，下載及安裝 [Github for Desktop](https://desktop.github.com/)，這是 Github 的介面應用，讓我們可以不需 Command Line 進行大部分步驟。
 
 ### 2. Github for Desktop 為 Vault 增加 Git 設定
 
@@ -117,7 +123,7 @@ Git 是軟件工程師用作同步及版本控制程式碼的軟件。正因為�
 
 ## 遇到同步問題，要如何解決？
 
-即使設定了更頻繁的同步，仍有機會因不同裝置的版本不一樣，而發生同步的問題，如下圖。這時我們便需要打開 Github for Desktop 解決問題。
+即使設定了更頻繁的同步，仍有機會因不同裝置的版本不一樣，而發生同步的問題，如下圖。這時我們便需要打開 [Github for Desktop](https://desktop.github.com/) 解決問題。
 
 ![Obsidian Git 錯誤的指示不太清晰，不過打開 Github for Desktop 就會顯示問題在哪](/media/obsidian-sync-error.png)
 
