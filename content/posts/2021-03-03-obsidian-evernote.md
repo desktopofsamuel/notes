@@ -94,7 +94,7 @@ Git 是軟件工程師用作同步及版本控制程式碼的軟件。正因為�
 
 登入後再按一次 Publish，這次便會提示要輸入 Github 的 Repo 名（跟第 2 步一樣）和選擇 Repo 是否私人（預設是公開）。最後按 Publish Repository。當 Publish Repo 變成 Fetch Origin ，表示你已經成功上傳 Vault 到 Github 了！
 
-![大功告成](/media/obsidian-github-website.png)
+![成功上載到 Github](/media/obsidian-github-website.png)
 
 ### 4. 安裝 Obsidian Git
 
