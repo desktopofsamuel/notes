@@ -12,29 +12,29 @@ const createPages = async ({ graphql, actions }) => {
   // 404
   createPage({
     path: "/404",
-    component: path.resolve("./src/templates/not-found-template.js"),
+    component: path.resolve("./src/templates/not-found-template.tsx"),
   });
 
   // Tags list
   createPage({
     path: "/tags",
-    component: path.resolve("./src/templates/tags-list-template.js"),
+    component: path.resolve("./src/templates/tags-list-template.tsx"),
   });
 
   // Categories list
   createPage({
     path: "/categories",
-    component: path.resolve("./src/templates/categories-list-template.js"),
+    component: path.resolve("./src/templates/categories-list-template.tsx"),
   });
 
   createPage({
     path: "/pages/travel",
-    component: path.resolve("./src/templates/travel-list.js"),
+    component: path.resolve("./src/templates/travel-list.tsx"),
   });
 
   createPage({
     path: "/pages/digest",
-    component: path.resolve("./src/templates/short-post-list.js"),
+    component: path.resolve("./src/templates/short-post-list.tsx"),
   });
 
   // Posts and pages from markdown
@@ -61,21 +61,21 @@ const createPages = async ({ graphql, actions }) => {
     if (_.get(edge, "node.frontmatter.template") === "page") {
       createPage({
         path: edge.node.fields.slug,
-        component: path.resolve("./src/templates/page-template.js"),
+        component: path.resolve("./src/templates/page-template.tsx"),
         context: { slug: edge.node.fields.slug },
       });
     }
     if (_.get(edge, "node.frontmatter.template") === "digest") {
       createPage({
         path: edge.node.fields.slug,
-        component: path.resolve("./src/templates/short-post-template.js"),
+        component: path.resolve("./src/templates/short-post-template.tsx"),
         context: { slug: edge.node.fields.slug },
       });
     }
     if (_.get(edge, "node.frontmatter.template") === "post") {
       createPage({
         path: edge.node.fields.slug,
-        component: path.resolve("./src/templates/post-template.js"),
+        component: path.resolve("./src/templates/post-template.tsx"),
         context: { slug: edge.node.fields.slug },
       });
     }

@@ -5,7 +5,7 @@ import Author from "./Author";
 import Comments from "./Comments";
 import Content from "./Content";
 import Tags from "./Tags";
-import styles from "./ShortPost.module.scss";
+import * as styles from "./ShortPost.module.scss";
 import type { Node } from "../../types";
 
 type Props = {

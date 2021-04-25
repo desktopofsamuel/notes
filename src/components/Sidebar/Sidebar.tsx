@@ -5,19 +5,19 @@ import Contacts from "./Contacts";
 import Copyright from "./Copyright";
 import Menu from "./Menu";
 import Category from "./Category";
-import styles from "./Sidebar.module.scss";
+import { sidebar } from "./Sidebar.module.scss";
 import { useSiteMetadata } from "../../hooks";
 
 type Props = {
-  isIndex?: boolean,
+  isIndex?: boolean;
 };
 
 const Sidebar = ({ isIndex }: Props) => {
   const { author, copyright, menu, category } = useSiteMetadata();
 
   return (
-    <div className={styles["sidebar"]}>
-      <div className={styles["sidebar__inner"]}>
+    <div className={sidebar["sidebar"]}>
+      <div className={sidebar["sidebar__inner"]}>
         <Author author={author} isIndex={isIndex} />
         <Menu menu={menu} />
         <Category category={category} />

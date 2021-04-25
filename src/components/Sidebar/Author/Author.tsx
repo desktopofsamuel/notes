@@ -1,23 +1,23 @@
 // @flow strict
 import React from "react";
 import { withPrefix, Link } from "gatsby";
-import styles from "./Author.module.scss";
+import { author } from "./Author.module.scss";
 
 type Props = {
   author: {
-    name: string,
-    bio: string,
-    photo: string,
-  },
-  isIndex: ?boolean,
+    name: string;
+    bio: string;
+    photo: string;
+  };
+  isIndex?: boolean;
 };
 
 const Author = ({ author, isIndex }: Props) => (
-  <div className={styles["author"]}>
+  <div className={author["author"]}>
     <Link to="/">
       <img
         src={withPrefix(author.photo)}
-        className={styles["author__photo"]}
+        className={author["author__photo"]}
         width="75"
         height="75"
         alt={author.name}
@@ -25,19 +25,19 @@ const Author = ({ author, isIndex }: Props) => (
     </Link>
 
     {isIndex === true ? (
-      <h1 className={styles["author__title"]}>
-        <Link className={styles["author__title-link"]} to="/">
+      <h1 className={author["author__title"]}>
+        <Link className={author["author__title-link"]} to="/">
           {author.name}
         </Link>
       </h1>
     ) : (
-      <h2 className={styles["author__title"]}>
-        <Link className={styles["author__title-link"]} to="/">
+      <h2 className={author["author__title"]}>
+        <Link className={author["author__title-link"]} to="/">
           {author.name}
         </Link>
       </h2>
     )}
-    <div className={styles["author__bio"]}>
+    <div className={author["author__bio"]}>
       <div dangerouslySetInnerHTML={{ __html: author.fullbio }} />
     </div>
   </div>

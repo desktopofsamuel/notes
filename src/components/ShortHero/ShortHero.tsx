@@ -3,7 +3,7 @@ import React from "react";
 import moment from "moment";
 import { Link } from "gatsby";
 import type { Edges } from "../../types";
-import styles from "./ShortHero.module.scss";
+import * as styles from "./ShortHero.module.scss";
 import Img from "gatsby-image";
 
 type Props = {

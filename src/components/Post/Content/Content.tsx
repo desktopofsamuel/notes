@@ -1,14 +1,14 @@
 // @flow strict
 import React from "react";
-import styles from "./Content.module.scss";
+import * as styles from "./Content.module.scss";
 import moment from "moment";
 import { Link } from "gatsby";
 
 type Props = {
-  body: string,
-  title: string,
-  date: string,
-  link: string
+  body: string;
+  title: string;
+  date: string;
+  link: string;
 };
 
 const Content = ({ body, title, date, link }: Props) => (

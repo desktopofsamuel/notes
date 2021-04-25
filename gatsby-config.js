@@ -50,6 +50,7 @@ module.exports = {
         path: `${__dirname}/static`,
       },
     },
+    "gatsby-plugin-image",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     netlifyCmsPaths,
@@ -259,6 +260,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-sass",
       options: {
+        implementation: require("sass"),
         postCssPlugins: [...postCssPlugins],
         cssLoaderOptions: {
           camelCase: false,

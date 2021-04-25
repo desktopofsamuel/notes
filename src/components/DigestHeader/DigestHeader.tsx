@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import type { Edges } from "../../types";
-import styles from "./DigestHeader.module.scss";
+import * as styles from "./DigestHeader.module.scss";
 
 type Props = {
   children: Node

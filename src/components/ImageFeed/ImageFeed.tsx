@@ -3,7 +3,7 @@ import React from "react";
 import moment from "moment";
 import { Link } from "gatsby";
 import type { Edges } from "../../types";
-import styles from "./ImageFeed.module.scss";
+import * as styles from "./ImageFeed.module.scss";
 import Img from "gatsby-image";
 import BackgroundImage from "gatsby-background-image";
 import Reveal from "react-reveal";

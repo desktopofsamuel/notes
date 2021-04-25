@@ -23,14 +23,14 @@ module.exports = async (graphql, actions) => {
     }
   `);
 
-  _.each(result.data.allMarkdownRemark.group, category => {
+  _.each(result.data.allMarkdownRemark.group, (category) => {
     const numPages = Math.ceil(category.totalCount / postsPerPage);
     const categorySlug = `/category/${_.kebabCase(category.fieldValue)}`;
 
     for (let i = 0; i < numPages; i += 1) {
       createPage({
         path: i === 0 ? categorySlug : `${categorySlug}/page/${i}`,
-        component: path.resolve("./src/templates/category-template.js"),
+        component: path.resolve("./src/templates/category-template.tsx"),
         context: {
           category: category.fieldValue,
           slug: categorySlug,
@@ -40,8 +40,8 @@ module.exports = async (graphql, actions) => {
           prevPagePath: i <= 1 ? categorySlug : `${categorySlug}/page/${i - 1}`,
           nextPagePath: `${categorySlug}/page/${i + 1}`,
           hasPrevPage: i !== 0,
-          hasNextPage: i !== numPages - 1
-        }
+          hasNextPage: i !== numPages - 1,
+        },
       });
     }
   });

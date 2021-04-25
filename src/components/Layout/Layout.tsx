@@ -4,7 +4,7 @@ import Helmet from "react-helmet";
 import { withPrefix } from "gatsby";
 import type { Node as ReactNode } from "react";
 import { useSiteMetadata } from "../../hooks";
-import styles from "./Layout.module.scss";
+import { layout } from "./Layout.module.scss";
 
 type Props = {
   children: ReactNode,
@@ -32,7 +32,7 @@ const Layout = ({
   const type = isPost !== true ? "website" : "article";
 
   return (
-    <div className={styles.layout}>
+    <div className={layout}>
       <Helmet>
         <html lang="zh-Hant" />
         <title>{title}</title>
@@ -51,9 +51,9 @@ const Layout = ({
         <meta name="twitter:image" content={metaImageUrl} />
         <link
           href="https://fonts.googleapis.com/css?family=Noto+Sans+HK:300,400,500,700&display=swap&subset=chinese-hongkong"
-          rel="stylesheet"
+          rel="layoutheet"
         />
-        <link href="https://rsms.me/inter/inter.css" rel="stylesheet" />
+        <link href="https://rsms.me/inter/inter.css" rel="layoutheet" />
       </Helmet>
       {children}
     </div>
