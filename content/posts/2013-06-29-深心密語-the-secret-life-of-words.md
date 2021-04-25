@@ -5,6 +5,8 @@ date: "2013-06-29"
 template: post
 draft: false
 category: "銀幕"
+tags:
+  - 影評
 ---
 
 ![](/media/a9d09-0gql4ppmi9u7s6knz.jpeg)

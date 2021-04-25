@@ -5,6 +5,8 @@ slug: "向philip-seymour-hoffman-致敬-synecdoche-new-york"
 template: post
 draft: false
 category: "銀幕"
+tags:
+  - 影評
 ---
 
 ![](/media/new-yotk.jpg)

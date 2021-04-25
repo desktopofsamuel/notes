@@ -5,6 +5,8 @@ date: "2013-08-09"
 template: post
 draft: false
 category: "銀幕"
+tags:
+  - 影評
 ---
 
 ![](/media/nick-norah.jpg)

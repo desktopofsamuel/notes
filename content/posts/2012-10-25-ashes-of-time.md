@@ -5,6 +5,8 @@ date: "2012-10-25"
 template: post
 draft: false
 category: "銀幕"
+tags:
+  - 影評
 ---
 
 ![Ashes of Time](/media/70006.jpg)
