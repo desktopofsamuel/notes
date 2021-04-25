@@ -33,6 +33,9 @@ const getContactHref = (name: string, contact: string) => {
     case "facebook":
       href = `https://www.facebook.com/${contact}`;
       break;
+    case "figma":
+      href = `https://www.figma.com/${contact}`;
+      break;
     case "gitlab":
       href = `https://www.gitlab.com/${contact}`;
       break;
