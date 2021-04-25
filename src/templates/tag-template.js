@@ -30,8 +30,8 @@ const TagTemplate = ({ data, pageContext }: Props) => {
   const { edges } = data.allMarkdownRemark;
   const pageTitle =
     currentPage > 0
-      ? `All Posts tagged as "${tag}" - Page ${currentPage} - ${siteTitle}`
-      : `All Posts tagged as "${tag}" - ${siteTitle}`;
+      ? `所有關於"${tag}"的文章 - 第${currentPage}頁 - ${siteTitle}`
+      : `所有關於"${tag}"的文章 - ${siteTitle}`;
 
   return (
     <Layout title={pageTitle} description={siteSubtitle} slug={slug}>
