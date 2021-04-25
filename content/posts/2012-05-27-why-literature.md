@@ -5,6 +5,9 @@ date: "2012-05-27"
 template: post
 draft: false
 category: "筆記"
+tags:
+  - 學業
+  - 選科
 ---
 
 ![A tower of used books](/media/a_tower_of_used_books_-_8446.jpg)

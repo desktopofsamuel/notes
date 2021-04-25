@@ -6,8 +6,7 @@ template: post
 draft: false
 category: "遙控"
 tags:
-  - "孤星淚"
-  - "Les Miserables"
+  - "電視劇"
 ---
 
 ![Les Mis](/media/notes_random001.jpg)

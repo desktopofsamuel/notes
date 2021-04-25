@@ -6,7 +6,7 @@ template: post
 draft: false
 category: "銀幕"
 tags:
-  - "The Graduate"
+  - 影評
 ---
 
 ![《畢業生》The Graduate](/media/graduate-3.jpeg)
