@@ -5,6 +5,8 @@ slug: "與夢想控制塔對話-walter-mitty"
 template: post
 draft: false
 category: "銀幕"
+tags:
+  - 影評
 ---
 
 ![secretlife](/media/secretlife.jpg)

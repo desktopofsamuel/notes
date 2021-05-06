@@ -7,9 +7,6 @@ draft: false
 url: "https://dynamicwallpaper.club/"
 tags:
   - "Chrome"
-  - "App"
-  - "Unsplash"
-  - "Customisation"
 externalImage: https://dynamicwallpaper.club/og.jpg
 ---
 

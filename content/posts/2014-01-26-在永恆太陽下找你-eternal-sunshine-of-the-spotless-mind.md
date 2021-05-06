@@ -7,6 +7,8 @@ draft: false
 category: "銀幕"
 socialImage: "media/es_tf2.jpg"
 description: "兩個熟悉的陌生人，曾經走得很近的靈魂現在卻已經各走各路。雖然刪除了所有關於你的記憶，卻想在永恆陽光之于重新找到你，站在你身旁。十分隱悔地讓我聯想起 Jim Carrey 和 Kate Winslet 主演的 Eternal Sunshine of the Spotless Mind。"
+tags:
+  - 影評
 ---
 
 ![](/media/es_tf2.jpg)

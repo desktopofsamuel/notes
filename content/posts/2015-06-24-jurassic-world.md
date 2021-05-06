@@ -5,6 +5,9 @@ template: post
 draft: false
 category: "銀幕"
 slug: "侏羅紀世界-披上恐龍皮的人類"
+tags:
+  - 影評
+  - 怪獸電影
 ---
 
 ![侏羅紀世界](/media/jurassic_world___fan_art_poster_by_addictomovie-d8a1hpf.jpg)

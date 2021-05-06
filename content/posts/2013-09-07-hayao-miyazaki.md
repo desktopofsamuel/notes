@@ -6,6 +6,8 @@ template: post
 draft: false
 category: "銀幕"
 description: "買張戲票，抱著汽水和爆谷入電影院場，若然只是凝望銀幕九十分鐘，嘆嘆冷氣的話實在太可惜。電影院像個夢工廠，每次進入也俏俏在耳邊告訴觀眾：多麼奇想天開的夢都可以實現。"
+tags:
+  - 影評
 ---
 
 ![](/media/53999bf4943f8037d9e5a201e4b3a484.jpeg)

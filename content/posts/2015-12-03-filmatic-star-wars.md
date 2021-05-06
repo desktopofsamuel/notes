@@ -7,8 +7,9 @@ draft: false
 category: "銀幕"
 slug: "filmatic-很久以前，在一個遙遠的銀河系中"
 tags:
-  - filmatic
+  - Filmatic
   - Star Wars
+  - 影評
 ---
 
 [三十八年](http://time.com/43618/george-lucas-steven-spielberg-star-wars-bet/)前，佐治魯卡斯 George Lucas 跟史提芬史匹堡 Steven Spielberg 打賭誰的電影票房會較高，兩人卻各自看好對方的電影，他們便約定將收入最高的電影 2.5% 收益分給對方。雖然魯卡斯看好的《第三類接觸》達 3 億美元票房，他仍然輸了這場賭注，那套累積收益分了四千萬美元予史匹堡的電影是這樣開始的：

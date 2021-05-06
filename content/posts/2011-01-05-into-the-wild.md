@@ -5,6 +5,8 @@ date: "2011-01-05"
 template: post
 draft: false
 category: "銀幕"
+tags:
+  - 影評
 ---
 
 ![](/media/into_the_wild.jpg)

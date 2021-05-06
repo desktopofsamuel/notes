@@ -7,11 +7,9 @@ draft: false
 category: "地圖"
 socialImage: "/media/ponto-social.jpg"
 tags:
-  - Travel
   - Lisbon
   - 里斯本
-  - Ponto Final
-  - Almada
+  - 葡萄牙
   - Somebody Feed Phil
 ---
 
