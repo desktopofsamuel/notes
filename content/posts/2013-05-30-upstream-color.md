@@ -5,6 +5,8 @@ date: "2013-05-30"
 template: post
 draft: false
 category: "銀幕"
+tags:
+  - 影評
 ---
 
 ![逆流的色彩 Upstream Color](/media/upstream-color.jpg)

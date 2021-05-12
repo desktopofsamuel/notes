@@ -5,6 +5,9 @@ date: "2013-07-13"
 template: post
 draft: false
 category: "筆記"
+tags:
+  - 大學
+  - 香港大學
 ---
 
 ![](/media/ea90b2d9a812e49051d3ba1ad692389f.gif)

@@ -6,7 +6,8 @@ draft: false
 category: "銀幕"
 socialImage: "/media/the-white-balloon-badkonake-sefid-25297.jpg"
 tags:
-  - "Filmatic"
+  - Filmatic
+  - 影評
 ---
 
 這個星期 Filmatic 放了 《白氣球》，電影編劇原來是他的師傅阿巴斯，Abbas Kiarostami 。數年前看過他的 Where Is My Friend's Home (1987) ，兩者題材和設定可謂十分相近，《白氣球》延續了他旁觀、第三者的風格，代入兒童視角觀看成人世界。誠如評論 ([http://filmint.nu/?p=1574 ](http://filmint.nu/?p=1574))  所言，電影捕捉了孩童在最壞的環境，成人的世界裡掙扎求存。電影裡，兒童的快樂被忽視、對話被打斷、不受尊重。但把電影推展到深一層社會面向，是拿著白氣球男孩的一幕，讓大家意識到兒童也區分不同階層。

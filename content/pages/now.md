@@ -17,8 +17,13 @@ draft: false
 
 ### 最近喜愛的東西 Recent Favorites
 
+- 最近在玩 [Parkasaurus](https://store.steampowered.com/app/591460/Parkasaurus/) ，模擬經營恐龍遊樂場，難得地遊戲機制、趣味和自訂程度也恰到好處。，
+- 最近在看 Apple TV+ 的第二季 [For All Mankind](https://www.youtube.com/watch?v=zzmrmjlESjQ)，第一季熱身以後，第二季簡直精采絕倫，可惜媒體和網上討論還是不多。
+- 最近在聽 [Jon Batiste](https://open.spotify.com/album/6kHFkPvL2X3rZPuS3CEMUE?si=vRHUeRN5TA-7ItUhAmFB1Q) 和 [Brittany Howard](https://open.spotify.com/album/5xQrvHK0YbNaFslrvJYMNR?si=3lZnZ61WRPW-O3alzgInvA)
+
+<!-- 2021 Feb
 - 最近愛玩 [Kerbal Space Program](https://store.steampowered.com/app/220200/Kerbal_Space_Program/)，順便也在看一堆太空電影和電視劇 Apollo 13、For All Mankind
-- 最近在聽 [林家謙](https://open.spotify.com/artist/3tvtGR8HzMHDbkLeZrFiBI?si=ppRuSRPaR0Kn8emJq8BFYA) 和 [Dua Lipa](https://open.spotify.com/album/5lKlFlReHOLShQKyRv6AL9?si=4yHlX9VCTt6_kNw03aZMDA)
+- 最近在聽 [林家謙](https://open.spotify.com/artist/3tvtGR8HzMHDbkLeZrFiBI?si=ppRuSRPaR0Kn8emJq8BFYA) 和 [Dua Lipa](https://open.spotify.com/album/5lKlFlReHOLShQKyRv6AL9?si=4yHlX9VCTt6_kNw03aZMDA) -->
 
 <!-- - Apple TV+ 的劇集 [Mythic Quest: Raven's Banquet](https://www.youtube.com/watch?v=pMaPCYRPhY0)，因 COVID-19 更拍了演員劇組各自有在家拍攝及籌備製作的《Panademic》。
 - 受 macOS Big Sur 啟發，更加精美細緻的 [Icon Set](https://twitter.com/Gavmn/status/1281254466751270912)
@@ -31,13 +36,9 @@ draft: false
 ### 2021 的年度目標 Resolutions
 
 - 每月至少看兩套紀錄片（[紀錄片分享](https://desktopofsamuel.com/tags/documentary)及[電影紀錄](https://letterboxd.com/samuelisme/)）
-- 每月至少看一本書
+- 每月至少看[一本書](https://beta.readng.co/user/desktopofsamuel)
 - 每天要持續寫作
-
-### 2021 的寫作計劃 Projects
-
-- **我的器材 Stuff I Use** — 來年的計劃是希望盤點自己擁有的器材，整一個像[這個的](https://paulstamatiou.com/stuff-i-use/)「我的器材」 頁，以便方享自己購買 Gadget 的思路和分享心得。
 
 ## 這個網站 This Site
 
-這個網站是用 [GatsbyJS](https://www.gatsbyjs.com/) 寫的，架在 [Netlify](https://www.netlify.com) 上，用的 starter 是 [Gatsby Starter Lumen](https://www.gatsbyjs.org/starters/alxshelepenok/gatsby-starter-lumen/) 。詳細架站指南和研究在[Gatsby 系列](/tag/gatsby/)參閱。
+這個網站是用 [GatsbyJS](https://www.gatsbyjs.com/) 寫的，用的 starter 是 [Gatsby Starter Lumen](https://www.gatsbyjs.org/starters/alxshelepenok/gatsby-starter-lumen/) 。詳細架站指南和研究在[Gatsby 系列](/tag/gatsby/)參閱。

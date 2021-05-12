@@ -6,7 +6,7 @@ draft: false
 category: "銀幕"
 slug: "filmatic-發個荷里活的夢-living-in-oblivion"
 tags:
-  - "filmatic"
+  - "Filmatic"
   - "影評"
 ---
 

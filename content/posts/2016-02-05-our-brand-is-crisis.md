@@ -6,6 +6,8 @@ draft: false
 category: "銀幕"
 slug: "揭開面具-選戰偽術師-our-brand-is-crisis"
 socialImage: "/media/our-brand-is-crisis-movie-pedro-gallo-joaquim-de-almeida_i6kid_ywmei_1200x0.png"
+tags:
+  - 影評
 ---
 
 ![](/media/our-brand-is-crisis-movie-pedro-gallo-joaquim-de-almeida_i6kid_ywmei_1200x0.png)

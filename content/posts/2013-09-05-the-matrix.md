@@ -5,6 +5,8 @@ date: "2013-09-05"
 template: post
 draft: false
 category: "銀幕"
+tags:
+  - 影評
 ---
 
 ![matrix](/media/matrix.jpg)
