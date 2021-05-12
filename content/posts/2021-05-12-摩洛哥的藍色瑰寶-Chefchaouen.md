@@ -8,6 +8,7 @@ category: 地圖
 socialImage: /media/CHEF-IMG_9263-11.jpg
 tags:
   - 摩洛哥
+  - Chefchaouen
   - 非洲
   - 葡摩遊記
 ---
@@ -16,7 +17,7 @@ tags:
 
 Chefchaouen（舍夫沙萬）成為旅遊熱點，全因一排排山上的藍色小屋，近年成為打卡熱點。考究這座山城的歷史，可追溯到 15 世紀，那時猶太人及摩爾人由西班牙逃離至北非定居。
 
-交通而言，Chefchaouen 位於摩洛哥北部，附近也沒有很多旅遊熱點，不少人也是從 Casablance 或 Marreckash 遠道而來。我們由 Fes 乘巴士來也要 6 小時（巴士一天只有 5、6 班）。到達 Chefchaouen 的時候已經約下午三時，巴士站在山腳，偏偏旅舍卻在山腰，結果要乘的士才到城牆外再走下去。
+交通而言，Chefchaouen 位於摩洛哥北部，附近也沒有很多旅遊熱點，不少人也是從 Casablance 或 Marreckash 遠道而來。我們由 [Fes 乘巴士來也要 6 小時](/posts/天上飄落一粒沙-撒哈拉遊記-下)（巴士一天只有 5、6 班）。到達 Chefchaouen 的時候已經約下午三時，巴士站在山腳，偏偏旅舍卻在山腰，結果要乘的士才到城牆外再走下去。
 
 ![](/media/CHEF-IMG_9159-1.jpg)
 
@@ -32,6 +33,8 @@ Chefchaouen（舍夫沙萬）成為旅遊熱點，全因一排排山上的藍色
 
 引起我的興趣的，反而是城內不同的門。不同油上藍色的門，每道也不一樣，有些用金色的釘作點綴，也有不同凹凸花紋浮雕，再襯上摩絡哥的瓷磚作地板或雨擋，我更欣賞這方面的工藝。
 
+<div style='position:relative; padding-bottom:calc(177.78% + 44px)'><iframe src='https://gfycat.com/ifr/CourageousBrightEelelephant' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+
 這次安排在 Chefchaouen 的時間不多，只是留宿一夜，翌日下午便要乘巴士到北部的 Tangier 再回 Casablanca。這是唯一可以不用大清早便要上巴士回主要城市的方法。市內可參觀和遊覽的地方其實只有幾條大街，如果有多一天的話，可以遠足到另一山嶺遠眺 Chefchaouen。
 
 ![](/media/CHEF-IMG_6935-7.jpg)
@@ -42,9 +45,9 @@ Chefchaouen 到 Tangier 的巴士票是預先在 Fes 買的，我們約下午 3 
 
 ![](/media/IMG_7053-3.jpg)
 
-踏入 Tangier 的高鐵站，設施和整潔程度比機場還要新，Food Court 的飲食選擇是意粉、Pizza 或 McDonald's 知道這是為商務及旅客而設的，畢竟由 Marrakech 入沙漠至今已經好幾天，沒有停下來繞了摩洛哥一整個圈。高鐵可留位的車票都是預先網上購買，頭等車票也是每位 MAD $298 （約港幣 $ 124）左右，很舒適地轉眼間就到了摩洛哥的最後一站 — Casablanca。
+踏入 Tangier 的高鐵站，設施和整潔程度比機場還要新，Food Court 的飲食選擇是意粉、Pizza 或 McDonald's 知道這是為商務及旅客而設的，畢竟由 Marrakech 入沙漠至今已經好幾天，沒有停下來繞了摩洛哥一整個圈。高鐵可留位的車票都是預先網上購買，頭等車票也是每位 MAD \$298 (約港幣\$124） 左右，很舒適地轉眼間就到了摩洛哥的最後一站 — Casablanca。
 
-![](/media/IMG_7045-2%201.jpg)
+![](/media/IMG_7045-2.jpg)
 
 ## Casablanca
 
