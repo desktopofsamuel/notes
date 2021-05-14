@@ -1,15 +1,11 @@
 // @flow strict
 import React from "react";
 import { graphql } from "gatsby";
-// import JSONData from "https://spreadsheets.google.com/feeds/cells/1-DiywKC2p36mnix9gm-Le8bpqwU3H91hZy0PRsUgvmQ/1/public/full?alt=json";
-import CalendarHeatmap from "react-calendar-heatmap";
 import Layout from "../components/Layout";
 import Sidebar from "../components/Sidebar";
 import Page from "../components/Page";
 import { useSiteMetadata } from "../hooks";
 import type { AllMarkdownRemark } from "../types";
-import "react-calendar-heatmap/dist/styles.css";
-import "../../static/css/heatmap.css";
 import Heatmap from "../components/Heatmap";
 
 type Props = {
