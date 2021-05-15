@@ -8,6 +8,10 @@ var netlifyCmsPaths = {
 const siteConfig = require("./config.js");
 const postCssPlugins = require("./postcss-config.js");
 
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   pathPrefix: siteConfig.pathPrefix,
   siteMetadata: {
@@ -48,6 +52,19 @@ module.exports = {
       options: {
         name: "assets",
         path: `${__dirname}/static`,
+      },
+    },
+    {
+      resolve: "gatsby-source-airtable",
+      options: {
+        apiKey: process.env.AIRTABLE_KEY, // may instead specify via env, see below
+        concurrency: 5, // default, see using markdown and attachments for more information
+        tables: [
+          {
+            baseId: "appOZD7OOjMNGvJRb",
+            tableName: "Habit",
+          },
+        ],
       },
     },
     "gatsby-transformer-sharp",

@@ -49,6 +49,7 @@ module.exports = {
       rss: "/rss.xml",
       linkedin: "wongchunlong",
       facebook: "",
+      figma: "",
       telegram: "",
       github: "",
       line: "",

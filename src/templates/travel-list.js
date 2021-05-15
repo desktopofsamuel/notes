@@ -30,7 +30,7 @@ const TravelList = ({ data }: Props) => {
 };
 
 export const query = graphql`
-  query TravelList {
+  query TravelbyCategory {
     allMarkdownRemark(
       filter: {
         frontmatter: {

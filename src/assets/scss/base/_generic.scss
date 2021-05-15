@@ -196,7 +196,7 @@ kbd {
   }
 }
 
-@include breakpoint-sm {
+@include breakpoint-lg {
   .gatsby-resp-image-wrapper {
     width: 50vw;
     margin-left: 50% !important;
