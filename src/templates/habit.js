@@ -47,11 +47,16 @@ const HabitPage = ({ data }: Props) => {
 
       <Sidebar isIndex />
       <Page title="紀錄">
-        <h2>2021 每天要持續寫作</h2>
+        <p>
+          幾年前開始使用 Google Sheets 紀錄生活中希望培養的好習慣，這次使用
+          Airtable 及這個源自 Github
+          的貢獻圖，將數據公開，每當網誌發佈新文章的時候將直接讀取數據更新最近幾個月的狀況。{" "}
+        </p>
+        <h2>每天要持續寫作</h2>
         <Heatmap data={writeList} />
-        <h2>Cook At Home</h2>
+        <h2>在家煮飯</h2>
         <Heatmap data={cookList} />
-        <h2>Hike</h2>
+        <h2>運動</h2>
         <Heatmap data={hikeList} />
       </Page>
     </Layout>

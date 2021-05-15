@@ -1,7 +1,7 @@
 import React from "react";
 import CalendarHeatmap from "react-calendar-heatmap";
-import styles from "./Heatmap.module.scss";
-import "react-calendar-heatmap/dist/styles.css";
+import "./heatmap.css";
+// import "react-calendar-heatmap/dist/styles.css";
 
 const Heatmap = ({ data }: Props) => {
   Date.prototype.addDays = function(days) {
