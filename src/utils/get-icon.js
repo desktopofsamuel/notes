@@ -35,6 +35,9 @@ const getIcon = (name: string) => {
     case "facebook":
       icon = ICONS.FACEBOOK;
       break;
+    case "figma":
+      icon = ICONS.FIGMA;
+      break;
     case "gitlab":
       icon = ICONS.GITLAB;
       break;

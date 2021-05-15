@@ -16,6 +16,7 @@ const useSiteMetadata = () => {
                 twitter
                 rss
                 medium
+                figma
                 linkedin
                 instagram
                 email
