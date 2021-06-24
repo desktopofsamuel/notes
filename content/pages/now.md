@@ -20,6 +20,8 @@ draft: false
 - 最近在看 Battlestar Galatica 和 Shadow & Bone
 - 最近在聽 [Olivia Rodrigo](https://open.spotify.com/track/4ZtFanR9U6ndgddUvNcjcG?si=b97c735b8f414b04) 和 [King of Convenience](https://open.spotify.com/track/3JQQnhFsJCYAouBbuxVCvJ?si=83f6dfbf195f448e)
 
+<!-- 2021 Mar -->
+
 <!-- - 最近在玩 [Parkasaurus](https://store.steampowered.com/app/591460/Parkasaurus/) ，模擬經營恐龍遊樂場，難得地遊戲機制、趣味和自訂程度也恰到好處。，
 - 最近在看 Apple TV+ 的第二季 [For All Mankind](https://www.youtube.com/watch?v=zzmrmjlESjQ)，第一季熱身以後，第二季簡直精采絕倫，可惜媒體和網上討論還是不多。
 - 最近在聽 [Jon Batiste](https://open.spotify.com/album/6kHFkPvL2X3rZPuS3CEMUE?si=vRHUeRN5TA-7ItUhAmFB1Q) 和 [Brittany Howard](https://open.spotify.com/album/5xQrvHK0YbNaFslrvJYMNR?si=3lZnZ61WRPW-O3alzgInvA) -->
