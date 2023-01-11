@@ -75,7 +75,7 @@
     "gatsby-schema-field-absolute-path": "^1.1.1",
     "gatsby-source-airtable": "^2.1.1",
     "gatsby-source-filesystem": "^2.1.48",
-    "gatsby-transformer-remark": "^2.6.50",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.3.14",
     "invariant": "^2.2.4",
     "katex": "^0.11.1",
